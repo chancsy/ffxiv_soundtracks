@@ -15,22 +15,28 @@ conventions section.
 
 ```
 ffxiv/
-├── build.py                 # generator: reads data/*.json → writes the HTML
+├── build.py                 # generator: reads data/*.json → writes index.html
 ├── data/
-│   ├── 01_before_meteor.json      done (104 tracks, patches 1.0–1.23)
-│   ├── 01_before_meteor.py        the source script that produced the JSON (optional to keep)
-│   ├── 02_a_realm_reborn.json     done (119 + 1 Blu-ray-only, 2.0–2.1)
-│   ├── 03_before_the_fall.json    done (61 + 2 Blu-ray-only, 2.2–2.55)
-│   ├── 04_heavensward.json        done (58, 3.0–3.1)
-│   ├── 05_far_edge_of_fate.json   done (50, 3.2–3.56)
-│   ├── 06_stormblood.json         done (105, 4.0–4.3)
-│   ├── 07_shadowbringers.json     done (88, 4.4–4.5 and 5.0)
-│   ├── 08_death_unto_dawn.json    done (84, 5.1–5.5)
-│   ├── 09_endwalker.json          done (63, 6.0)
-│   ├── 11_growing_light.json      done (93, 6.1–6.58)
-│   └── 12_dawntrail.json          done (66, 7.0)
+│   ├── 01_before_meteor.{py,json}      done (104 tracks, patches 1.0–1.23)
+│   ├── 02_a_realm_reborn.{py,json}     done (119 + 1 Blu-ray-only, 2.0–2.1)
+│   ├── 03_before_the_fall.{py,json}    done (61 + 2 Blu-ray-only, 2.2–2.55)
+│   ├── 04_heavensward.{py,json}        done (58, 3.0–3.1)
+│   ├── 05_far_edge_of_fate.{py,json}   done (50, 3.2–3.56)
+│   ├── 06_stormblood.{py,json}         done (105, 4.0–4.3)
+│   ├── 07_shadowbringers.{py,json}     done (88, 4.4–4.5 and 5.0)
+│   ├── 08_death_unto_dawn.{py,json}    done (84, 5.1–5.5)
+│   ├── 09_endwalker.{py,json}          done (63, 6.0)
+│   ├── 11_growing_light.json           done (93, 6.1–6.58) — **no .py source, JSON is
+│   │                                   hand-maintained directly; edit it in place, and if you
+│   │                                   ever do write a `.py` generator for it, base it on the
+│   │                                   current JSON first (see the near-data-loss note below —
+│   │                                   this is exactly the failure mode that caused it)
+│   └── 12_dawntrail.{py,json}          done (66, 7.0)
 └── HANDOVER.md              # this file
 ```
+
+Every `.py`/`.json` pair *should* round-trip byte-for-byte (`python3 data/NN_x.py` regenerates
+the `.json` identically) — verify this before trusting a `.py` file you haven't touched recently.
 
 Output: `index.html` — a single self-contained file (inline CSS + JS, no
 external dependencies). Regenerate it with `python3 build.py`; never hand-edit the HTML.
@@ -430,10 +436,40 @@ up a thread without re-deriving context. Update the status line inline as items 
      - Heavensward (`ex_version=1`, 14 trials): spot-checked for missing duties only (Bismarck/
        Limitless Blue and Nidhogg/Final Steps of Faith both confirmed present) — **not yet**
        checked for wrong exclusivity claims the way Far Edge of Fate was.
-     - Stormblood / Shadowbringers / Endwalker / Dawntrail (`ex_version=2,3,4,5`): full official
-       trial-name rosters have been fetched (see the fetch method above — cheap to redo, not
-       worth pasting the lists here) but **not yet cross-referenced** against the data files at
-       all — this is the next concrete step, same missing-duty-first approach as ARR/HW above.
+     - **Stormblood/Shadowbringers/Endwalker/Dawntrail missing-duty pass: done.** All ~60 trial
+       duties across these 4 expansions cross-referenced. Found and fixed three more real gaps
+       (same drill: check the duty's own BGM via its Fandom page, then check whether that track
+       is already in the data under a different/wrong duty name):
+       - **Kugane Ohashi** (Yojimbo/Gilgamesh, Stormblood 4.56) was absent — fixed, it reuses
+         "Battle on the Big Bridge" (Before the Fall track 13) for the reveal phase; noted in
+         `where`, no `extra_types` needed since that track is already typed `Trial`.
+       - **Cinder Drift** (Ruby Weapon, Stormblood 5.2) had a wrong duty name: tracks 24/25 in
+         Death Unto Dawn (`Ultima (Scions & Sinners)`, `Rise of the White Raven`) said
+         `"The Cloud Deck"`, which is actually a *different* trial (Diamond Weapon only, 5.5).
+         Also dropped an incorrect "Sapphire Weapon" mention — Sapphire is a solo story
+         instance, not part of this Trial, confirmed via a third-party check of the full
+         Werlyt-arc weapon list. Fixed to name Cinder Drift (and confirmed via the track's own
+         page that "Ultima (Scions & Sinners)" is *also* legitimately reused in Castrum Marinum/
+         Emerald Weapon — that part of the original `where` text was right).
+       - **The Gilded Araya** (Asura, Endwalker patch 6.55) was absent — fixed, it reuses
+         "FINAL FANTASY IV: Battle 2 (Endwalker)" (Growing Light track 9, the generic
+         post-Endwalker dungeon-boss theme) — `where` updated and `extra_types: ["Trial"]` added.
+       - Confirmed out of scope, not bugs: **The Great Hunt** (Rathalos, Stormblood/Monster
+         Hunter collab) uses two licensed MHW tracks never released on any FFXIV OST — same
+         situation as The Dragon's Neck above. Dawntrail's `ex_version=5` roster includes several
+         trials (Recollection, The Ageless Necropolis, The Windward Wilds, Hell on Rails, The
+         Unmaking) that are all patch 7.1+ content — covered by the already-deferred "Dawntrail
+         patch EPs" roadmap item (order 13), not missing from anything in scope.
+       - Everything else on these 4 rosters (Susano/Pool of Tribute, Lakshmi/Emanation,
+         Shinryu/Royal Menagerie, Tsukuyomi/Castrum Fluminis, Byakko/Jade Stoa, Suzaku/Hells'
+         Kier, Seiryu/Wreath of Snakes, Titania/Dancing Plague, Innocence/Crown of Immaculate,
+         Elidibus/Seat of Sacrifice, Emerald Weapon/Castrum Marinum, Diamond Weapon/Cloud Deck,
+         Zodiark/Dark Inside, Hydaelyn/Mothercrystal, Meteion/Final Day, Zeromus/Abyssal
+         Fracture, Barbariccia/Storm's Crown, Golbez/Mount Ordeals & Voidcast Dais,
+         Valigarmanda/Worqor Lar Dor, Zoraal Ja/Everkeep, Sphene/Interphos) was already present
+         and correctly duty-named — no further gaps found. **The exclusivity-claim pass (are any
+         existing `(Extreme)`/`(Savage)` tags on these actually wrong, the Sephirot/Zurvan
+         pattern) has *not* been run on any of these — only the missing-duty pass has.**
      - Raids, Alliance Raids, Ultimate rosters (category2=5, 6, 28): **not started** — haven't
        even pulled the roster yet for any expansion.
   2. **Tier 2** — rows typed `Boss battle`/`Story battle` (~44 rows): check each against the
