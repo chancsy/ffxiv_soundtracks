@@ -1,0 +1,842 @@
+{
+ "order": 1,
+ "album": "Before Meteor",
+ "full": "BEFORE METEOR: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2013,
+ "covers": "Version 1.0, patches 1.0 – 1.23",
+ "spotify": "0z7zOKNRHFIBwbuQttQQVc",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Prelude - Remembrance",
+   "type": "Title & menu",
+   "where": "Title screen",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 2,
+   "title": "Opening Theme",
+   "type": "Title & menu",
+   "where": "Character creation",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 3,
+   "title": "Navigator's Glory - The Theme of Limsa Lominsa",
+   "type": "City",
+   "where": "Limsa Lominsa",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 4,
+   "title": "Freedom",
+   "type": "Field",
+   "where": "La Noscea, patch 1.18 onward",
+   "origin": "Uematsu",
+   "patch": "1.18"
+  },
+  {
+   "n": 5,
+   "title": "On Windy Meadows",
+   "type": "Field",
+   "where": "La Noscea, before patch 1.18",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 6,
+   "title": "Nail of the Heavens",
+   "type": "Field battle",
+   "where": "Normal battles in La Noscea",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 7,
+   "title": "In the Shadow of the Colossus",
+   "type": "Guildleve",
+   "where": "Battle guildleves in La Noscea",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 8,
+   "title": "Siren Song",
+   "type": "Quest & cutscene",
+   "where": "Blacksmith and Armorer quest 'The Sound of Silence'",
+   "origin": "Soken",
+   "patch": "1.0"
+  },
+  {
+   "n": 9,
+   "title": "Born of the Boughs - The Theme of Gridania",
+   "type": "City",
+   "where": "Gridania",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 10,
+   "title": "Whisper of the Land",
+   "type": "Field",
+   "where": "The Black Shroud, patch 1.18 onward",
+   "origin": "Uematsu",
+   "patch": "1.18"
+  },
+  {
+   "n": 11,
+   "title": "Emerald Labyrinth",
+   "type": "Field",
+   "where": "The Black Shroud, before patch 1.18",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 12,
+   "title": "The Forest's Pulse",
+   "type": "Field battle",
+   "where": "Normal battles in the Black Shroud",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 13,
+   "title": "Bathed in Woodsin",
+   "type": "Guildleve",
+   "where": "Battle guildleves in the Black Shroud",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 14,
+   "title": "March of the Moogles",
+   "type": "Quest & cutscene",
+   "where": "Gridania opening; 'Sundered Skies'",
+   "origin": "Soken",
+   "patch": "1.0"
+  },
+  {
+   "n": 15,
+   "title": "The Twin Faces of Fate - The Theme of Ul'dah",
+   "type": "City",
+   "where": "Ul'dah",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 16,
+   "title": "Twilight over Thanalan",
+   "type": "Field",
+   "where": "Thanalan, before patch 1.18",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 17,
+   "title": "Widdershins",
+   "type": "Field",
+   "where": "Thanalan, patch 1.18 onward",
+   "origin": "Uematsu",
+   "patch": "1.18"
+  },
+  {
+   "n": 18,
+   "title": "Quicksand",
+   "type": "Field battle",
+   "where": "Normal battles in Thanalan",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 19,
+   "title": "Desert Moon Defied",
+   "type": "Guildleve",
+   "where": "Battle guildleves in Thanalan",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 20,
+   "title": "Unspoken",
+   "type": "Field",
+   "where": "Coerthas",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 21,
+   "title": "Pennons Aloft",
+   "type": "Field battle",
+   "where": "Normal battles in Coerthas",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 22,
+   "title": "Starlight and Sellswords",
+   "type": "Guildleve",
+   "where": "Faction leves in Coerthas",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 23,
+   "title": "Tears for Mor Dhona",
+   "type": "Field",
+   "where": "Mor Dhona",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 24,
+   "title": "Phantoms on the Lake",
+   "type": "Field battle",
+   "where": "Normal battles in Mor Dhona",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 25,
+   "title": "Supply & Demand",
+   "type": "City",
+   "where": "Market Wards",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 26,
+   "title": "Behind Closed Doors",
+   "type": "City",
+   "where": "Inn rooms",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 27,
+   "title": "Horizons Calling",
+   "type": "Travel & mounts",
+   "where": "Riding the ferry",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 28,
+   "title": "No Quarter",
+   "type": "Field battle",
+   "where": "Behest",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 29,
+   "title": "Beneath Bloodied Banners",
+   "type": "Field battle",
+   "where": "General battle theme",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 30,
+   "title": "With these Hands",
+   "type": "Crafting & gathering",
+   "where": "Crafting",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 31,
+   "title": "By Design",
+   "type": "Crafting & gathering",
+   "where": "Synthesis",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 32,
+   "title": "Nature's Bounty",
+   "type": "Crafting & gathering",
+   "where": "Gathering",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 33,
+   "title": "When a Tree Falls",
+   "type": "Guildleve",
+   "where": "Gathering guildleves",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 34,
+   "title": "Decisions",
+   "type": "Quest & cutscene",
+   "where": "Parley minigame; 'Fade to White'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 35,
+   "title": "Crowning Achievements",
+   "type": "Jingle",
+   "where": "Quest completion",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 36,
+   "title": "Where the Heart Is",
+   "type": "Quest & cutscene",
+   "where": "Various quests, incl. 'Toll of the Warden'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 37,
+   "title": "Holy Consult",
+   "type": "Quest & cutscene",
+   "where": "Conjurer quest 'Good Knight, Sweet Dreams'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 38,
+   "title": "Aetherial Slumber",
+   "type": "Credits & theme",
+   "where": "Game credits",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 39,
+   "title": "The Echo",
+   "type": "Quest & cutscene",
+   "where": "Echo cutscenes; Black Mage quest",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 40,
+   "title": "Fever Dream",
+   "type": "Quest & cutscene",
+   "where": "Various quests, incl. 'Living on a Prayer'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 41,
+   "title": "Darring Dalliances",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 42,
+   "title": "Sacred Bonds",
+   "type": "Quest & cutscene",
+   "where": "Various quests, incl. 'Futures Perfect'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 43,
+   "title": "Piece of Mind",
+   "type": "Quest & cutscene",
+   "where": "'Living on a Prayer'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 44,
+   "title": "Inner Recess",
+   "type": "Quest & cutscene",
+   "where": "Various quests, incl. 'Futures Perfect'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 45,
+   "title": "From the Heart",
+   "type": "Quest & cutscene",
+   "where": "Miner quest 'Little Saboteurs'",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 46,
+   "title": "Fourteen Steps",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 47,
+   "title": "Fragments of Forever",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 48,
+   "title": "Tranquility",
+   "type": "Quest & cutscene",
+   "where": "Gridania opening; Path of the Twelve quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 49,
+   "title": "Neverborn",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 50,
+   "title": "Everbinding Oath",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 51,
+   "title": "Heavensturn",
+   "type": "Seasonal event",
+   "where": "Heavensturn",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 52,
+   "title": "Moonfire Faire",
+   "type": "Seasonal event",
+   "where": "Firefall Faire; Ul'dah opening",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 53,
+   "title": "All Saint's Wake",
+   "type": "Seasonal event",
+   "where": "All Saints' Wake",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 54,
+   "title": "Starlight Celebration",
+   "type": "Seasonal event",
+   "where": "Starlight Celebration",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 55,
+   "title": "Conflagration",
+   "type": "Quest & cutscene",
+   "where": "'Lord Errant'",
+   "origin": "Uematsu",
+   "patch": "1.19"
+  },
+  {
+   "n": 56,
+   "title": "The Hero of Hatchingtide",
+   "type": "Seasonal event",
+   "where": "Hatchingtide",
+   "origin": "Soken",
+   "patch": "1.x"
+  },
+  {
+   "n": 57,
+   "title": "Enraptured",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 58,
+   "title": "Battle Drums",
+   "type": "Field battle",
+   "where": "Battles inside Zahar'ak",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 59,
+   "title": "Bo-down",
+   "type": "Travel & mounts",
+   "where": "Riding a rental chocobo",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 60,
+   "title": "Fury",
+   "type": "Boss battle",
+   "where": "Final boss of Behest",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 61,
+   "title": "The Seventh Gate",
+   "type": "Field battle",
+   "where": "Skirmish",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 62,
+   "title": "Victory Fanfare (Short)",
+   "type": "Jingle",
+   "where": "Levelling up",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 63,
+   "title": "Without Shadow",
+   "type": "Quest & cutscene",
+   "where": "Ascian appearance in 'Toll of the Warden'",
+   "origin": "Uematsu",
+   "patch": "1.x"
+  },
+  {
+   "n": 64,
+   "title": "Canticle",
+   "type": "Quest & cutscene",
+   "where": "Scenes with Alphinaud and Alisaie",
+   "origin": "Yamashita",
+   "patch": "1.x"
+  },
+  {
+   "n": 65,
+   "title": "Wrath of the Eikons",
+   "type": "Quest & cutscene",
+   "where": "Ifrit's appearance in 'Lord Errant'",
+   "origin": "Uematsu",
+   "patch": "1.19"
+  },
+  {
+   "n": 66,
+   "title": "Primal Judgment",
+   "type": "Trial",
+   "where": "Ifrit",
+   "origin": "Uematsu",
+   "patch": "1.19"
+  },
+  {
+   "n": 67,
+   "title": "Final Respite",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Uematsu",
+   "patch": "1.x"
+  },
+  {
+   "n": 68,
+   "title": "The Dark's Embrace",
+   "type": "Dungeon",
+   "where": "Aurum Vale, Cutter's Cry, Dzemael Darkhold",
+   "origin": "Uematsu",
+   "patch": "1.18"
+  },
+  {
+   "n": 69,
+   "title": "The Dark's Kiss",
+   "type": "Dungeon",
+   "where": "Battles in those same three dungeons",
+   "origin": "Uematsu",
+   "patch": "1.18"
+  },
+  {
+   "n": 70,
+   "title": "Nemesis",
+   "type": "Dungeon",
+   "where": "Final bosses of those same three dungeons",
+   "origin": "Uematsu",
+   "patch": "1.18"
+  },
+  {
+   "n": 71,
+   "title": "Victory Fanfare (Full)",
+   "type": "Jingle",
+   "where": "Completing a dungeon",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 72,
+   "title": "Maelstrom Command",
+   "type": "Grand Company",
+   "where": "The Maelstrom",
+   "origin": "Mizuta",
+   "patch": "1.0"
+  },
+  {
+   "n": 73,
+   "title": "Into the Adder's Den",
+   "type": "Grand Company",
+   "where": "The Order of the Twin Adder",
+   "origin": "Sekito",
+   "patch": "1.0"
+  },
+  {
+   "n": 74,
+   "title": "The Hall of Flames",
+   "type": "Grand Company",
+   "where": "The Immortal Flames",
+   "origin": "Yamazaki",
+   "patch": "1.0"
+  },
+  {
+   "n": 75,
+   "title": "Honor and Duty",
+   "type": "Jingle",
+   "where": "Grand Company promotions",
+   "origin": "Soken",
+   "patch": "1.x"
+  },
+  {
+   "n": 76,
+   "title": "Eorzea de Chocobo",
+   "type": "Travel & mounts",
+   "where": "Riding a chocobo",
+   "origin": "Soken",
+   "patch": "1.19"
+  },
+  {
+   "n": 77,
+   "title": "Ripples in the Sea",
+   "type": "Character theme",
+   "where": "Merlwyb Bloefhiswyn",
+   "origin": "Yamazaki",
+   "patch": "1.0"
+  },
+  {
+   "n": 78,
+   "title": "The Sands' Secrets",
+   "type": "Character theme",
+   "where": "Raubahn Aldynn",
+   "origin": "Yamazaki",
+   "patch": "1.0"
+  },
+  {
+   "n": 79,
+   "title": "Dewdrops & Moonbeams",
+   "type": "Character theme",
+   "where": "Kan-E-Senna",
+   "origin": "Yamazaki",
+   "patch": "1.0"
+  },
+  {
+   "n": 80,
+   "title": "Dreams Aloft",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Yamazaki",
+   "patch": "1.19"
+  },
+  {
+   "n": 81,
+   "title": "Airborne",
+   "type": "Jingle",
+   "where": "Short transition cue",
+   "origin": "Soken",
+   "patch": "1.19"
+  },
+  {
+   "n": 82,
+   "title": "Birds of a Feather",
+   "type": "Field battle",
+   "where": "Caravan Security",
+   "origin": "Soken",
+   "patch": "1.19"
+  },
+  {
+   "n": 83,
+   "title": "Flee Together",
+   "type": "Quest & cutscene",
+   "where": "Various quests",
+   "origin": "Soken",
+   "patch": "1.x"
+  },
+  {
+   "n": 84,
+   "title": "Quick as Silver, Hard as Stone",
+   "type": "Field battle",
+   "where": "U'Ghamaro Mines",
+   "origin": "Mizuta",
+   "patch": "1.0"
+  },
+  {
+   "n": 85,
+   "title": "Flightless Wings",
+   "type": "Field battle",
+   "where": "Natalan",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 86,
+   "title": "Pitfire",
+   "type": "Field battle",
+   "where": "Zahar'ak",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  },
+  {
+   "n": 87,
+   "title": "The Promise of Plunder",
+   "type": "Dungeon",
+   "where": "Shposhae and Mun-Tuy Cellars, patch 1.19 onward",
+   "origin": "Soken",
+   "patch": "1.19"
+  },
+  {
+   "n": 88,
+   "title": "Meteor",
+   "type": "Quest & cutscene",
+   "where": "'United We Stand' cutscene with Nael van Darnus",
+   "origin": "Yamazaki",
+   "patch": "1.23"
+  },
+  {
+   "n": 89,
+   "title": "Seven Jesters",
+   "type": "Trial",
+   "where": "Good King Moggle Mog XII, first half",
+   "origin": "Soken",
+   "patch": "1.20"
+  },
+  {
+   "n": 90,
+   "title": "Good King Moggle Mog XII",
+   "type": "Trial",
+   "where": "Good King Moggle Mog XII, second half",
+   "origin": "Soken",
+   "patch": "1.20"
+  },
+  {
+   "n": 91,
+   "title": "The Rider's Boon",
+   "type": "Travel & mounts",
+   "where": "Riding the goobbue",
+   "origin": "Sekito",
+   "patch": "1.x"
+  },
+  {
+   "n": 92,
+   "title": "Breaking Boundaries",
+   "type": "Quest & cutscene",
+   "where": "All level 50 job quests",
+   "origin": "Soken",
+   "patch": "1.21"
+  },
+  {
+   "n": 93,
+   "title": "Relics",
+   "type": "Quest & cutscene",
+   "where": "Job quest scenes",
+   "origin": "Soken",
+   "patch": "1.21"
+  },
+  {
+   "n": 94,
+   "title": "In the Arms of Althyk",
+   "type": "Jingle",
+   "where": "Sleeping at an inn",
+   "origin": "Soken",
+   "patch": "1.x"
+  },
+  {
+   "n": 95,
+   "title": "Agent of Inquiry",
+   "type": "Side story",
+   "where": "Hildibrand quests",
+   "origin": "Soken",
+   "patch": "1.x"
+  },
+  {
+   "n": 96,
+   "title": "The Tug of Fate",
+   "type": "Field battle",
+   "where": "Hamlet Defense",
+   "origin": "Soken",
+   "patch": "1.21"
+  },
+  {
+   "n": 97,
+   "title": "To the Fore",
+   "type": "Boss battle",
+   "where": "Hamlet Defense bosses; later the mid-dungeon boss theme",
+   "origin": "Soken",
+   "patch": "1.21"
+  },
+  {
+   "n": 98,
+   "title": "Imperial Will",
+   "type": "Quest & cutscene",
+   "where": "Various quests, incl. 'Futures Perfect'",
+   "origin": "Uematsu",
+   "patch": "1.23"
+  },
+  {
+   "n": 99,
+   "title": "Steel Reason",
+   "type": "Dungeon",
+   "where": "Castrum Novum",
+   "origin": "Uematsu",
+   "patch": "1.23"
+  },
+  {
+   "n": 100,
+   "title": "Imperium",
+   "type": "Boss battle",
+   "where": "'United We Stand' boss fight",
+   "origin": "Uematsu",
+   "patch": "1.23"
+  },
+  {
+   "n": 101,
+   "title": "Fallen Angel",
+   "type": "Trial",
+   "where": "Garuda",
+   "origin": "Soken",
+   "patch": "1.22"
+  },
+  {
+   "n": 102,
+   "title": "Tempest",
+   "type": "Boss battle",
+   "where": "Nael van Darnus in 'The Raven, Nevermore'",
+   "origin": "Uematsu",
+   "patch": "1.23"
+  },
+  {
+   "n": 103,
+   "title": "Rise of the White Raven",
+   "type": "Boss battle",
+   "where": "Nael Deus Darnus in 'The Raven, Nevermore'",
+   "origin": "Soken",
+   "patch": "1.23"
+  },
+  {
+   "n": 104,
+   "title": "Answers",
+   "type": "Credits & theme",
+   "where": "Opening cutscenes for all three city-states",
+   "origin": "Uematsu",
+   "patch": "1.0"
+  }
+ ]
+}

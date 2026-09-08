@@ -1,0 +1,516 @@
+{
+ "order": 3,
+ "album": "Before the Fall",
+ "full": "BEFORE THE FALL: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2015,
+ "covers": "Patches 2.2 – 2.55",
+ "spotify": "5EGEVFpArWiJCfFyqIKw7s",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Wreck to the Seaman",
+   "type": "Trial",
+   "where": "The Whorleater — Leviathan, phase 1",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 2,
+   "title": "Through the Maelstrom",
+   "type": "Trial",
+   "where": "The Whorleater — Leviathan, phase 2",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 3,
+   "title": "Scars of Battle",
+   "type": "Dungeon",
+   "where": "The Lost City of Amdapor",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 4,
+   "title": "Persistence",
+   "type": "Boss battle",
+   "where": "Dungeon boss theme from 2.2 onward",
+   "origin": "Uematsu",
+   "patch": "2.2"
+  },
+  {
+   "n": 5,
+   "title": "Wrath of the Eikons",
+   "type": "Boss battle",
+   "where": "Voidsent bosses, e.g. Diabolos",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 6,
+   "title": "Breathless",
+   "type": "Field",
+   "where": "Novv's Nursery (Sahagin)",
+   "origin": "Uematsu",
+   "patch": "2.2"
+  },
+  {
+   "n": 7,
+   "title": "Gluppity-schlopp",
+   "type": "Field",
+   "where": "789th Order Dig (Kobold)",
+   "origin": "Mizuta",
+   "patch": "2.2"
+  },
+  {
+   "n": 8,
+   "title": "Fury",
+   "type": "Boss battle",
+   "where": "Gobmachine G-VI, Brayflox's Longstop (Hard)",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 9,
+   "title": "Pa-Paya",
+   "type": "Seasonal event",
+   "where": "Hatching-tide",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 10,
+   "title": "Birds of a Feather",
+   "type": "Dungeon",
+   "where": "Halatali (Hard)",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 11,
+   "title": "Beneath Bloodied Banners",
+   "type": "Boss battle",
+   "where": "Halatali (Hard) final boss; generic final boss use",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 12,
+   "title": "Big-boned",
+   "type": "Travel & mounts",
+   "where": "Fat Chocobo mount",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 13,
+   "title": "Battle on the Big Bridge",
+   "type": "Trial",
+   "where": "The Battle on the Big Bridge — Gilgamesh; later Battle in the Big Keep",
+   "origin": "Uematsu; arr. of FFV",
+   "patch": "2.1"
+  },
+  {
+   "n": 14,
+   "title": "Through the Maelstrom (Female Vocals)",
+   "type": "Trial",
+   "where": "Leviathan phase 2, alternate vocal",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 15,
+   "title": "Meteor",
+   "type": "Raid",
+   "where": "Second Coil — Nael van Darnus scenes",
+   "origin": "Yamazaki; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 16,
+   "title": "Blades",
+   "type": "Raid",
+   "where": "The Second Coil of Bahamut — ambient",
+   "origin": "Soken",
+   "patch": "2.2"
+  },
+  {
+   "n": 17,
+   "title": "Tempest",
+   "type": "Raid",
+   "where": "Second Coil Turn 4 (T9) — Nael deus Darnus, phase 1",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 18,
+   "title": "Rise of the White Raven",
+   "type": "Raid",
+   "where": "Second Coil Turn 4 (T9) — Nael deus Darnus, phase 2",
+   "origin": "Soken; from 1.0",
+   "patch": "2.2"
+  },
+  {
+   "n": 19,
+   "title": "Horizons Calling",
+   "type": "Dungeon",
+   "where": "Hullbreaker Isle",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.3"
+  },
+  {
+   "n": 20,
+   "title": "Far from Home",
+   "type": "Field",
+   "where": "Ehcatl (Ixal)",
+   "origin": "Uematsu",
+   "patch": "2.3"
+  },
+  {
+   "n": 21,
+   "title": "Dark Vows",
+   "type": "Dungeon",
+   "where": "The Tam-Tara Deepcroft (Hard)",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 22,
+   "title": "Answers - Reprise",
+   "type": "Seasonal event",
+   "where": "The Rising",
+   "origin": "Uematsu",
+   "patch": "2.3"
+  },
+  {
+   "n": 23,
+   "title": "Thunder Rolls",
+   "type": "Trial",
+   "where": "The Striking Tree — Ramuh",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 24,
+   "title": "Moonfire Faire",
+   "type": "Seasonal event",
+   "where": "Moonfire Faire",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.3"
+  },
+  {
+   "n": 25,
+   "title": "Thicker than a Knife's Blade",
+   "type": "Quest & cutscene",
+   "where": "Tragic cutscenes; later the Forgotten Knight in Ishgard",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 26,
+   "title": "The War Room",
+   "type": "PvP",
+   "where": "Frontline — preparation",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 27,
+   "title": "Rouse Out!",
+   "type": "PvP",
+   "where": "Frontline — ambient",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 28,
+   "title": "Blood for Blood",
+   "type": "PvP",
+   "where": "Frontline — battle",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 29,
+   "title": "Or the Egg?",
+   "type": "Jingle",
+   "where": "Chocobo raising",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 30,
+   "title": "Game Theory",
+   "type": "Gold Saucer",
+   "where": "Mini-game and puzzle theme",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 31,
+   "title": "Now I Know the Truth",
+   "type": "Quest & cutscene",
+   "where": "Doga and Unei, Crystal Tower story",
+   "origin": "Uematsu; arr. of FFIII",
+   "patch": "2.3"
+  },
+  {
+   "n": 32,
+   "title": "Out of the Labyrinth",
+   "type": "Alliance raid",
+   "where": "Crystal Tower: Syrcus Tower — ambient",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 33,
+   "title": "Shattered",
+   "type": "Alliance raid",
+   "where": "Syrcus Tower — battles and bosses",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 34,
+   "title": "Loss of Time",
+   "type": "Quest & cutscene",
+   "where": "Cutscenes",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 35,
+   "title": "His Holiness",
+   "type": "Character theme",
+   "where": "Archbishop Thordan VII",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 36,
+   "title": "A Light in the Storm",
+   "type": "Dungeon",
+   "where": "Pharos Sirius — extended version of Through the Gloom",
+   "origin": "Soken",
+   "patch": "2.3"
+  },
+  {
+   "n": 37,
+   "title": "Riptide",
+   "type": "Dungeon",
+   "where": "Sastasha (Hard)",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 38,
+   "title": "The Edge",
+   "type": "Quest & cutscene",
+   "where": "Rogue and Ninja quests",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 39,
+   "title": "Forgotten by the Sun",
+   "type": "Dungeon",
+   "where": "The Sunken Temple of Qarn (Hard)",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 40,
+   "title": "Pennons Aloft",
+   "type": "Boss battle",
+   "where": "Generic boss theme; Fenrir in Snowcloak",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.4"
+  },
+  {
+   "n": 41,
+   "title": "The Warrens",
+   "type": "Dungeon",
+   "where": "Snowcloak",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 42,
+   "title": "Footsteps in the Snow",
+   "type": "Trial",
+   "where": "Akh Afah Amphitheatre — Shiva, phase 1",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 43,
+   "title": "Oblivion",
+   "type": "Trial",
+   "where": "Akh Afah Amphitheatre — Shiva, phase 2",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 44,
+   "title": "Everbinding Oath",
+   "type": "Quest & cutscene",
+   "where": "Ceremony of Eternal Bonding",
+   "origin": "Uematsu; from 1.0",
+   "patch": "2.45"
+  },
+  {
+   "n": 45,
+   "title": "From the Ashes",
+   "type": "Raid",
+   "where": "Final Coil Turn 4 (T13) — Bahamut Prime / Phoenix",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 46,
+   "title": "The Coil Tightens",
+   "type": "Raid",
+   "where": "The Final Coil of Bahamut — cutscene cue",
+   "origin": "Soken",
+   "patch": "2.4"
+  },
+  {
+   "n": 47,
+   "title": "Four-sided Circle",
+   "type": "Gold Saucer",
+   "where": "The Manderville Gold Saucer",
+   "origin": "Uematsu; arr. of FFVII",
+   "patch": "2.51"
+  },
+  {
+   "n": 48,
+   "title": "Gateway to Paradise",
+   "type": "Gold Saucer",
+   "where": "GATEs",
+   "origin": "Uematsu",
+   "patch": "2.51"
+  },
+  {
+   "n": 49,
+   "title": "Sport of Kings",
+   "type": "Gold Saucer",
+   "where": "Chocobo racing",
+   "origin": "Uematsu",
+   "patch": "2.51"
+  },
+  {
+   "n": 50,
+   "title": "Aftermath",
+   "type": "Dungeon",
+   "where": "Amdapor Keep (Hard)",
+   "origin": "Soken",
+   "patch": "2.5"
+  },
+  {
+   "n": 51,
+   "title": "Tricksome",
+   "type": "Dungeon",
+   "where": "The Wanderer's Palace (Hard)",
+   "origin": "Soken",
+   "patch": "2.5"
+  },
+  {
+   "n": 52,
+   "title": "Magiteknical Difficulties",
+   "type": "Quest & cutscene",
+   "where": "Arrangement of Terra's theme",
+   "origin": "Uematsu; arr. of FFVI",
+   "patch": "2.5"
+  },
+  {
+   "n": 53,
+   "title": "Blind to the Dark",
+   "type": "Alliance raid",
+   "where": "Crystal Tower: The World of Darkness — ambient",
+   "origin": "Soken",
+   "patch": "2.5"
+  },
+  {
+   "n": 54,
+   "title": "Hamartomania",
+   "type": "Alliance raid",
+   "where": "The World of Darkness — battles",
+   "origin": "Soken",
+   "patch": "2.5"
+  },
+  {
+   "n": 55,
+   "title": "Hunger",
+   "type": "Alliance raid",
+   "where": "The World of Darkness — Cloud of Darkness intro",
+   "origin": "Uematsu",
+   "patch": "2.5"
+  },
+  {
+   "n": 56,
+   "title": "The Reach of Darkness",
+   "type": "Alliance raid",
+   "where": "The World of Darkness — Cloud of Darkness",
+   "origin": "Soken; arr. of FFIII",
+   "patch": "2.5"
+  },
+  {
+   "n": 57,
+   "title": "Eternal Wind",
+   "type": "Quest & cutscene",
+   "where": "Completing the Crystal Tower storyline",
+   "origin": "Uematsu; arr. of FFIII",
+   "patch": "2.5"
+  },
+  {
+   "n": 58,
+   "title": "Faith in Her Fury",
+   "type": "Trial",
+   "where": "The Steps of Faith — phase 1",
+   "origin": "Soken",
+   "patch": "2.55"
+  },
+  {
+   "n": 59,
+   "title": "Unworthy",
+   "type": "Trial",
+   "where": "The Steps of Faith — phase 2",
+   "origin": "Soken",
+   "patch": "2.55"
+  },
+  {
+   "n": 60,
+   "title": "Silver Tears",
+   "type": "Dungeon",
+   "where": "The Keeper of the Lake",
+   "origin": "Soken",
+   "patch": "2.5"
+  },
+  {
+   "n": 61,
+   "title": "Primogenitor",
+   "type": "Character theme",
+   "where": "Midgardsormr",
+   "origin": "Soken",
+   "patch": "2.5"
+  },
+  {
+   "n": 62,
+   "title": "The Great Gubal Library",
+   "type": "Dungeon",
+   "where": "Early version of the 3.0 Great Gubal Library theme (hidden MP3, password 'ii')",
+   "origin": "Soken",
+   "patch": "3.0",
+   "bluray_only": true
+  },
+  {
+   "n": 63,
+   "title": "Under the Weight (Super Ultra Hyper Version)",
+   "type": "Trial",
+   "where": "8-bit Titan arrangement (hidden MP3, password 'ii')",
+   "origin": "Soken",
+   "patch": "2.5",
+   "bluray_only": true
+  }
+ ]
+}

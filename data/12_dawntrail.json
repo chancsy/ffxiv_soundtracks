@@ -1,0 +1,538 @@
+{
+ "order": 12,
+ "album": "Dawntrail",
+ "full": "DAWNTRAIL: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2024,
+ "covers": "Patch 7.0",
+ "spotify": "5eSNHUhKoKDquDDsT125iR",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Dawntrail",
+   "type": "Credits & theme",
+   "where": "Full-length trailer; plays in-game during the instanced battle \"A Father First\"",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 2,
+   "title": "Prelude - A Westward Journey",
+   "type": "Title & menu",
+   "where": "Title screen",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 3,
+   "title": "Taco Delight",
+   "type": "Quest & cutscene",
+   "where": "Light-hearted Tuliyollal scenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 4,
+   "title": "Morrow's Might",
+   "type": "City",
+   "where": "Tuliyollal, day",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 5,
+   "title": "For Hope and Happiness",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 6,
+   "title": "Windswept Echoes",
+   "type": "Field",
+   "where": "Urqopacha, day",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 7,
+   "title": "Blade's Exaltation",
+   "type": "Field battle",
+   "where": "Dawntrail standard battle theme",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 8,
+   "title": "Pastoral Pleasures",
+   "type": "Field",
+   "where": "Wachunpelo (Urqopacha) and all of Kozama'uka settlements",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 9,
+   "title": "Bright Bustle",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 10,
+   "title": "Windswept Whispers",
+   "type": "Field",
+   "where": "Urqopacha, night",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 11,
+   "title": "Of Glittering Wings",
+   "type": "Field",
+   "where": "Kozama'uka, day",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 12,
+   "title": "Fun and Games",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 13,
+   "title": "Punutiy Crossing",
+   "type": "Dungeon",
+   "where": "Ihuykatumu",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 14,
+   "title": "Roads Forsaken",
+   "type": "Boss battle",
+   "where": "Dawntrail mid-dungeon boss theme",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 15,
+   "title": "Of Glittering Baubles",
+   "type": "Field",
+   "where": "Kozama'uka, night",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 16,
+   "title": "Life Bound by Honor",
+   "type": "Field",
+   "where": "Worlar's Echo (Urqopacha) and all of Yak T'el settlements",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 17,
+   "title": "Empyrean Peak",
+   "type": "Dungeon",
+   "where": "Worqor Zormor",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 18,
+   "title": "Etched in Memory",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 19,
+   "title": "The Skyruin",
+   "type": "Trial",
+   "where": "Worqor Lar Dor \u2014 Valigarmanda",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 20,
+   "title": "Dawntrail (Instrumental)",
+   "type": "Credits & theme",
+   "where": "Scenes reinforcing the main theme without vocals",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 21,
+   "title": "Emerald under Sapphire",
+   "type": "Field",
+   "where": "Yak T'el, day",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 22,
+   "title": "Coffee Break",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 23,
+   "title": "Skybound Emerald",
+   "type": "Field",
+   "where": "Yak T'el, night",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 24,
+   "title": "Lost in the Deep",
+   "type": "Dungeon",
+   "where": "The Skydeep Cenote",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 25,
+   "title": "Pathmaker",
+   "type": "Boss battle",
+   "where": "Dawntrail end-of-dungeon boss theme",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 26,
+   "title": "Morrow's Magic",
+   "type": "City",
+   "where": "Tuliyollal, night",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 27,
+   "title": "Ceruleum Smoke at High Noon",
+   "type": "Field",
+   "where": "Shaaloani, day",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 28,
+   "title": "Desertwalkers",
+   "type": "Field",
+   "where": "Xak Tural settlements",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 29,
+   "title": "Ceruleum Embers by Dusk",
+   "type": "Field",
+   "where": "Shaaloani, night",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 30,
+   "title": "Cast Stones in Shadow",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 31,
+   "title": "Hearts Tread and Trampled",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 32,
+   "title": "In Fulgur and Fire",
+   "type": "Dungeon",
+   "where": "Vanguard; also the post-credits scene introducing the Arcadion",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 33,
+   "title": "Flash in the Dark",
+   "type": "Field",
+   "where": "Heritage Found, day",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 34,
+   "title": "Prima Vista Orchestra",
+   "type": "Character theme",
+   "where": "Sphene's introduction",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 35,
+   "title": "Tantalus's Theme (Dawntrail)",
+   "type": "Instanced area",
+   "where": "The Backroom",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 36,
+   "title": "Crash in the Dark",
+   "type": "Field",
+   "where": "Heritage Found, night",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 37,
+   "title": "Starless Skyline",
+   "type": "City",
+   "where": "Solution Nine",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 38,
+   "title": "Thy Warmth",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 39,
+   "title": "Endwalker \u2013 Footfalls (Extended)",
+   "type": "Quest & cutscene",
+   "where": "Vrtra arrives to the defense of Tuliyollal",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 40,
+   "title": "Anatomy of Existence",
+   "type": "Dungeon",
+   "where": "Origenics",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 41,
+   "title": "Seeking Purpose",
+   "type": "Trial",
+   "where": "Everkeep \u2014 Zoraal Ja",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 42,
+   "title": "Bygone Serenity",
+   "type": "Field",
+   "where": "Living Memory, during the main scenario",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 43,
+   "title": "Broken Spell, Healed Hearts",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 44,
+   "title": "In Dawn's Embrace",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 45,
+   "title": "Fleeting Life",
+   "type": "Character theme",
+   "where": "Scenes associated with Sphene and Alexandria",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 46,
+   "title": "The Fateful Hour",
+   "type": "Quest & cutscene",
+   "where": "The Founding Celebration play in Living Memory",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 47,
+   "title": "Sword of Fury",
+   "type": "Quest & cutscene",
+   "where": "The Founding Celebration play in Living Memory",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 48,
+   "title": "Something to Protect",
+   "type": "Quest & cutscene",
+   "where": "The colosseum match in Living Memory",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 49,
+   "title": "Unforgettable Sorrow",
+   "type": "Character theme",
+   "where": "Scenes associated with Sphene and Alexandria",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 50,
+   "title": "A Trail Unending",
+   "type": "Dungeon",
+   "where": "Alexandria",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 51,
+   "title": "Paved in Solitude",
+   "type": "Trial",
+   "where": "The Interphos \u2014 Eternal Queen (Sphene), first phase",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 52,
+   "title": "Paved with Resolve",
+   "type": "Trial",
+   "where": "The Interphos \u2014 Eternal Queen (Sphene), second phase",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 53,
+   "title": "Fond Farewells",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 54,
+   "title": "Smile",
+   "type": "Credits & theme",
+   "where": "Dawntrail ending theme; Wuk Lamat's ascension ceremony; Dawnblazer montage",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 55,
+   "title": "Open Sky - The Theme from Dawntrail",
+   "type": "Credits & theme",
+   "where": "Truncated main-theme-only version of \"Dawntrail\"",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 56,
+   "title": "Echoes of Memory",
+   "type": "Field",
+   "where": "Living Memory, after the main scenario",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 57,
+   "title": "Battle 1 from FINAL FANTASY IX",
+   "type": "Travel & mounts",
+   "where": "Riding the Ark mount",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 58,
+   "title": "Faerie Battle",
+   "type": "Field battle",
+   "where": "FATEs \"Mascot March\", \"Mascot Mayhem\" and \"Mascot Murder\"",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 59,
+   "title": "Blessings on the Bluffs",
+   "type": "Dungeon",
+   "where": "Tender Valley",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 60,
+   "title": "Court Jesters (Dawntrail)",
+   "type": "Dungeon",
+   "where": "The Strayborough Deadwalk",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "7.0"
+  },
+  {
+   "n": 61,
+   "title": "The Ring's Reprieve",
+   "type": "Instanced area",
+   "where": "The Greenroom",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 62,
+   "title": "It's Showtime!",
+   "type": "Raid",
+   "where": "AAC Light-heavyweight M1",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 63,
+   "title": "Bee My Honey",
+   "type": "Raid",
+   "where": "AAC Light-heavyweight M2",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 64,
+   "title": "Burning Souls",
+   "type": "Raid",
+   "where": "AAC Light-heavyweight M3",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 65,
+   "title": "Give it All",
+   "type": "Raid",
+   "where": "AAC Light-heavyweight M4",
+   "origin": "Soken",
+   "patch": "7.0"
+  },
+  {
+   "n": 66,
+   "title": "A Risky Bet",
+   "type": "Raid",
+   "where": "AAC Light-heavyweight M4 (Savage), second phase only (Savage)",
+   "origin": "Soken",
+   "patch": "7.0"
+  }
+ ]
+}

@@ -1,0 +1,410 @@
+{
+ "order": 5,
+ "album": "The Far Edge of Fate",
+ "full": "THE FAR EDGE OF FATE: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2017,
+ "covers": "Patches 3.2 \u2013 3.56",
+ "spotify": "73mih5aIcuQ4OaQLI7O0X9",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Fiend",
+   "type": "Trial",
+   "where": "Containment Bay S1T7 \u2014 Sephirot, final phase (normal and Extreme)",
+   "origin": "Soken; lyrics Fox; vocals Dan Inoue",
+   "patch": "3.2"
+  },
+  {
+   "n": 2,
+   "title": "Down the Up Staircase",
+   "type": "Dungeon",
+   "where": "The Antitower",
+   "origin": "Soken",
+   "patch": "3.2"
+  },
+  {
+   "n": 3,
+   "title": "Dancing Calcabrina",
+   "type": "Boss battle",
+   "where": "The Antitower \u2014 final boss (Calcabrina)",
+   "origin": "Uematsu",
+   "patch": "3.2"
+  },
+  {
+   "n": 4,
+   "title": "Revenge Twofold",
+   "type": "Boss battle",
+   "where": "Second final boss theme in Heavensward-era dungeons as of patch 3.4",
+   "origin": "Soken",
+   "patch": "3.4"
+  },
+  {
+   "n": 5,
+   "title": "Piece of Mind",
+   "type": "Tribal quest",
+   "where": "Vath beast tribe theme",
+   "origin": "Takada",
+   "patch": "3.5"
+  },
+  {
+   "n": 6,
+   "title": "No Sound, No Scutter",
+   "type": "Tribal quest",
+   "where": "Vath beast tribe quests",
+   "origin": "Takada",
+   "patch": "3.5"
+  },
+  {
+   "n": 7,
+   "title": "The Kiss",
+   "type": "Seasonal event",
+   "where": "Valentione's Day (2017)",
+   "origin": "Takada",
+   "patch": "3.5"
+  },
+  {
+   "n": 8,
+   "title": "Starved",
+   "type": "PvP",
+   "where": "The Feast",
+   "origin": "Soken",
+   "patch": "3.2"
+  },
+  {
+   "n": 9,
+   "title": "The Ancient City",
+   "type": "Dungeon",
+   "where": "The Lost City of Amdapor (Hard)",
+   "origin": "Soken",
+   "patch": "3.2"
+  },
+  {
+   "n": 10,
+   "title": "Metal \u2013 Brute Justice Mode",
+   "type": "Raid",
+   "where": "Alexander: The Burden of the Son \u2014 once Brute Justice appears",
+   "origin": "Soken; vocals Fox",
+   "patch": "3.2"
+  },
+  {
+   "n": 11,
+   "title": "Holy Consult",
+   "type": "Dungeon",
+   "where": "Hullbreaker Isle (Hard)",
+   "origin": "Uematsu",
+   "patch": "3.2"
+  },
+  {
+   "n": 12,
+   "title": "Apologies",
+   "type": "Dungeon",
+   "where": "Sohr Khai",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 13,
+   "title": "Faith in Her Fury",
+   "type": "Trial",
+   "where": "The Steps of Faith",
+   "origin": "Soken",
+   "patch": "2.55"
+  },
+  {
+   "n": 14,
+   "title": "Primogenitor",
+   "type": "Boss battle",
+   "where": "Midgardsormr's theme; final boss of Keeper of the Lake",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 15,
+   "title": "Freefall",
+   "type": "Trial",
+   "where": "The Final Steps of Faith \u2014 Nidhogg, second part",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 16,
+   "title": "Revenge of the Horde",
+   "type": "Trial",
+   "where": "The Final Steps of Faith \u2014 Nidhogg, third part",
+   "origin": "Soken; lyrics Fox",
+   "patch": "3.3"
+  },
+  {
+   "n": 17,
+   "title": "Only the Dead",
+   "type": "Quest & cutscene",
+   "where": "Dragonsong War MSQ finale, Litany of Peace cutscene; remix of \"Night in the Brume\"",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 18,
+   "title": "Freedom",
+   "type": "Instanced area",
+   "where": "Old 1.0 theme of La Noscea; reused in The Parrock during the Shadow of Mhach quest series",
+   "origin": "Uematsu; from 1.0",
+   "patch": "3.3"
+  },
+  {
+   "n": 19,
+   "title": "Teardrops in the Rain",
+   "type": "Alliance raid",
+   "where": "The Weeping City of Mhach \u2014 ambient",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 20,
+   "title": "Torrent",
+   "type": "Alliance raid",
+   "where": "The Weeping City of Mhach \u2014 battles",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 21,
+   "title": "A Thousand Faces",
+   "type": "Alliance raid",
+   "where": "The Weeping City of Mhach \u2014 Ozma, Black Hole phase",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 22,
+   "title": "Blackbosom",
+   "type": "Deep dungeon",
+   "where": "Palace of the Dead, floor 50 boss (Edda Blackbosom)",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 23,
+   "title": "The Merry Wanderer Waltz",
+   "type": "Deep dungeon",
+   "where": "Palace of the Dead \u2014 main ambient theme",
+   "origin": "Soken",
+   "patch": "3.3"
+  },
+  {
+   "n": 24,
+   "title": "Emerald Labyrinth",
+   "type": "Deep dungeon",
+   "where": "Old 1.0 theme of the Black Shroud; reused as Palace of the Dead ambient",
+   "origin": "Uematsu; from 1.0",
+   "patch": "3.3"
+  },
+  {
+   "n": 25,
+   "title": "Enraptured",
+   "type": "Deep dungeon",
+   "where": "Old 1.0 theme reused as Palace of the Dead ambient",
+   "origin": "Uematsu; from 1.0",
+   "patch": "3.3"
+  },
+  {
+   "n": 26,
+   "title": "Tears for Mor Dhona",
+   "type": "Deep dungeon",
+   "where": "Old 1.0 theme of Mor Dhona; reused as Palace of the Dead ambient",
+   "origin": "Uematsu; from 1.0",
+   "patch": "3.3"
+  },
+  {
+   "n": 27,
+   "title": "Fog of Phantom",
+   "type": "Deep dungeon",
+   "where": "Palace of the Dead, floors 97\u2013100 ambient",
+   "origin": "Iwata",
+   "patch": "3.3"
+  },
+  {
+   "n": 28,
+   "title": "Notice of Death",
+   "type": "Deep dungeon",
+   "where": "Palace of the Dead \u2014 Nybeth Obdilord cutscenes",
+   "origin": "Sakimoto",
+   "patch": "3.3"
+  },
+  {
+   "n": 29,
+   "title": "Blasphemous Experiment",
+   "type": "Deep dungeon",
+   "where": "Palace of the Dead, floor 100 boss (Nybeth Obdilord)",
+   "origin": "Iwata",
+   "patch": "3.3"
+  },
+  {
+   "n": 30,
+   "title": "The Gauntlet",
+   "type": "PvP",
+   "where": "Wolves' Den \u2014 The Dueling Circle 1v1 duels",
+   "origin": "Soken",
+   "patch": "3.2"
+  },
+  {
+   "n": 31,
+   "title": "Hyper Rainbow Z",
+   "type": "Tribal quest",
+   "where": "Final cutscene of an Allied Society (beast tribe) quest chain",
+   "origin": "Takada",
+   "patch": "3.4"
+  },
+  {
+   "n": 32,
+   "title": "Up at Dawn",
+   "type": "Seasonal event",
+   "where": "Haunted Manor during All Saints' Wake (2016)",
+   "origin": "Takada",
+   "patch": "3.4"
+  },
+  {
+   "n": 33,
+   "title": "Grounded",
+   "type": "Dungeon",
+   "where": "Xelphatol",
+   "origin": "Uematsu",
+   "patch": "3.4"
+  },
+  {
+   "n": 34,
+   "title": "Bibliophobia",
+   "type": "Dungeon",
+   "where": "The Great Gubal Library (Hard)",
+   "origin": "Soken",
+   "patch": "3.4"
+  },
+  {
+   "n": 35,
+   "title": "Exponential Entropy",
+   "type": "Raid",
+   "where": "Alexander: The Heart of the Creator \u2014 boss battle",
+   "origin": "Soken; lyrics Fox; vocals Fox",
+   "patch": "3.4"
+  },
+  {
+   "n": 36,
+   "title": "Out of Time",
+   "type": "Raid",
+   "where": "Alexander: The Soul of the Creator \u2014 muted remix of \"Exponential Entropy\", heard only inside Alexander Prime's portals",
+   "origin": "Soken",
+   "patch": "3.4"
+  },
+  {
+   "n": 37,
+   "title": "Moebius",
+   "type": "Raid",
+   "where": "Alexander: The Soul of the Creator \u2014 main battle theme until Judgement",
+   "origin": "Soken",
+   "patch": "3.4"
+  },
+  {
+   "n": 38,
+   "title": "Stasis Loop",
+   "type": "Raid",
+   "where": "Alexander: The Soul of the Creator \u2014 during Temporal Stasis",
+   "origin": "Soken",
+   "patch": "3.4"
+  },
+  {
+   "n": 39,
+   "title": "Rise",
+   "type": "Raid",
+   "where": "Alexander: The Soul of the Creator \u2014 third phase",
+   "origin": "Soken; lyrics Fox; vocals Fox",
+   "patch": "3.4"
+  },
+  {
+   "n": 40,
+   "title": "Fragments of Forever",
+   "type": "Quest & cutscene",
+   "where": "Old 1.0 theme; plays during heartwarming story moments",
+   "origin": "Uematsu; from 1.0",
+   "patch": "3.0"
+  },
+  {
+   "n": 41,
+   "title": "He Who Continues the Attack",
+   "type": "Quest & cutscene",
+   "where": "Warring Triad trial quest series \u2014 Regula van Hydrus cutscenes",
+   "origin": "Soken",
+   "patch": "3.2"
+  },
+  {
+   "n": 42,
+   "title": "Battle to the Death \u2013 Heavensward",
+   "type": "Trial",
+   "where": "Warring Triad \u2014 first phase of Sephirot, Sophia and Zurvan (normal)",
+   "origin": "Uematsu",
+   "patch": "3.2"
+  },
+  {
+   "n": 43,
+   "title": "Equilibrium",
+   "type": "Trial",
+   "where": "Containment Bay P1T6 \u2014 Sophia, final phase (normal and Extreme)",
+   "origin": "Soken; lyrics Fox; vocals Ayumi Murata",
+   "patch": "3.4"
+  },
+  {
+   "n": 44,
+   "title": "Promises",
+   "type": "Alliance raid",
+   "where": "Dun Scaith \u2014 first boss",
+   "origin": "Soken",
+   "patch": "3.5"
+  },
+  {
+   "n": 45,
+   "title": "Shadow of the Body",
+   "type": "Alliance raid",
+   "where": "Dun Scaith \u2014 ambient",
+   "origin": "Soken",
+   "patch": "3.5"
+  },
+  {
+   "n": 46,
+   "title": "Quicksand",
+   "type": "Dungeon",
+   "where": "Sohm Al (Hard)",
+   "origin": "Uematsu",
+   "patch": "3.5"
+  },
+  {
+   "n": 47,
+   "title": "Penultimania",
+   "type": "Trial",
+   "where": "Containment Bay Z1T9 \u2014 Zurvan, second phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "3.5"
+  },
+  {
+   "n": 48,
+   "title": "Infinity",
+   "type": "Trial",
+   "where": "Containment Bay Z1T9 \u2014 Zurvan, third phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "3.5"
+  },
+  {
+   "n": 49,
+   "title": "Another Brick",
+   "type": "Dungeon",
+   "where": "Baelsar's Wall",
+   "origin": "Soken",
+   "patch": "3.5"
+  },
+  {
+   "n": 50,
+   "title": "Scale and Steel",
+   "type": "Quest & cutscene",
+   "where": "Omega vs. Shinryu in \"Fly Free, My Pretty\"; reprised in The Royal Menagerie",
+   "origin": "Soken",
+   "patch": "3.5"
+  }
+ ]
+}

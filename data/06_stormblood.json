@@ -1,0 +1,850 @@
+{
+ "order": 6,
+ "album": "Stormblood",
+ "full": "STORMBLOOD: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2018,
+ "covers": "Patches 4.0 \u2013 4.3",
+ "spotify": "5yMxUIoVTUNeW17UEHbWpE",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Storm of Blood",
+   "type": "Credits & theme",
+   "where": "Title screen trailer cutscene; one of the expansion's main themes",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 2,
+   "title": "Prelude - Long March Home",
+   "type": "Title & menu",
+   "where": "Title screen; world map travel intermissions",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 3,
+   "title": "Impact",
+   "type": "Field",
+   "where": "Rhalgr's Reach, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 4,
+   "title": "Beyond the Wall",
+   "type": "Field",
+   "where": "The Fringes, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 5,
+   "title": "Looping in the Deepest Fringes",
+   "type": "Field battle",
+   "where": "Standard enemy encounters in Gyr Abania and The Far East",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 6,
+   "title": "Afterglow",
+   "type": "Field",
+   "where": "Rhalgr's Reach, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 7,
+   "title": "Their Deadly Mission",
+   "type": "Dungeon",
+   "where": "The Temple of the Fist",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 8,
+   "title": "On High",
+   "type": "Field",
+   "where": "The Peaks, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 9,
+   "title": "With Giants Watching",
+   "type": "Field",
+   "where": "Various settlements in Gyr Abania",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 10,
+   "title": "The Garlean Territorial Anthem for Gyr Abania and Surrounding States - The Measure of Our Reach",
+   "type": "Quest & cutscene",
+   "where": "Zenos yae Galvus arrives at Ala Mhigo",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 11,
+   "title": "Procedamus in Pace",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 12,
+   "title": "Dawnbound",
+   "type": "Field",
+   "where": "The Sirensong Sea",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 13,
+   "title": "Triumph",
+   "type": "Boss battle",
+   "where": "Final boss fights in dungeons added in Stormblood and its patches",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 14,
+   "title": "Crimson Sunrise",
+   "type": "City",
+   "where": "Kugane, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 15,
+   "title": "Liquid Flame",
+   "type": "Field",
+   "where": "The Ruby Sea, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 16,
+   "title": "Wing and a Prayer",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 17,
+   "title": "Cradle",
+   "type": "City",
+   "where": "Settlements in Othard, incl. Onokoro, Reunion and the Dawn Throne",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 18,
+   "title": "The Open Box",
+   "type": "Dungeon",
+   "where": "Shisui of the Violet Tides",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 19,
+   "title": "Westward Tide",
+   "type": "Field",
+   "where": "The Ruby Sea, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 20,
+   "title": "Far East of Eorzea",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 21,
+   "title": "Shell-shocked",
+   "type": "Field",
+   "where": "The Isle of Zekki in The Ruby Sea",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 22,
+   "title": "Revelation",
+   "type": "Trial",
+   "where": "The Pool of Tribute \u2014 Susano, first half (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 23,
+   "title": "Riot",
+   "type": "Trial",
+   "where": "The Pool of Tribute \u2014 Susano, transition phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 24,
+   "title": "At Both Ends",
+   "type": "Trial",
+   "where": "The Pool of Tribute \u2014 Susano, second half (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 25,
+   "title": "Harmony",
+   "type": "City",
+   "where": "Various settlements in Gyr Abania and Othard",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 26,
+   "title": "A Father's Pride",
+   "type": "Field",
+   "where": "Yanxia, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 27,
+   "title": "Drowning in the Horizon",
+   "type": "Field",
+   "where": "The Azim Steppe, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 28,
+   "title": "Cyan's Theme",
+   "type": "Character theme",
+   "where": "Various cutscenes involving Hien",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 29,
+   "title": "He Rises Above",
+   "type": "Field",
+   "where": "The Azim Steppe, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 30,
+   "title": "Most Unworthy",
+   "type": "Dungeon",
+   "where": "Bardam's Mettle",
+   "origin": "Soken",
+   "patch": "4.2"
+  },
+  {
+   "n": 31,
+   "title": "Heroes of Stormblood",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 32,
+   "title": "A Mother's Pride",
+   "type": "Field",
+   "where": "Yanxia, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 33,
+   "title": "Gates of the Moon",
+   "type": "Dungeon",
+   "where": "Doma Castle",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 34,
+   "title": "Parting Ways",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 35,
+   "title": "Crimson Sunset",
+   "type": "City",
+   "where": "Kugane, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 36,
+   "title": "Deception",
+   "type": "Dungeon",
+   "where": "Kugane Castle",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 37,
+   "title": "Hope Forgotten",
+   "type": "Field",
+   "where": "The Fringes, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 38,
+   "title": "Beauty's Wicked Wiles",
+   "type": "Trial",
+   "where": "Emanation \u2014 Lakshmi (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 39,
+   "title": "The Stone Remembers",
+   "type": "Field",
+   "where": "The Peaks, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 40,
+   "title": "Alienus",
+   "type": "Dungeon",
+   "where": "Castrum Abania",
+   "origin": "Soken",
+   "patch": "4.3"
+  },
+  {
+   "n": 41,
+   "title": "Old Wounds",
+   "type": "Field",
+   "where": "The Lochs, night",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 42,
+   "title": "Songs of Salt and Suffering",
+   "type": "Field",
+   "where": "The Lochs, day",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 43,
+   "title": "Liberty or Death",
+   "type": "Dungeon",
+   "where": "Ala Mhigo",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 44,
+   "title": "The Worm's Tail",
+   "type": "Trial",
+   "where": "Shinryu's battle theme, after its ultimate attack",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 45,
+   "title": "The Measure of His Reach",
+   "type": "Quest & cutscene",
+   "where": "Final cutscene before the credits, end of the 4.0 main scenario",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 46,
+   "title": "Revolutions",
+   "type": "Credits & theme",
+   "where": "4.0 ending credits",
+   "origin": "Uematsu; vocals Susan Calloway",
+   "patch": "4.0"
+  },
+  {
+   "n": 47,
+   "title": "Deltascape",
+   "type": "Raid",
+   "where": "The Interdimensional Rift \u2014 ambient",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 48,
+   "title": "Omega\u00b2",
+   "type": "Raid",
+   "where": "Omega: Deltascape V1.0\u2013V3.0, incl. Savage \u2014 exploration/battles",
+   "origin": "Soken; arr. of FFV \"Battle 2\"",
+   "patch": "4.1"
+  },
+  {
+   "n": 49,
+   "title": "Decisions",
+   "type": "Raid",
+   "where": "Omega: Deltascape V4.0 \u2014 Exdeath",
+   "origin": "Soken; arr. of FFV \"The Evil Lord Exdeath\"",
+   "patch": "4.1"
+  },
+  {
+   "n": 50,
+   "title": "Final, Not Final",
+   "type": "Raid",
+   "where": "Omega: Deltascape V4.0 (Savage) \u2014 Neo Exdeath, second half only (Savage)",
+   "origin": "Soken; arr. of FFV \"The Final Battle\"",
+   "patch": "4.1"
+  },
+  {
+   "n": 51,
+   "title": "Wizardly",
+   "type": "Dungeon",
+   "where": "Background music (per Fandom, \"the Cheap Dungeon\")",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 52,
+   "title": "Starlit Gateway",
+   "type": "Seasonal event",
+   "where": "Starlight Celebration (2017)",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 53,
+   "title": "Beauty's Wicked Wiles (Oasis Mix)",
+   "type": "Trial",
+   "where": "Original recording of \"Beauty's Wicked Wiles\" \u2014 does not actually play in-game",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 54,
+   "title": "Far From Home",
+   "type": "Instanced area",
+   "where": "Drowned City of Skalla",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 55,
+   "title": "Indomitable",
+   "type": "Field",
+   "where": "Settlements in The Ruby Sea, incl. Tamamizu and Sui-no-Sato",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 56,
+   "title": "Rival Wings",
+   "type": "PvP",
+   "where": "Astragalos \u2014 Rival Wings PvP",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 57,
+   "title": "Birds of Prey",
+   "type": "PvP",
+   "where": "Rival Wings PvP",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 58,
+   "title": "Forever in Flames",
+   "type": "Ultimate",
+   "where": "The Unending Coil of Bahamut \u2014 Phoenix revives the party before the final phase",
+   "origin": "Soken",
+   "patch": "4.2"
+  },
+  {
+   "n": 59,
+   "title": "Beyond Redemption",
+   "type": "Ultimate",
+   "where": "The Unending Coil of Bahamut \u2014 Bahamut Prime, final phase",
+   "origin": "Soken",
+   "patch": "4.2"
+  },
+  {
+   "n": 60,
+   "title": "Character Creation",
+   "type": "Quest & cutscene",
+   "where": "Return to Ivalice \u2014 various cutscenes",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 61,
+   "title": "Save / Load Screen",
+   "type": "Quest & cutscene",
+   "where": "Aboard the Prima Vista",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 62,
+   "title": "Protagonist's Theme",
+   "type": "Quest & cutscene",
+   "where": "Return to Ivalice \u2014 various cutscenes",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 63,
+   "title": "Background Story",
+   "type": "Quest & cutscene",
+   "where": "Return to Ivalice \u2014 various cutscenes",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 64,
+   "title": "Trisection",
+   "type": "Alliance raid",
+   "where": "The Royal City of Rabanastre \u2014 ambient",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 65,
+   "title": "Precipitous Combat",
+   "type": "Alliance raid",
+   "where": "The Royal City of Rabanastre \u2014 Mateus, Hashmal and Rofocale",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 66,
+   "title": "The Enemy Approaches",
+   "type": "Alliance raid",
+   "where": "The Royal City of Rabanastre \u2014 Argath Thadalfus' introduction",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 67,
+   "title": "Ultima's Transformation",
+   "type": "Alliance raid",
+   "where": "The Royal City of Rabanastre \u2014 Argath fight; Orbonne Monastery \u2014 Ultima, first half",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 68,
+   "title": "Victory",
+   "type": "Jingle",
+   "where": "The Royal City of Rabanastre \u2014 completion fanfare",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 69,
+   "title": "Down Where Daemons Dwell",
+   "type": "Dungeon",
+   "where": "Hells' Lid",
+   "origin": "Soken",
+   "patch": "4.0"
+  },
+  {
+   "n": 70,
+   "title": "Iroha",
+   "type": "Instanced area",
+   "where": "Reisen Temple",
+   "origin": "Arrangement \u2014 FFXI",
+   "patch": "4.0"
+  },
+  {
+   "n": 71,
+   "title": "Answer on High",
+   "type": "Trial",
+   "where": "Byakko, Suzaku and Seiryu, first half (each duty's normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.3"
+  },
+  {
+   "n": 72,
+   "title": "Todoroki",
+   "type": "Trial",
+   "where": "The Jade Stoa \u2014 Byakko, transition phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.3"
+  },
+  {
+   "n": 73,
+   "title": "Amatsu Kaze",
+   "type": "Trial",
+   "where": "The Jade Stoa \u2014 Byakko, second half (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.3"
+  },
+  {
+   "n": 74,
+   "title": "Keepers of the Lock",
+   "type": "Dungeon",
+   "where": "Castellum Velodyna, after the Ananta take over",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 75,
+   "title": "Unbreakable (Duality)",
+   "type": "Dungeon",
+   "where": "Fractal Continuum (Hard)",
+   "origin": "Soken; vocals Fox, Soken & Koji Shirasugi",
+   "patch": "4.1"
+  },
+  {
+   "n": 76,
+   "title": "The Phantom Train to Sigmascape",
+   "type": "Raid",
+   "where": "Omega: Sigmascape V1.0 \u2014 introduction",
+   "origin": "Soken; arr. of FFVI \"The Phantom Train\"",
+   "patch": "4.2"
+  },
+  {
+   "n": 77,
+   "title": "A Battle Decisively",
+   "type": "Raid",
+   "where": "Omega: Sigmascape V1.0\u2013V3.0, incl. Savage",
+   "origin": "Soken; arr. of FFVI \"The Decisive Battle\"",
+   "patch": "4.2"
+  },
+  {
+   "n": 78,
+   "title": "Dancing Mad - Movement I",
+   "type": "Raid",
+   "where": "Omega: Sigmascape V4.0, incl. Savage \u2014 Kefka, first phase",
+   "origin": "Soken; arr. of FFVI \"Dancing Mad\"",
+   "patch": "4.2"
+  },
+  {
+   "n": 79,
+   "title": "Dancing Mad - Movement II",
+   "type": "Raid",
+   "where": "Omega: Sigmascape V4.0, incl. Savage \u2014 Kefka, second phase",
+   "origin": "Soken; arr. of FFVI \"Dancing Mad\"",
+   "patch": "4.2"
+  },
+  {
+   "n": 80,
+   "title": "Dancing Mad - Movement III",
+   "type": "Raid",
+   "where": "Omega: Sigmascape V4.0, incl. Savage \u2014 Kefka, third phase",
+   "origin": "Soken; arr. of FFVI \"Dancing Mad\"",
+   "patch": "4.2"
+  },
+  {
+   "n": 81,
+   "title": "Dancing Mad - Movement IV",
+   "type": "Raid",
+   "where": "Omega: Sigmascape V4.0 (Savage) \u2014 Kefka, fourth phase only (Savage)",
+   "origin": "Soken; arr. of FFVI \"Dancing Mad\"",
+   "patch": "4.2"
+  },
+  {
+   "n": 82,
+   "title": "Wicked Winds Whisper",
+   "type": "Field",
+   "where": "Eureka Anemos",
+   "origin": "Soken",
+   "patch": "4.25"
+  },
+  {
+   "n": 83,
+   "title": "Magicked Skulls",
+   "type": "Field battle",
+   "where": "Standard enemy encounters in Eureka",
+   "origin": "Soken",
+   "patch": "4.25"
+  },
+  {
+   "n": 84,
+   "title": "No Quarter",
+   "type": "Field battle",
+   "where": "Notorious Monster encounters in Eureka",
+   "origin": "Soken; from 1.0",
+   "patch": "4.25"
+  },
+  {
+   "n": 85,
+   "title": "Siren Song",
+   "type": "Seasonal event",
+   "where": "Little Ladies' Day (2018)",
+   "origin": "Soken",
+   "patch": "4.2"
+  },
+  {
+   "n": 86,
+   "title": "Pa-Paya Demastered",
+   "type": "Seasonal event",
+   "where": "Hatching-Tide (2018)",
+   "origin": "Soken",
+   "patch": "4.1"
+  },
+  {
+   "n": 87,
+   "title": "Seven Hundred Seventy-Seven Whiskers",
+   "type": "Tribal quest",
+   "where": "Namazu beast tribe theme",
+   "origin": "Soken",
+   "patch": "4.2"
+  },
+  {
+   "n": 88,
+   "title": "Wasshoi, Wasshoi!",
+   "type": "Travel & mounts",
+   "where": "Riding a Namazu mount",
+   "origin": "Soken",
+   "patch": "4.2"
+  },
+  {
+   "n": 89,
+   "title": "Dangertek",
+   "type": "Dungeon",
+   "where": "The Shifting Altars of Uznair",
+   "origin": "Soken",
+   "patch": "4.3"
+  },
+  {
+   "n": 90,
+   "title": "Earth, Wind, and Water",
+   "type": "Dungeon",
+   "where": "The Swallow's Compass",
+   "origin": "Soken",
+   "patch": "4.3"
+  },
+  {
+   "n": 91,
+   "title": "Fallen Angel (From Astral to Umbral)",
+   "type": "Raid",
+   "where": "The Weapon's Refrain \u2014 Garuda, first phase",
+   "origin": "Soken; from 2.0",
+   "patch": "4.01"
+  },
+  {
+   "n": 92,
+   "title": "Primal Judgment (From Astral to Umbral)",
+   "type": "Raid",
+   "where": "The Weapon's Refrain \u2014 Ifrit, second phase",
+   "origin": "Soken; from 2.0",
+   "patch": "4.01"
+  },
+  {
+   "n": 93,
+   "title": "Under the Weight (From Astral to Umbral)",
+   "type": "Raid",
+   "where": "The Weapon's Refrain \u2014 Titan, third phase; also reused for Titan Maximum in Eden's Verse: Sepulture Savage",
+   "origin": "Soken; from 2.0",
+   "patch": "4.01"
+  },
+  {
+   "n": 94,
+   "title": "Ultima (Orchestral Version)",
+   "type": "Raid",
+   "where": "The Weapon's Refrain \u2014 The Ultima Weapon, final phase",
+   "origin": "Soken; from 2.0",
+   "patch": "4.01"
+  },
+  {
+   "n": 95,
+   "title": "World Map",
+   "type": "Quest & cutscene",
+   "where": "Return to Ivalice \u2014 various cutscenes",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.1"
+  },
+  {
+   "n": 96,
+   "title": "A Chapel",
+   "type": "Quest & cutscene",
+   "where": "Return to Ivalice \u2014 various cutscenes",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.2"
+  },
+  {
+   "n": 97,
+   "title": "Ascent",
+   "type": "Alliance raid",
+   "where": "Ridorana Lighthouse \u2014 ambient",
+   "origin": "Arrangement \u2014 FFXII",
+   "patch": "4.2"
+  },
+  {
+   "n": 98,
+   "title": "Boss Battle",
+   "type": "Alliance raid",
+   "where": "Ridorana Lighthouse \u2014 Famfrit and Belias",
+   "origin": "Arrangement \u2014 FFXII",
+   "patch": "4.2"
+  },
+  {
+   "n": 99,
+   "title": "The Mystery of Giruvegan",
+   "type": "Alliance raid",
+   "where": "Ridorana Lighthouse \u2014 ambient, after defeating Belias",
+   "origin": "Arrangement \u2014 FFXII",
+   "patch": "4.2"
+  },
+  {
+   "n": 100,
+   "title": "Apoplexy",
+   "type": "Alliance raid",
+   "where": "Ridorana Lighthouse \u2014 Construct 7",
+   "origin": "Arrangement \u2014 FFT",
+   "patch": "4.2"
+  },
+  {
+   "n": 101,
+   "title": "Flash of Steel",
+   "type": "Alliance raid",
+   "where": "Ridorana Lighthouse \u2014 Yiazmat",
+   "origin": "Arrangement \u2014 FFXII",
+   "patch": "4.2"
+  },
+  {
+   "n": 102,
+   "title": "Victory Fanfare (FFXII Version)",
+   "type": "Jingle",
+   "where": "Ridorana Lighthouse \u2014 completion fanfare",
+   "origin": "Arrangement \u2014 FFXII",
+   "patch": "4.2"
+  },
+  {
+   "n": 103,
+   "title": "Nightbloom",
+   "type": "Trial",
+   "where": "Castrum Fluminis \u2014 Tsukuyomi, first phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 104,
+   "title": "Lunacy",
+   "type": "Trial",
+   "where": "Castrum Fluminis \u2014 Tsukuyomi, second phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 105,
+   "title": "Wayward Daughter",
+   "type": "Trial",
+   "where": "Castrum Fluminis \u2014 Tsukuyomi, third phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.4"
+  }
+ ]
+}

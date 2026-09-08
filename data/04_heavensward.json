@@ -1,0 +1,473 @@
+{
+ "order": 4,
+ "album": "Heavensward",
+ "full": "Heavensward: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2016,
+ "covers": "Patches 3.0 \u2013 3.1",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Heavensward",
+   "type": "Credits & theme",
+   "where": "Opening movie and trailers; main theme",
+   "origin": "Soken; vocals Omega Bone",
+   "patch": "3.0"
+  },
+  {
+   "n": 2,
+   "title": "A Cold Wind",
+   "type": "Title & menu",
+   "where": "Title screen",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 3,
+   "title": "Solid",
+   "type": "City",
+   "where": "Ishgard: Foundation, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 4,
+   "title": "Against the Wind",
+   "type": "Field",
+   "where": "Coerthas Western Highlands, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 5,
+   "title": "Melt",
+   "type": "Field battle",
+   "where": "Battles in the Ishgard region",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 6,
+   "title": "Descent",
+   "type": "Dungeon",
+   "where": "The Dusk Vigil",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 7,
+   "title": "Ominous Prognisticks",
+   "type": "Boss battle",
+   "where": "Final bosses of most Heavensward-era dungeons",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 8,
+   "title": "Black and White",
+   "type": "Field",
+   "where": "Coerthas Western Highlands, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 9,
+   "title": "Nobility Sleeps",
+   "type": "City",
+   "where": "Ishgard: The Pillars, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 10,
+   "title": "Borderless",
+   "type": "Travel & mounts",
+   "where": "Flying mounts without their own theme",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 11,
+   "title": "Shelter",
+   "type": "Field",
+   "where": "Camp Cloudtop and other Heavensward settlements",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 12,
+   "title": "Lost in the Clouds",
+   "type": "Field",
+   "where": "The Sea of Clouds, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 13,
+   "title": "Coming Home",
+   "type": "Field",
+   "where": "Ok' Zundu (Vanu Vanu) and Helix in Azys Lla",
+   "origin": "Takada",
+   "patch": "3.0"
+  },
+  {
+   "n": 14,
+   "title": "Like a Summer Rain",
+   "type": "Dungeon",
+   "where": "Neverreap",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 15,
+   "title": "Close to the Heavens",
+   "type": "Field",
+   "where": "The Sea of Clouds, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 16,
+   "title": "Jewel",
+   "type": "Field",
+   "where": "The Diadem",
+   "origin": "Soken",
+   "patch": "3.1"
+  },
+  {
+   "n": 17,
+   "title": "For the Sky",
+   "type": "Quest & cutscene",
+   "where": "Cutscenes and instanced missions",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 18,
+   "title": "Safety in Numbers",
+   "type": "Field",
+   "where": "Moghome in the Churning Mists",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 19,
+   "title": "Painted Foothills",
+   "type": "Field",
+   "where": "The Dravanian Forelands, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 20,
+   "title": "The Hand that Gives the Rose",
+   "type": "Trial",
+   "where": "Thok ast Thok \u2014 Ravana, phase 1",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 21,
+   "title": "Unbending Steel",
+   "type": "Trial",
+   "where": "Thok ast Thok \u2014 Ravana, phase 2",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 22,
+   "title": "Painted Skies",
+   "type": "Field",
+   "where": "The Dravanian Forelands, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 23,
+   "title": "Slumber Eternal",
+   "type": "Dungeon",
+   "where": "Sohm Al",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 24,
+   "title": "Landlords",
+   "type": "Field",
+   "where": "The Churning Mists, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 25,
+   "title": "What is Love?",
+   "type": "Quest & cutscene",
+   "where": "Moogle scenes at Moghome",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 26,
+   "title": "Roar of the Wyrm",
+   "type": "Dungeon",
+   "where": "The Aery",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 27,
+   "title": "Skylords",
+   "type": "Field",
+   "where": "The Churning Mists, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 28,
+   "title": "Contention",
+   "type": "Field",
+   "where": "Zenith in the Churning Mists; later Nidhogg's Eyes in DSR",
+   "origin": "Uematsu; arr. of Heavensward theme",
+   "patch": "3.0"
+  },
+  {
+   "n": 29,
+   "title": "Nobility Obliges",
+   "type": "City",
+   "where": "Ishgard: The Pillars, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 30,
+   "title": "Hallowed Halls",
+   "type": "Dungeon",
+   "where": "The Vault",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 31,
+   "title": "The Heavens' Ward",
+   "type": "Boss battle",
+   "where": "Ser Charibert in the Vault; Heavens' Ward theme",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 32,
+   "title": "Night in the Brume",
+   "type": "City",
+   "where": "Ishgard: Foundation, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 33,
+   "title": "Heavy Rain",
+   "type": "Field",
+   "where": "Vundu territory in the Sea of Clouds",
+   "origin": "Takada",
+   "patch": "3.0"
+  },
+  {
+   "n": 34,
+   "title": "Limitless Blue",
+   "type": "Trial",
+   "where": "The Limitless Blue \u2014 Bismarck, phase 1",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 35,
+   "title": "Woe that Is Madness",
+   "type": "Trial",
+   "where": "The Limitless Blue \u2014 Bismarck, phase 2",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 36,
+   "title": "Misconception",
+   "type": "Quest & cutscene",
+   "where": "Zenith scenes revealing the truth of the Dragonsong War",
+   "origin": "Uematsu",
+   "patch": "3.0"
+  },
+  {
+   "n": 37,
+   "title": "Missing Pages",
+   "type": "Field",
+   "where": "The Dravanian Hinterlands, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 38,
+   "title": "Paradise Found",
+   "type": "City",
+   "where": "Idyllshire, day",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 39,
+   "title": "The Mushroomery",
+   "type": "Field",
+   "where": "Matoya's Cave",
+   "origin": "Uematsu; arr. of FFI 'Matoya's Cave'",
+   "patch": "3.0"
+  },
+  {
+   "n": 40,
+   "title": "Ink Long Dry",
+   "type": "Dungeon",
+   "where": "The Great Gubal Library",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 41,
+   "title": "Homestead",
+   "type": "City",
+   "where": "Idyllshire, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 42,
+   "title": "The Silent Regard of Stars",
+   "type": "Field",
+   "where": "The Dravanian Hinterlands, night",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 43,
+   "title": "Poison Ivy",
+   "type": "Dungeon",
+   "where": "Saint Mocianne's Arboretum",
+   "origin": "Soken",
+   "patch": "3.1"
+  },
+  {
+   "n": 44,
+   "title": "Upon the Rocks",
+   "type": "Dungeon",
+   "where": "Pharos Sirius (Hard)",
+   "origin": "Soken",
+   "patch": "3.1"
+  },
+  {
+   "n": 45,
+   "title": "Aetherpause",
+   "type": "Alliance raid",
+   "where": "The Void Ark \u2014 ambient",
+   "origin": "Soken",
+   "patch": "3.1"
+  },
+  {
+   "n": 46,
+   "title": "In Darkness, There Is One",
+   "type": "Alliance raid",
+   "where": "The Void Ark \u2014 battles",
+   "origin": "Soken",
+   "patch": "3.1"
+  },
+  {
+   "n": 47,
+   "title": "Voidal Manifest",
+   "type": "Alliance raid",
+   "where": "The Void Ark \u2014 bosses",
+   "origin": "Soken",
+   "patch": "3.1"
+  },
+  {
+   "n": 48,
+   "title": "Stone and Steel",
+   "type": "Quest & cutscene",
+   "where": "Major story cutscenes",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 49,
+   "title": "Order Yet Undeciphered",
+   "type": "Field",
+   "where": "Azys Lla",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 50,
+   "title": "Unbreakable",
+   "type": "Dungeon",
+   "where": "The Fractal Continuum",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 51,
+   "title": "Imagination",
+   "type": "Dungeon",
+   "where": "The Aetherochemical Research Facility",
+   "origin": "Soken; arr. of Heavensward theme",
+   "patch": "3.0"
+  },
+  {
+   "n": 52,
+   "title": "Heroes Never Die",
+   "type": "Trial",
+   "where": "The Minstrel's Ballad: Thordan's Reign (Extreme)",
+   "origin": "Soken",
+   "patch": "3.01"
+  },
+  {
+   "n": 53,
+   "title": "Heroes",
+   "type": "Trial",
+   "where": "The Singularity Reactor \u2014 King Thordan",
+   "origin": "Soken",
+   "patch": "3.0"
+  },
+  {
+   "n": 54,
+   "title": "Inception",
+   "type": "Quest & cutscene",
+   "where": "First arrival in Ishgard",
+   "origin": "Soken; arr. of Heavensward theme",
+   "patch": "3.0"
+  },
+  {
+   "n": 55,
+   "title": "Dragonsong",
+   "type": "Credits & theme",
+   "where": "3.0 ending credits",
+   "origin": "Uematsu; vocals Susan Calloway",
+   "patch": "3.0"
+  },
+  {
+   "n": 56,
+   "title": "Sins of the Father, Sins of the Son",
+   "type": "Raid",
+   "where": "Alexander: Gordias \u2014 cutscenes",
+   "origin": "Soken",
+   "patch": "3.01"
+  },
+  {
+   "n": 57,
+   "title": "Locus",
+   "type": "Raid",
+   "where": "Alexander: Gordias \u2014 bosses, other than the tier's final boss",
+   "origin": "Soken",
+   "patch": "3.01"
+  },
+  {
+   "n": 58,
+   "title": "Metal",
+   "type": "Raid",
+   "where": "Alexander: Gordias \u2014 the tier's final boss, the Manipulator; also Onslaughter in Midas and Refurbisher 0 in Creator",
+   "origin": "Soken",
+   "patch": "3.01"
+  }
+ ]
+}

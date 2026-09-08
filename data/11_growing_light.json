@@ -1,0 +1,753 @@
+{
+ "order": 11,
+ "album": "Growing Light",
+ "full": "GROWING LIGHT: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2024,
+ "covers": "Patches 6.1 \u2013 6.55",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "One among Wonders",
+   "type": "Instanced area",
+   "where": "The Omphalos",
+   "origin": "New",
+   "patch": "6.1"
+  },
+  {
+   "n": 2,
+   "title": "Pilgrimage",
+   "type": "Alliance raid",
+   "where": "Aglaia \u2014 field theme",
+   "origin": "New",
+   "patch": "6.1"
+  },
+  {
+   "n": 3,
+   "title": "Radiance",
+   "type": "Alliance raid",
+   "where": "Aglaia \u2014 boss theme",
+   "origin": "New",
+   "patch": "6.1"
+  },
+  {
+   "n": 4,
+   "title": "In the Balance",
+   "type": "Alliance raid",
+   "where": "Aglaia \u2014 final boss",
+   "origin": "New",
+   "patch": "6.1"
+  },
+  {
+   "n": 5,
+   "title": "Ink Long Dry (Journeys)",
+   "type": "Instanced area",
+   "where": "Old Sharlayan's forbidden archive",
+   "origin": "New arrangement",
+   "patch": "6.1"
+  },
+  {
+   "n": 6,
+   "title": "The Map Unfolds",
+   "type": "Dungeon",
+   "where": "Alzadaal's Legacy",
+   "origin": "New",
+   "patch": "6.1"
+  },
+  {
+   "n": 7,
+   "title": "Hippo Ridin'",
+   "type": "Tribal quest",
+   "where": "Hippo Riders (Matanga) quests",
+   "origin": "New",
+   "patch": "6.15"
+  },
+  {
+   "n": 8,
+   "title": "Troian Beauty (Endwalker)",
+   "type": "Dungeon",
+   "where": "The Fell Court of Troia",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.2"
+  },
+  {
+   "n": 9,
+   "title": "FINAL FANTASY IV: Battle 2 (Endwalker)",
+   "type": "Dungeon",
+   "where": "Post-Endwalker dungeon final bosses",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.2"
+  },
+  {
+   "n": 10,
+   "title": "Somewhere in the World (Ambitions Writhe)",
+   "type": "Cutscene",
+   "where": "The Thirteenth; Golbez scenes",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.2"
+  },
+  {
+   "n": 11,
+   "title": "Battle with the Four Fiends (Buried Memory)",
+   "type": "Trial",
+   "where": "Storm's Crown \u2014 Barbariccia",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.2"
+  },
+  {
+   "n": 12,
+   "title": "To the Sun (From Astral to Umbral)",
+   "type": "Variant dungeon",
+   "where": "The Sil'dihn Subterrane",
+   "origin": "New arrangement",
+   "patch": "6.25"
+  },
+  {
+   "n": 13,
+   "title": "On Blade's Edge",
+   "type": "Dungeon",
+   "where": "Endwalker mid-dungeon bosses",
+   "origin": "From Endwalker OST",
+   "patch": "6.0"
+  },
+  {
+   "n": 14,
+   "title": "Finality",
+   "type": "Dungeon",
+   "where": "Endwalker dungeon final bosses",
+   "origin": "From Endwalker OST",
+   "patch": "6.0"
+  },
+  {
+   "n": 15,
+   "title": "Heroes Forge Ahead",
+   "type": "Story battle",
+   "where": "Sage and Reaper quests; heroic scenes",
+   "origin": "From Endwalker OST",
+   "patch": "6.0"
+  },
+  {
+   "n": 16,
+   "title": "Desert Sun",
+   "type": "Criterion dungeon",
+   "where": "Another Sil'dihn Subterrane",
+   "origin": "Arrangement \u2014 Twilight Over Thanalan (1.0)",
+   "patch": "6.25"
+  },
+  {
+   "n": 17,
+   "title": "A Quiet Moment",
+   "type": "Island Sanctuary",
+   "where": "Home Sweet Hideaway",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 18,
+   "title": "Island Paradise",
+   "type": "Island Sanctuary",
+   "where": "Island Sanctuary main theme",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 19,
+   "title": "Subterranean Sanctuary",
+   "type": "Island Sanctuary",
+   "where": "Island Sanctuary caves",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 20,
+   "title": "Cradle of Hope",
+   "type": "Tribal quest",
+   "where": "Omicron quests",
+   "origin": "New",
+   "patch": "6.25"
+  },
+  {
+   "n": 21,
+   "title": "Silent Scream",
+   "type": "Raid",
+   "where": "Abyssos: The Fifth Circle",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 22,
+   "title": "Scream",
+   "type": "Raid",
+   "where": "Abyssos: The Sixth and Seventh Circles",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 23,
+   "title": "Embers",
+   "type": "Raid",
+   "where": "Abyssos: The Eighth Circle",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 24,
+   "title": "White Stone Black",
+   "type": "Raid",
+   "where": "Abyssos: The Eighth Circle (Savage), phase 2",
+   "origin": "New",
+   "patch": "6.2"
+  },
+  {
+   "n": 25,
+   "title": "Warming Up",
+   "type": "PvP",
+   "where": "Crystalline Conflict \u2014 pre-match",
+   "origin": "New",
+   "patch": "6.1"
+  },
+  {
+   "n": 26,
+   "title": "Festival of the Hunt (Endwalker)",
+   "type": "PvP",
+   "where": "Crystalline Conflict \u2014 combat",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "6.1"
+  },
+  {
+   "n": 27,
+   "title": "Run! (Endwalker)",
+   "type": "PvP",
+   "where": "Crystalline Conflict \u2014 overtime",
+   "origin": "Arrangement \u2014 FFIX",
+   "patch": "6.1"
+  },
+  {
+   "n": 28,
+   "title": "The Heavens' Ward",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 first Adelphel / Grinnaux / Charibert",
+   "origin": "From Heavensward",
+   "patch": "6.11"
+  },
+  {
+   "n": 29,
+   "title": "Heroes",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 Thordan and the Heavens' Ward",
+   "origin": "From Heavensward",
+   "patch": "6.11"
+  },
+  {
+   "n": 30,
+   "title": "Freefall",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 Nidhogg",
+   "origin": "From The Far Edge of Fate",
+   "patch": "6.11"
+  },
+  {
+   "n": 31,
+   "title": "Contention",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 Nidhogg's Eyes",
+   "origin": "From Heavensward",
+   "patch": "6.11"
+  },
+  {
+   "n": 32,
+   "title": "Hallowed Halls",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 second Adelphel / Grinnaux / Charibert",
+   "origin": "From Heavensward",
+   "patch": "6.11"
+  },
+  {
+   "n": 33,
+   "title": "Heavensward",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 Dark King Thordan",
+   "origin": "From Heavensward",
+   "patch": "6.11"
+  },
+  {
+   "n": 34,
+   "title": "Dragonsong",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 Nidhogg and Hraesvelgr",
+   "origin": "From Heavensward",
+   "patch": "6.11"
+  },
+  {
+   "n": 35,
+   "title": "Primogenitor",
+   "type": "Cutscene",
+   "where": "Vrtra, Azdaja and other dragon scenes",
+   "origin": "From Before the Fall / Far Edge of Fate",
+   "patch": "6.11"
+  },
+  {
+   "n": 36,
+   "title": "Revenge Twofold (Orchestral Version)",
+   "type": "Ultimate",
+   "where": "Dragonsong's Reprise \u2014 Dragon-king Thordan",
+   "origin": "New arrangement",
+   "patch": "6.11"
+  },
+  {
+   "n": 37,
+   "title": "Favor",
+   "type": "Alliance raid",
+   "where": "Euphrosyne \u2014 field theme",
+   "origin": "New",
+   "patch": "6.3"
+  },
+  {
+   "n": 38,
+   "title": "Rhythm of the Realm",
+   "type": "Alliance raid",
+   "where": "Euphrosyne \u2014 boss theme",
+   "origin": "New",
+   "patch": "6.3"
+  },
+  {
+   "n": 39,
+   "title": "Dedicated to Moonlight",
+   "type": "Alliance raid",
+   "where": "Euphrosyne \u2014 final boss",
+   "origin": "New",
+   "patch": "6.3"
+  },
+  {
+   "n": 40,
+   "title": "Dreamwalker",
+   "type": "Tribal quest",
+   "where": "Loporrit quests",
+   "origin": "New",
+   "patch": "6.35"
+  },
+  {
+   "n": 41,
+   "title": "Inexorable",
+   "type": "Story battle",
+   "where": "The instanced fight against Zero",
+   "origin": "New",
+   "patch": "6.3"
+  },
+  {
+   "n": 42,
+   "title": "Deep Blue",
+   "type": "Dungeon",
+   "where": "Lapis Manalis",
+   "origin": "New",
+   "patch": "6.3"
+  },
+  {
+   "n": 43,
+   "title": "Forged in Crimson",
+   "type": "Trial",
+   "where": "Mount Ordeals \u2014 Golbez",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.3"
+  },
+  {
+   "n": 44,
+   "title": "Forbidden Land (Endwalker)",
+   "type": "Deep dungeon",
+   "where": "Eureka Orthos \u2014 ambient",
+   "origin": "Arrangement \u2014 FFIII",
+   "patch": "6.35"
+  },
+  {
+   "n": 45,
+   "title": "Equilibrium (Pulse)",
+   "type": "Deep dungeon",
+   "where": "Eureka Orthos \u2014 ambient",
+   "origin": "Arrangement \u2014 Sophia's theme",
+   "patch": "6.35"
+  },
+  {
+   "n": 46,
+   "title": "Oblivion (Pulse)",
+   "type": "Deep dungeon",
+   "where": "Eureka Orthos \u2014 ambient",
+   "origin": "Arrangement \u2014 Shiva's theme",
+   "patch": "6.35"
+  },
+  {
+   "n": 47,
+   "title": "A Long Fall (Pulse)",
+   "type": "Deep dungeon",
+   "where": "Eureka Orthos \u2014 ambient",
+   "origin": "Arrangement \u2014 The Twinning",
+   "patch": "6.35"
+  },
+  {
+   "n": 48,
+   "title": "'Neath Dark Waters (Pulse)",
+   "type": "Deep dungeon",
+   "where": "Eureka Orthos \u2014 ambient",
+   "origin": "Arrangement \u2014 The Tempest",
+   "patch": "6.35"
+  },
+  {
+   "n": 49,
+   "title": "Deltascape",
+   "type": "Ultimate",
+   "where": "The Omega Protocol \u2014 Omega",
+   "origin": "From Stormblood",
+   "patch": "6.31"
+  },
+  {
+   "n": 50,
+   "title": "Heartless",
+   "type": "Ultimate",
+   "where": "The Omega Protocol \u2014 Omega-M and Omega-F",
+   "origin": "From Shadowbringers",
+   "patch": "6.31"
+  },
+  {
+   "n": 51,
+   "title": "From the Heavens (Orchestral Version)",
+   "type": "Ultimate",
+   "where": "The Omega Protocol \u2014 Reconfigured and Damaged Omega",
+   "origin": "New arrangement",
+   "patch": "6.31"
+  },
+  {
+   "n": 52,
+   "title": "eScape",
+   "type": "Ultimate",
+   "where": "The Omega Protocol \u2014 Dynamis Omega-M and Omega-F",
+   "origin": "From Shadowbringers",
+   "patch": "6.31"
+  },
+  {
+   "n": 53,
+   "title": "Torn from the Heavens (Concert Version)",
+   "type": "Ultimate",
+   "where": "The Omega Protocol \u2014 Alpha Omega",
+   "origin": "New arrangement",
+   "patch": "6.31"
+  },
+  {
+   "n": 54,
+   "title": "Prelude Demastered",
+   "type": "Seasonal event",
+   "where": "Kupo Kupo Adventure \u2014 title screen",
+   "origin": "Arrangement \u2014 Prelude",
+   "patch": "6.45"
+  },
+  {
+   "n": 55,
+   "title": "The Land Reborn",
+   "type": "Seasonal event",
+   "where": "Kupo Kupo Adventure \u2014 battles",
+   "origin": "New arrangement",
+   "patch": "6.45"
+  },
+  {
+   "n": 56,
+   "title": "Pom from the Heavens",
+   "type": "Seasonal event",
+   "where": "Kupo Kupo Adventure \u2014 boss battles",
+   "origin": "New arrangement",
+   "patch": "6.45"
+  },
+  {
+   "n": 57,
+   "title": "A Victory Fanfare Demastered",
+   "type": "Seasonal event",
+   "where": "Kupo Kupo Adventure \u2014 completion",
+   "origin": "Arrangement \u2014 Victory Fanfare",
+   "patch": "6.45"
+  },
+  {
+   "n": 58,
+   "title": "Battle 2 from FINAL FANTASY III",
+   "type": "Gold Saucer",
+   "where": "Masked Carnivale stage 32, phase 1",
+   "origin": "From FFIII",
+   "patch": "6.45"
+  },
+  {
+   "n": 59,
+   "title": "Imperium",
+   "type": "Gold Saucer",
+   "where": "Masked Carnivale stage 32, phase 2",
+   "origin": "From Before Meteor",
+   "patch": "6.45"
+  },
+  {
+   "n": 60,
+   "title": "One Amongst the Weary",
+   "type": "Raid",
+   "where": "Anabaseios: The Ninth and Tenth Circles",
+   "origin": "New",
+   "patch": "6.4"
+  },
+  {
+   "n": 61,
+   "title": "Fleeting Moment",
+   "type": "Raid",
+   "where": "Anabaseios: The Eleventh Circle",
+   "origin": "New",
+   "patch": "6.4"
+  },
+  {
+   "n": 62,
+   "title": "Athena, the Tireless One",
+   "type": "Raid",
+   "where": "Anabaseios: The Twelfth Circle",
+   "origin": "New",
+   "patch": "6.4"
+  },
+  {
+   "n": 63,
+   "title": "Ultima's Perfection (Endwalker)",
+   "type": "Raid",
+   "where": "Anabaseios: The Twelfth Circle (Savage), phase 2",
+   "origin": "Arrangement \u2014 Final Fantasy Tactics",
+   "patch": "6.4"
+  },
+  {
+   "n": 64,
+   "title": "Crimson Sunset (Journeys)",
+   "type": "Variant dungeon",
+   "where": "Mount Rokkon",
+   "origin": "New arrangement",
+   "patch": "6.45"
+  },
+  {
+   "n": 65,
+   "title": "Looping in the Deepest Fringes",
+   "type": "Variant dungeon",
+   "where": "Mount Rokkon \u2014 mid-dungeon boss",
+   "origin": "From Stormblood",
+   "patch": "6.45"
+  },
+  {
+   "n": 66,
+   "title": "Storm of Blood",
+   "type": "Variant dungeon",
+   "where": "Mount Rokkon \u2014 final boss",
+   "origin": "From Stormblood",
+   "patch": "6.45"
+  },
+  {
+   "n": 67,
+   "title": "Triumph",
+   "type": "Criterion dungeon",
+   "where": "Another Mount Rokkon \u2014 final boss",
+   "origin": "From Stormblood",
+   "patch": "6.45"
+  },
+  {
+   "n": 68,
+   "title": "Crimson Rise",
+   "type": "Criterion dungeon",
+   "where": "Another Mount Rokkon",
+   "origin": "New",
+   "patch": "6.45"
+  },
+  {
+   "n": 69,
+   "title": "Starsbreath",
+   "type": "Dungeon",
+   "where": "The Aetherfont",
+   "origin": "New",
+   "patch": "6.4"
+  },
+  {
+   "n": 70,
+   "title": "Another Moon (Endwalker)",
+   "type": "Instanced area",
+   "where": "The Red Moon",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.4"
+  },
+  {
+   "n": 71,
+   "title": "Voidcast Savior",
+   "type": "Trial",
+   "where": "The Voidcast Dais \u2014 Golbez",
+   "origin": "New",
+   "patch": "6.4"
+  },
+  {
+   "n": 72,
+   "title": "Sorrow and Loss (Endwalker)",
+   "type": "Instanced area",
+   "where": "Zero's Domain",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.5"
+  },
+  {
+   "n": 73,
+   "title": "Kingdom of Baron (Endwalker)",
+   "type": "Dungeon",
+   "where": "The Lunar Subterrane",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.5"
+  },
+  {
+   "n": 74,
+   "title": "FINAL FANTASY IV: The Final Battle (Endwalker)",
+   "type": "Trial",
+   "where": "The Abyssal Fracture \u2014 Zeromus, phase 1",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.5"
+  },
+  {
+   "n": 75,
+   "title": "The Red Wings (Endwalker)",
+   "type": "Trial",
+   "where": "The Abyssal Fracture \u2014 Zeromus, phase 2",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.5"
+  },
+  {
+   "n": 76,
+   "title": "Tonitrua ex Machina",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 77,
+   "title": "Idylls of the Empire",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 78,
+   "title": "Forevermore \u2013 The Grand Duchy of Rosaria",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 79,
+   "title": "The State of the Realm",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 80,
+   "title": "Before the Storm \u2013 Caer Norvent",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 81,
+   "title": "Away (Refrain)",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 82,
+   "title": "To Sail Forbidden Seas",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 83,
+   "title": "Find the Flame",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event \u2014 Ifrit",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 84,
+   "title": "Who I Really Am",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 85,
+   "title": "Land of Eikons",
+   "type": "FFXVI crossover",
+   "where": "The Path Infernal event",
+   "origin": "Taken from FFXVI",
+   "patch": "6.58"
+  },
+  {
+   "n": 86,
+   "title": "O Speaker, Slumber",
+   "type": "Variant dungeon",
+   "where": "Aloalo Island",
+   "origin": "New",
+   "patch": "6.51"
+  },
+  {
+   "n": 87,
+   "title": "O Hunter, Rejoice",
+   "type": "Criterion dungeon",
+   "where": "Another Aloalo Island",
+   "origin": "New",
+   "patch": "6.51"
+  },
+  {
+   "n": 88,
+   "title": "Thus Spoke Master PuPu",
+   "type": "Side story",
+   "where": "Endwalker Hildibrand quests",
+   "origin": "New",
+   "patch": "6.15"
+  },
+  {
+   "n": 89,
+   "title": "Polygons of Inquiry",
+   "type": "Side story",
+   "where": "Brandihild's theme, Hildibrand quests",
+   "origin": "New",
+   "patch": "6.15"
+  },
+  {
+   "n": 90,
+   "title": "A Gentleman to Walk with Me",
+   "type": "Side story",
+   "where": "End of the Endwalker Hildibrand quests",
+   "origin": "New",
+   "patch": "6.55"
+  },
+  {
+   "n": 91,
+   "title": "Fair Winds to Guide",
+   "type": "Alliance raid",
+   "where": "Thaleia \u2014 field theme",
+   "origin": "New",
+   "patch": "6.5"
+  },
+  {
+   "n": 92,
+   "title": "Course Uncharted",
+   "type": "Alliance raid",
+   "where": "Thaleia \u2014 Thaliak, Llymlaen and Oschon",
+   "origin": "New",
+   "patch": "6.5"
+  },
+  {
+   "n": 93,
+   "title": "Myths of the Realm",
+   "type": "Alliance raid",
+   "where": "Thaleia \u2014 Eulogia, final boss",
+   "origin": "New",
+   "patch": "6.5"
+  }
+ ]
+}

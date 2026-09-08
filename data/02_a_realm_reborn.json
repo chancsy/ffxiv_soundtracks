@@ -1,0 +1,971 @@
+{
+ "order": 2,
+ "album": "A Realm Reborn",
+ "full": "A REALM REBORN: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2014,
+ "covers": "Patches 2.0 – 2.1",
+ "spotify": "3UcKmJyD3aWgwZ6OlQemJQ",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Prelude – Rebirth",
+   "type": "Title & menu",
+   "where": "Title screen",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 2,
+   "title": "Torn from the Heavens",
+   "type": "Field battle",
+   "where": "Major FATEs and S-rank hunt marks",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 3,
+   "title": "Prelude – Discoveries",
+   "type": "Title & menu",
+   "where": "Character select and creation",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 4,
+   "title": "A New Hope",
+   "type": "City",
+   "where": "Ul'dah, day",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 5,
+   "title": "To the Sun",
+   "type": "Field",
+   "where": "Thanalan medley",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 6,
+   "title": "The Land Burns",
+   "type": "Field battle",
+   "where": "Thanalan battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 7,
+   "title": "The Gift of Life",
+   "type": "Field",
+   "where": "Settlements and aetheryte camps",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 8,
+   "title": "Another Round",
+   "type": "City",
+   "where": "Adventurers' Guild and taverns",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 9,
+   "title": "Hard to Miss",
+   "type": "Field battle",
+   "where": "FATE battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 10,
+   "title": "Bo-down",
+   "type": "Travel & mounts",
+   "where": "Rental chocobo",
+   "origin": "Uematsu",
+   "patch": "2.0"
+  },
+  {
+   "n": 11,
+   "title": "Sultana Dreaming",
+   "type": "City",
+   "where": "Ul'dah, night",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 12,
+   "title": "Bliss",
+   "type": "Quest & cutscene",
+   "where": "Light-hearted cutscenes",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 13,
+   "title": "Fracture",
+   "type": "Quest & cutscene",
+   "where": "Tense cutscene moments",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 14,
+   "title": "Tenacity",
+   "type": "Guildleve",
+   "where": "Levequests",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 15,
+   "title": "Return of the Hero",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 16,
+   "title": "A World Apart",
+   "type": "Quest & cutscene",
+   "where": "Leaving your starting city-state",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 17,
+   "title": "I Am the Sea",
+   "type": "City",
+   "where": "Limsa Lominsa, day",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 18,
+   "title": "On Westerly Winds",
+   "type": "Field",
+   "where": "La Noscea medley",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 19,
+   "title": "The Land Breathes",
+   "type": "Field battle",
+   "where": "La Noscea battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 20,
+   "title": "Saltswept",
+   "type": "Field",
+   "where": "Settlements, notably Aleport",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 21,
+   "title": "Ruby Moonrise",
+   "type": "Field",
+   "where": "Costa del Sol variation",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 22,
+   "title": "Eorzea de Chocobo",
+   "type": "Travel & mounts",
+   "where": "Company chocobo",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 23,
+   "title": "A Sailor Never Sleeps",
+   "type": "City",
+   "where": "Limsa Lominsa, night",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 24,
+   "title": "Currents",
+   "type": "Field",
+   "where": "Settlements and aetheryte camps",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 25,
+   "title": "Brothers in Arms",
+   "type": "Guildleve",
+   "where": "Guildhests",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 26,
+   "title": "Wailers And Waterwheels",
+   "type": "City",
+   "where": "Gridania, day",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 27,
+   "title": "Serenity",
+   "type": "Field",
+   "where": "Black Shroud medley",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 28,
+   "title": "The Land Bends",
+   "type": "Field battle",
+   "where": "Black Shroud battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 29,
+   "title": "Reign of Pain",
+   "type": "Seasonal event",
+   "where": "Shantotto, 'Burgeoning Dread' event",
+   "origin": "Mizuta",
+   "patch": "2.0"
+  },
+  {
+   "n": 30,
+   "title": "The Rider's Boon",
+   "type": "Travel & mounts",
+   "where": "Non-chocobo mounts",
+   "origin": "Sekito",
+   "patch": "2.0"
+  },
+  {
+   "n": 31,
+   "title": "Dance of the Fireflies",
+   "type": "City",
+   "where": "Gridania, night",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 32,
+   "title": "Greenwrath",
+   "type": "Field",
+   "where": "Black Shroud areas",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 33,
+   "title": "From the Depths",
+   "type": "Dungeon",
+   "where": "Sastasha",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 34,
+   "title": "The Promise of Plunder",
+   "type": "Dungeon",
+   "where": "Low-level dungeon battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 35,
+   "title": "Slumber Disturbed",
+   "type": "Dungeon",
+   "where": "The Tam-Tara Deepcroft",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 36,
+   "title": "A Fine Death",
+   "type": "Dungeon",
+   "where": "Dungeon boss battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 37,
+   "title": "Below",
+   "type": "Dungeon",
+   "where": "Copperbell Mines",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 38,
+   "title": "Nemesis",
+   "type": "Dungeon",
+   "where": "Dungeon final bosses",
+   "origin": "Uematsu",
+   "patch": "2.0"
+  },
+  {
+   "n": 39,
+   "title": "A Victory Fanfare Reborn (Full)",
+   "type": "Jingle",
+   "where": "Clearing a dungeon",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 40,
+   "title": "The Waking Sands",
+   "type": "Instanced area",
+   "where": "The Waking Sands and the Rising Stones",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 41,
+   "title": "Smoulder",
+   "type": "Field",
+   "where": "Brotherhood of Ash encampment",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 42,
+   "title": "Pitfire",
+   "type": "Field",
+   "where": "Zahar'ak",
+   "origin": "Uematsu",
+   "patch": "2.0"
+  },
+  {
+   "n": 43,
+   "title": "One Blood",
+   "type": "Quest & cutscene",
+   "where": "Primal summoning",
+   "origin": "Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 44,
+   "title": "Primal Judgment",
+   "type": "Trial",
+   "where": "Ifrit, all versions",
+   "origin": "Uematsu",
+   "patch": "2.0"
+  },
+  {
+   "n": 45,
+   "title": "Calling",
+   "type": "Jingle",
+   "where": "Short cue",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 46,
+   "title": "Where the Heart Is",
+   "type": "City",
+   "where": "Residential districts, day",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 47,
+   "title": "Where the Hearth Is",
+   "type": "City",
+   "where": "Residential districts, night",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 48,
+   "title": "Battle Theme 1.x",
+   "type": "Field battle",
+   "where": "Instanced battles, FATEs, B-rank marks",
+   "origin": "Soken; arr. of FFII battle theme",
+   "patch": "2.0"
+  },
+  {
+   "n": 49,
+   "title": "Conundrum",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 50,
+   "title": "Agent of Inquiry",
+   "type": "Side story",
+   "where": "Hildibrand",
+   "origin": "Soken",
+   "patch": "2.1"
+  },
+  {
+   "n": 51,
+   "title": "The Ludus",
+   "type": "Dungeon",
+   "where": "Halatali",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 52,
+   "title": "Flibbertigibbet",
+   "type": "Field",
+   "where": "Little Solace",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 53,
+   "title": "A Curious Breed of Botherment",
+   "type": "Field",
+   "where": "The Sylphlands",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 54,
+   "title": "A Thousand Screams",
+   "type": "Dungeon",
+   "where": "The Thousand Maws of Toto-Rak",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 55,
+   "title": "My Soul to Keep",
+   "type": "Boss battle",
+   "where": "Lady Amandine, Haukke Manor",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 56,
+   "title": "From Fear to Fortitude",
+   "type": "Story battle",
+   "where": "Level 30 class quest battles",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 57,
+   "title": "The Maiden's Lament",
+   "type": "Dungeon",
+   "where": "Haukke Manor",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 58,
+   "title": "Ruby Sunrise",
+   "type": "Field",
+   "where": "Costa del Sol",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 59,
+   "title": "Lipflaps on Longstops",
+   "type": "Dungeon",
+   "where": "Brayflox's Longstop",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 60,
+   "title": "Echoes of Ages Past",
+   "type": "Dungeon",
+   "where": "The Sunken Temple of Qarn",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 61,
+   "title": "Abomination",
+   "type": "Dungeon",
+   "where": "Cutter's Cry",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 62,
+   "title": "Quick as Silver, Hard as Stone",
+   "type": "Field",
+   "where": "U'Ghamaro Mines",
+   "origin": "Mizuta",
+   "patch": "2.0"
+  },
+  {
+   "n": 63,
+   "title": "Weight of a Whisper",
+   "type": "Trial",
+   "where": "Titan, phase 1",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 64,
+   "title": "Weight of His Will",
+   "type": "Trial",
+   "where": "Titan, phase 2",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 65,
+   "title": "Weight of the World",
+   "type": "Trial",
+   "where": "Titan, phase 3",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 66,
+   "title": "Heartless",
+   "type": "Trial",
+   "where": "Titan, heart phase",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 67,
+   "title": "Under the Weight",
+   "type": "Trial",
+   "where": "Titan, main theme, all versions",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 68,
+   "title": "Forever Lost",
+   "type": "Quest & cutscene",
+   "where": "'A Royal Reception', 'A Mizzenmast Repast', 'Renewing the Covenant'",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 69,
+   "title": "Fealty",
+   "type": "Field",
+   "where": "Coerthas, day",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 70,
+   "title": "Undying Faith",
+   "type": "Field",
+   "where": "Small Coerthan settlements",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 71,
+   "title": "The Land Breaks",
+   "type": "Field battle",
+   "where": "Coerthas battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 72,
+   "title": "The Dragon's Dirge",
+   "type": "Field",
+   "where": "Camp Dragonhead",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 73,
+   "title": "Cold Salvation",
+   "type": "Dungeon",
+   "where": "The Stone Vigil",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 74,
+   "title": "The Darkhold",
+   "type": "Dungeon",
+   "where": "Dzemael Darkhold",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 75,
+   "title": "Miser's Folly",
+   "type": "Dungeon",
+   "where": "The Aurum Vale",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 76,
+   "title": "Thunderer",
+   "type": "Boss battle",
+   "where": "Behemoth, Lahabrea, Twintania",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 77,
+   "title": "Kiss of Chaos",
+   "type": "Quest & cutscene",
+   "where": "Ominous cutscenes; Halfstone",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 78,
+   "title": "Flightless Wings",
+   "type": "Field",
+   "where": "Natalan",
+   "origin": "Uematsu",
+   "patch": "2.0"
+  },
+  {
+   "n": 79,
+   "title": "Fleeting Rays",
+   "type": "Field",
+   "where": "The Burning Wall; Floating City of Nym",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 80,
+   "title": "Engage",
+   "type": "Travel & mounts",
+   "where": "Riding Cid's airship",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 81,
+   "title": "Damnation",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 82,
+   "title": "Fallen Angel",
+   "type": "Trial",
+   "where": "Garuda, all versions",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 83,
+   "title": "Frontiers Within",
+   "type": "City",
+   "where": "Revenant's Toll, day",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 84,
+   "title": "Reflections",
+   "type": "City",
+   "where": "Revenant's Toll, night",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 85,
+   "title": "Intertwined",
+   "type": "Field",
+   "where": "Mor Dhona",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 86,
+   "title": "The Land Bleeds",
+   "type": "Field battle",
+   "where": "Mor Dhona battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 87,
+   "title": "Crystal Rain",
+   "type": "Field",
+   "where": "Saint Coinach's Find",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 88,
+   "title": "Through the Gloom",
+   "type": "Dungeon",
+   "where": "Pharos Sirius",
+   "origin": "Soken",
+   "patch": "2.1"
+  },
+  {
+   "n": 89,
+   "title": "Slither",
+   "type": "Field",
+   "where": "Northern Thanalan",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 90,
+   "title": "Good King Moggle Mog XII",
+   "type": "Trial",
+   "where": "Good King Moggle Mog XII, all versions",
+   "origin": "Soken",
+   "patch": "2.1"
+  },
+  {
+   "n": 91,
+   "title": "A Tonberry's Tears",
+   "type": "Dungeon",
+   "where": "The Wanderer's Palace",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 92,
+   "title": "A Fell Air Falleth",
+   "type": "Dungeon",
+   "where": "Mid-level dungeon battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 93,
+   "title": "Cracks in the Wall",
+   "type": "Dungeon",
+   "where": "Amdapor Keep",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 94,
+   "title": "Skullduggery",
+   "type": "Story battle",
+   "where": "Some instanced battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 95,
+   "title": "Breaking Boundaries",
+   "type": "Story battle",
+   "where": "Level 50 job quest battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 96,
+   "title": "The Dark's Embrace",
+   "type": "Dungeon",
+   "where": "Hard-mode dungeons",
+   "origin": "Uematsu",
+   "patch": "2.1"
+  },
+  {
+   "n": 97,
+   "title": "The Dark's Kiss",
+   "type": "Dungeon",
+   "where": "Hard-mode dungeon battles",
+   "origin": "Uematsu",
+   "patch": "2.1"
+  },
+  {
+   "n": 98,
+   "title": "Hubris",
+   "type": "Alliance raid",
+   "where": "Crystal Tower: Labyrinth of the Ancients",
+   "origin": "Soken; arr. of FFIII 'The Altar Cave'",
+   "patch": "2.1"
+  },
+  {
+   "n": 99,
+   "title": "Ever Upwards",
+   "type": "Alliance raid",
+   "where": "Labyrinth of the Ancients — battles",
+   "origin": "Soken",
+   "patch": "2.1"
+  },
+  {
+   "n": 100,
+   "title": "Tumbling Down",
+   "type": "Alliance raid",
+   "where": "Labyrinth of the Ancients — Phlegethon and Xande",
+   "origin": "Soken; arr. of FFIII 'Battle 2'",
+   "patch": "2.1"
+  },
+  {
+   "n": 101,
+   "title": "Defender of the Realm",
+   "type": "Quest & cutscene",
+   "where": "Late main scenario cutscenes",
+   "origin": "Soken / Film Score",
+   "patch": "2.0"
+  },
+  {
+   "n": 102,
+   "title": "Machinations",
+   "type": "Field",
+   "where": "Northern Thanalan sanctuaries; the Wolves' Den",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 103,
+   "title": "Discordance",
+   "type": "Field",
+   "where": "Northern Thanalan near Castrum Meridianum",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 104,
+   "title": "The Emperor's Wont",
+   "type": "Dungeon",
+   "where": "Imperial castrums",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 105,
+   "title": "Beyond the Unknown",
+   "type": "Jingle",
+   "where": "Short cue",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 106,
+   "title": "The Only Path",
+   "type": "Quest & cutscene",
+   "where": "Short cue",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 107,
+   "title": "Penitus",
+   "type": "Dungeon",
+   "where": "The Praetorium",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 108,
+   "title": "Bite of the Black Wolf",
+   "type": "Boss battle",
+   "where": "Gaius van Baelsar",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 109,
+   "title": "The Maker's Ruin",
+   "type": "Trial",
+   "where": "The Ultima Weapon, phase 1",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 110,
+   "title": "Ultima",
+   "type": "Trial",
+   "where": "The Ultima Weapon, phase 2; 'Ultimate Ballad'",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 111,
+   "title": "Serving the Light",
+   "type": "Quest & cutscene",
+   "where": "'The Ultimate Weapon'",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 112,
+   "title": "Flight",
+   "type": "Quest & cutscene",
+   "where": "'The Ultimate Weapon'",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 113,
+   "title": "The Seventh Sun",
+   "type": "Credits & theme",
+   "where": "Credits",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 114,
+   "title": "Dawn of a New Era",
+   "type": "Credits & theme",
+   "where": "Credits",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 115,
+   "title": "And You! – A Realm Reborn Medley",
+   "type": "Credits & theme",
+   "where": "Credits",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 116,
+   "title": "The Corpse Hall",
+   "type": "Field battle",
+   "where": "'Steel Reign' FATE",
+   "origin": "Soken",
+   "patch": "2.1"
+  },
+  {
+   "n": 117,
+   "title": "Primal Timbre",
+   "type": "Raid",
+   "where": "The Binding Coil of Bahamut — exploration",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 118,
+   "title": "Spiral",
+   "type": "Raid",
+   "where": "The Binding Coil of Bahamut — battles",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 119,
+   "title": "Calamity Unbound",
+   "type": "Raid",
+   "where": "The Binding Coil of Bahamut — bosses",
+   "origin": "Soken",
+   "patch": "2.0"
+  },
+  {
+   "n": 120,
+   "title": "Battle on the Big Bridge Reborn",
+   "type": "Trial",
+   "where": "The Battle on the Big Bridge — Gilgamesh (hidden MP3, password 'gilgamesh')",
+   "origin": "Uematsu; arr. of FFV",
+   "patch": "2.1",
+   "bluray_only": true
+  }
+ ]
+}

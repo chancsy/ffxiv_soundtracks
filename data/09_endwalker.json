@@ -1,0 +1,515 @@
+{
+ "order": 9,
+ "album": "Endwalker",
+ "full": "ENDWALKER: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2022,
+ "covers": "Patch 6.0",
+ "spotify": "3oVyCVU76IRV2h3fQFIm1S",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Endwalker - Footfalls",
+   "type": "Credits & theme",
+   "where": "Title screen trailer cutscene; one of the expansion's main themes",
+   "origin": "Soken; vocals Sam Carter & Amanda Achen",
+   "patch": "6.0"
+  },
+  {
+   "n": 2,
+   "title": "Prelude - Tales",
+   "type": "Title & menu",
+   "where": "Title screen",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 3,
+   "title": "The Ewer Brimmeth",
+   "type": "City",
+   "where": "Old Sharlayan, day",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 4,
+   "title": "Spoken without End",
+   "type": "Quest & cutscene",
+   "where": "Scenes focused on exposition",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 5,
+   "title": "The Day Will Come (Endwalker)",
+   "type": "Instanced area",
+   "where": "Baldesion Annex area theme",
+   "origin": "Arrangement \u2014 FFV",
+   "patch": "6.0"
+  },
+  {
+   "n": 6,
+   "title": "The Nautilus Knoweth",
+   "type": "City",
+   "where": "Old Sharlayan, night",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 7,
+   "title": "The Labyrinth",
+   "type": "Field",
+   "where": "Labyrinthos, day",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 8,
+   "title": "Down the Up Staircase",
+   "type": "Field",
+   "where": "Settlements in Labyrinthos; originally The Antitower dungeon theme",
+   "origin": "Soken; from 3.2",
+   "patch": "3.2"
+  },
+  {
+   "n": 9,
+   "title": "Unbowed",
+   "type": "Field battle",
+   "where": "Endwalker standard battle theme",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 10,
+   "title": "Dreams of Man",
+   "type": "Field",
+   "where": "Labyrinthos, night",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 11,
+   "title": "Shade's Delight",
+   "type": "Quest & cutscene",
+   "where": "Lemures Headquarters in Ul'dah; humorous scenes",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 12,
+   "title": "Divine Words",
+   "type": "Field",
+   "where": "Thavnair, day",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 13,
+   "title": "Twilit Terraces",
+   "type": "City",
+   "where": "Radz-at-Han town theme during the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 14,
+   "title": "Tower of Zot (Endwalker)",
+   "type": "Dungeon",
+   "where": "The Tower of Zot",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.0"
+  },
+  {
+   "n": 15,
+   "title": "On Blade's Edge",
+   "type": "Boss battle",
+   "where": "Endwalker mid-dungeon boss theme",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 16,
+   "title": "Prayers Repeated",
+   "type": "Field",
+   "where": "Thavnair, night",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 17,
+   "title": "White Snow, Black Steel",
+   "type": "Field",
+   "where": "Garlemald, day",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 18,
+   "title": "Those We Can Yet Save",
+   "type": "Field",
+   "where": "Most settlements in Endwalker areas",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 19,
+   "title": "Home Beyond the Horizon",
+   "type": "Quest & cutscene",
+   "where": "Garlean radio anthem during the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 20,
+   "title": "Black Steel, Cold Embers",
+   "type": "Field",
+   "where": "Garlemald, night",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 21,
+   "title": "Tremble",
+   "type": "Boss battle",
+   "where": "Garlemald-era main scenario boss encounter",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 22,
+   "title": "Each Drop",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 23,
+   "title": "Garlemald Express",
+   "type": "Dungeon",
+   "where": "The Tower of Babil",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 24,
+   "title": "Finality",
+   "type": "Boss battle",
+   "where": "Endwalker end-of-dungeon boss theme",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 25,
+   "title": "One Small Step",
+   "type": "Field",
+   "where": "Mare Lamentorum",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 26,
+   "title": "Neath Dark Waters (Scions & Sinners)",
+   "type": "Instanced area",
+   "where": "The Watcher's Palace; scenes focused on the Ancients",
+   "origin": "Soken; piano arr. of Amaurot (5.0)",
+   "patch": "5.0"
+  },
+  {
+   "n": 27,
+   "title": "Endcaller",
+   "type": "Trial",
+   "where": "The Dark Inside \u2014 Zodiark",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 28,
+   "title": "Imagination (Duality)",
+   "type": "Quest & cutscene",
+   "where": "Scenes focused on Amon",
+   "origin": "Soken; piano arr. of The Aetherochemical Research Facility (3.0)",
+   "patch": "3.0"
+  },
+  {
+   "n": 29,
+   "title": "Welcome to Our Town! (Endwalker)",
+   "type": "Field",
+   "where": "Bestways Burrow",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.0"
+  },
+  {
+   "n": 30,
+   "title": "Battle 1 from FINAL FANTASY IV",
+   "type": "Field battle",
+   "where": "Bestways Burrow battles",
+   "origin": "Arrangement \u2014 FFIV",
+   "patch": "6.0"
+  },
+  {
+   "n": 31,
+   "title": "What Comes of Despair",
+   "type": "Quest & cutscene",
+   "where": "Scenes of overwhelming despair \u2014 the Final Days in Thavnair; Meteion",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 32,
+   "title": "As the Sky Burns",
+   "type": "Dungeon",
+   "where": "Vanaspati; also the Thavnair field theme during the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 33,
+   "title": "Heroes Forge Ahead",
+   "type": "Story battle",
+   "where": "Sage and Reaper job quest instanced battles; heroic scenes",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 34,
+   "title": "Sky Unsundered",
+   "type": "Field",
+   "where": "Elpis, day",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 35,
+   "title": "Flow Together",
+   "type": "Story battle",
+   "where": "\"Worthy of His Back\" \u2014 Venat",
+   "origin": "Soken; vocals Amanda Achen",
+   "patch": "6.0"
+  },
+  {
+   "n": 36,
+   "title": "Miracle Works",
+   "type": "Dungeon",
+   "where": "Ktisis Hyperboreia",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 37,
+   "title": "Stars Long Dead",
+   "type": "Field",
+   "where": "Elpis, night",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 38,
+   "title": "From Below",
+   "type": "Story battle",
+   "where": "Thancred's solo mission \"A Frosty Reception\"; Labyrinthos field theme for late main scenario quests",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 39,
+   "title": "From the Ashes",
+   "type": "Quest & cutscene",
+   "where": "Reprised from The Final Coil of Bahamut - Turn 3",
+   "origin": "Soken; from 2.55",
+   "patch": "2.55"
+  },
+  {
+   "n": 40,
+   "title": "Answers",
+   "type": "Quest & cutscene",
+   "where": "Venat becomes Hydaelyn, \"Thou Must Live, Die, and Know\"",
+   "origin": "Uematsu; vocals Susan Calloway; from 1.0",
+   "patch": "1.0"
+  },
+  {
+   "n": 41,
+   "title": "The Aetherial Sea",
+   "type": "Dungeon",
+   "where": "The Aitiascope",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 42,
+   "title": "Your Answer",
+   "type": "Trial",
+   "where": "The Mothercrystal \u2014 Hydaelyn",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 43,
+   "title": "Answers (Piano Version)",
+   "type": "Quest & cutscene",
+   "where": "Scenes focused on Hydaelyn; the Warrior of Light reveals their future to the Ancients",
+   "origin": "Uematsu; from 1.0",
+   "patch": "1.0"
+  },
+  {
+   "n": 44,
+   "title": "The Last Stand",
+   "type": "Quest & cutscene",
+   "where": "Light-hearted scenes, incl. the Scions' late-night meal in Old Sharlayan",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 45,
+   "title": "Echoes in the Distance",
+   "type": "Field",
+   "where": "Ultima Thule, while progressing through the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 46,
+   "title": "Close in the Distance (Instrumental)",
+   "type": "Field",
+   "where": "Ultima Thule, while progressing through the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 47,
+   "title": "Close in the Distance",
+   "type": "Field",
+   "where": "Ultima Thule, during and after completing the main scenario",
+   "origin": "Soken; vocals Jason C. Miller",
+   "patch": "6.0"
+  },
+  {
+   "n": 48,
+   "title": "Dynamis",
+   "type": "Quest & cutscene",
+   "where": "Moments regarding Meteion and hope",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 49,
+   "title": "Of Countless Stars",
+   "type": "Dungeon",
+   "where": "The Dead Ends",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 50,
+   "title": "The Final Day",
+   "type": "Trial",
+   "where": "The Final Day \u2014 Meteion, first phase",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 51,
+   "title": "With Hearts Aligned",
+   "type": "Trial",
+   "where": "The Final Day \u2014 Meteion, final phase",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 52,
+   "title": "Flow",
+   "type": "Credits & theme",
+   "where": "Vocal theme; various late-game cutscenes",
+   "origin": "Soken; vocals Amanda Achen",
+   "patch": "6.0"
+  },
+  {
+   "n": 53,
+   "title": "Endwalker",
+   "type": "Credits & theme",
+   "where": "One of the expansion's main vocal themes",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 54,
+   "title": "The Tale of the Star",
+   "type": "Credits & theme",
+   "where": "Beginning of the Endwalker end credits",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 55,
+   "title": "Vibrant Voices",
+   "type": "City",
+   "where": "Radz-at-Han, day, after the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 56,
+   "title": "Perfumed Eves",
+   "type": "City",
+   "where": "Radz-at-Han, night, after the main scenario",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 57,
+   "title": "Carrots of Happiness",
+   "type": "Dungeon",
+   "where": "Smileton",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 58,
+   "title": "eScape (Journeys)",
+   "type": "Dungeon",
+   "where": "The Stigma Dreamscape",
+   "origin": "Soken; band arr. of Alphascape V3.0 (4.4)",
+   "patch": "4.4"
+  },
+  {
+   "n": 59,
+   "title": "Roads Less Traveled",
+   "type": "Travel & mounts",
+   "where": "Riding the Arion mount",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 60,
+   "title": "Where D\u00e6mons Abide",
+   "type": "Instanced area",
+   "where": "The Gates of Pand\u00e6monium area theme",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 61,
+   "title": "Ancient Shackles",
+   "type": "Raid",
+   "where": "Asphodelos: The First, Second and Third Circles",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 62,
+   "title": "Hic Svnt Leones",
+   "type": "Raid",
+   "where": "Asphodelos: The Fourth Circle",
+   "origin": "Soken",
+   "patch": "6.0"
+  },
+  {
+   "n": 63,
+   "title": "Endwalker (Chiptune Version)",
+   "type": "Credits & theme",
+   "where": "Extra track \u2014 chiptune arrangement",
+   "origin": "Soken",
+   "patch": "6.0",
+   "bluray_only": true
+  }
+ ]
+}

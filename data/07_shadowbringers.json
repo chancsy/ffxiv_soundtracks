@@ -1,0 +1,714 @@
+{
+ "order": 7,
+ "album": "Shadowbringers",
+ "full": "SHADOWBRINGERS: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2019,
+ "covers": "Patches 4.4 \u2013 4.5 and 5.0",
+ "spotify": "157DhGc9a58I3QHmAICJpG",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "A Land Long Dead",
+   "type": "Field",
+   "where": "The Burn; also plays in the Resistance Weapons duty \"The Bozja Incident\"",
+   "origin": "Soken",
+   "patch": "4.5"
+  },
+  {
+   "n": 2,
+   "title": "Bedlam's Brink",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes, mainly involving Emet-Selch",
+   "origin": "Soken",
+   "patch": "4.5"
+  },
+  {
+   "n": 3,
+   "title": "Battle",
+   "type": "Raid",
+   "where": "Omega: Alphascape V1.0, incl. Savage \u2014 Chaos",
+   "origin": "Uematsu",
+   "patch": "4.4"
+  },
+  {
+   "n": 4,
+   "title": "eScape",
+   "type": "Raid",
+   "where": "Omega: Alphascape V3.0, incl. Savage \u2014 Omega",
+   "origin": "Soken; vocals Fox & Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 5,
+   "title": "Everywhere and Nowhere",
+   "type": "Quest & cutscene",
+   "where": "Omega's reminiscences; Warrior of Light meets Hythlodaeus; also the Syrcus Trench ambient",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 6,
+   "title": "Heartless",
+   "type": "Raid",
+   "where": "Omega: Alphascape V4.0, incl. first half of Savage \u2014 Omega-M and Omega-F",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 7,
+   "title": "From the Heavens",
+   "type": "Raid",
+   "where": "Omega: Alphascape V4.0 (Savage) \u2014 Omega-M and Omega-F, second half only (Savage)",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 8,
+   "title": "A Dream in Flight",
+   "type": "Quest & cutscene",
+   "where": "Ending of the Omega raid series, as Alpha sets out to explore the world",
+   "origin": "Hamauzu",
+   "patch": "4.4"
+  },
+  {
+   "n": 9,
+   "title": "Ending",
+   "type": "Quest & cutscene",
+   "where": "Ending of the Omega raid series, Warrior of Light and Garlond Ironworks bid farewell to Alpha",
+   "origin": "Ito",
+   "patch": "4.4"
+  },
+  {
+   "n": 10,
+   "title": "From Mud",
+   "type": "Dungeon",
+   "where": "Saint Mocianne's Arboretum (Hard)",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 11,
+   "title": "Sunset",
+   "type": "Trial",
+   "where": "Hells' Kier \u2014 Suzaku, transition phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 12,
+   "title": "Sunrise",
+   "type": "Trial",
+   "where": "Hells' Kier \u2014 Suzaku, second half (normal and Extreme)",
+   "origin": "Soken; lyrics Fox, Ishikawa & Kawasaki; vocals Suzaku (Yoshino Nanjo) & Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 13,
+   "title": "Starlight, Starbright",
+   "type": "Seasonal event",
+   "where": "Successful performance in the Starlight Celebration (2018) minigame",
+   "origin": "Takada",
+   "patch": "4.4"
+  },
+  {
+   "n": 14,
+   "title": "Starlight, Not Right",
+   "type": "Seasonal event",
+   "where": "Unsuccessful performance in the 2018 Starlight Celebration minigame",
+   "origin": "Soken",
+   "patch": "4.4"
+  },
+  {
+   "n": 15,
+   "title": "Doman Distractions",
+   "type": "Gold Saucer",
+   "where": "Doman Mahjong at the Manderville Gold Saucer",
+   "origin": "Soken",
+   "patch": "4.5"
+  },
+  {
+   "n": 16,
+   "title": "Gates of Paradise - The Garden of Ru'Hmet",
+   "type": "Instanced area",
+   "where": "Baldesion Arsenal background theme",
+   "origin": "Mizuta; from FFXI: Chains of Promathia",
+   "patch": "4.5"
+  },
+  {
+   "n": 17,
+   "title": "Onslaught",
+   "type": "Boss battle",
+   "where": "Baldesion Arsenal \u2014 miniboss fights",
+   "origin": "Mizuta; from FFXI: Chains of Promathia",
+   "patch": "4.5"
+  },
+  {
+   "n": 18,
+   "title": "Turmoil",
+   "type": "Boss battle",
+   "where": "Baldesion Arsenal \u2014 Proto-Ozma",
+   "origin": "Mizuta; from FFXI: Chains of Promathia",
+   "patch": "4.5"
+  },
+  {
+   "n": 19,
+   "title": "Under The Stars",
+   "type": "Instanced area",
+   "where": "Orbonne Monastery \u2014 Gelmore Jungle sub-area",
+   "origin": "Iwata; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 20,
+   "title": "Pressure (No. 1)",
+   "type": "Boss battle",
+   "where": "Orbonne Monastery \u2014 Mustadio Bunansa",
+   "origin": "Sakimoto; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 21,
+   "title": "Antipyretic",
+   "type": "Boss battle",
+   "where": "Orbonne Monastery \u2014 Agrias",
+   "origin": "Sakimoto; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 22,
+   "title": "B. E.",
+   "type": "Instanced area",
+   "where": "Orbonne Monastery \u2014 Necrohol of Mullonde sub-area",
+   "origin": "Sakimoto; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 23,
+   "title": "A Man Consumed",
+   "type": "Boss battle",
+   "where": "Orbonne Monastery \u2014 the Thunder God",
+   "origin": "Sakimoto; from Vagrant Story",
+   "patch": "4.5"
+  },
+  {
+   "n": 24,
+   "title": "St. Ajora's Theme",
+   "type": "Quest & cutscene",
+   "where": "Orbonne Monastery \u2014 Ultima's introduction cutscene",
+   "origin": "Sakimoto; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 25,
+   "title": "Descent",
+   "type": "Boss battle",
+   "where": "Orbonne Monastery \u2014 Ultima, transition phase",
+   "origin": "Iwata; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 26,
+   "title": "Ultima's Perfection",
+   "type": "Boss battle",
+   "where": "Orbonne Monastery \u2014 Ultima, second half",
+   "origin": "Iwata; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 27,
+   "title": "Final Struggle",
+   "type": "Jingle",
+   "where": "Orbonne Monastery \u2014 completion fanfare",
+   "origin": "Iwata; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 28,
+   "title": "Hall of Worship",
+   "type": "Instanced area",
+   "where": "Orbonne Monastery \u2014 Crystal Gaol sub-area, after defeating Ultima",
+   "origin": "Sakimoto; from FFT",
+   "patch": "4.5"
+  },
+  {
+   "n": 29,
+   "title": "Brave Story",
+   "type": "Quest & cutscene",
+   "where": "End of Orbonne Monastery \u2014 Ramza Beoulve and the Zodiac Braves appear",
+   "origin": "Sakimoto",
+   "patch": "4.5"
+  },
+  {
+   "n": 30,
+   "title": "Alma's Theme",
+   "type": "Quest & cutscene",
+   "where": "Ending of Return to Ivalice \u2014 Ramza, Alma and Jenomis reunite on the Prima Vista",
+   "origin": "Sakimoto",
+   "patch": "4.5"
+  },
+  {
+   "n": 31,
+   "title": "Poachers' Den",
+   "type": "Quest & cutscene",
+   "where": "Ending of Return to Ivalice \u2014 Ramza and Alma prepare for their performance",
+   "origin": "Iwata",
+   "patch": "4.5"
+  },
+  {
+   "n": 32,
+   "title": "Epilogue",
+   "type": "Quest & cutscene",
+   "where": "Ending of Return to Ivalice \u2014 Ramza and Alma perform a scene from the Zodiac Brave Story",
+   "origin": "Sakimoto",
+   "patch": "4.5"
+  },
+  {
+   "n": 33,
+   "title": "Credits",
+   "type": "Credits & theme",
+   "where": "Ending of Return to Ivalice \u2014 after Ramza and Alma's performance",
+   "origin": "Sakimoto",
+   "patch": "4.5"
+  },
+  {
+   "n": 34,
+   "title": "Intrigue",
+   "type": "Quest & cutscene",
+   "where": "Ending of Return to Ivalice \u2014 Noah van Gabranth investigates the Clockwork City of Goug",
+   "origin": "Sakimoto",
+   "patch": "4.5"
+  },
+  {
+   "n": 35,
+   "title": "From the Dragon's Wake",
+   "type": "Trial",
+   "where": "The Wreath of Snakes \u2014 Seiryu, second half (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "4.5"
+  },
+  {
+   "n": 36,
+   "title": "A Pall Most Murderous",
+   "type": "PvP",
+   "where": "The Ghimlyt Dark",
+   "origin": "Takada",
+   "patch": "4.5"
+  },
+  {
+   "n": 37,
+   "title": "Shadowbringers",
+   "type": "Credits & theme",
+   "where": "Title screen trailer cutscene; one of the expansion's main themes",
+   "origin": "Uematsu; vocals Amanda Achen-Keenan & Jason Charles Miller",
+   "patch": "5.0"
+  },
+  {
+   "n": 38,
+   "title": "Four-fold Knowing",
+   "type": "Title & menu",
+   "where": "Title screen",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 39,
+   "title": "The Dark Which Illuminates the World",
+   "type": "City",
+   "where": "The Crystarium, day",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 40,
+   "title": "Unmatching Pieces",
+   "type": "Field",
+   "where": "Kholusia, while Everlasting Light is in effect",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 41,
+   "title": "Rencounter",
+   "type": "Field battle",
+   "where": "Standard enemy encounters in all areas of Norvrandt",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 42,
+   "title": "Such as it Is",
+   "type": "Field",
+   "where": "Settlements in Amh Araeng and Kholusia, incl. Mord Souq, Garik and Wright",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 43,
+   "title": "Pain in Pleasure",
+   "type": "City",
+   "where": "Eulmore, while Vauthry is in charge",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 44,
+   "title": "Sands of Amber",
+   "type": "Field",
+   "where": "Amh Araeng, day",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 45,
+   "title": "No Greater Sorrow",
+   "type": "Field",
+   "where": "Settlements in Amh Araeng, Kholusia, Il Mheg and the Tempest, incl. The Inn at Journey's Head, Stilltide, Amity, Wolekdorf and the Ondo Cups",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 46,
+   "title": "Paradisaical Predicaments",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes, mainly featuring Sin Eaters",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 47,
+   "title": "The Source",
+   "type": "Field",
+   "where": "Lakeland, day",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 48,
+   "title": "To Fire and Sword",
+   "type": "Dungeon",
+   "where": "Holminster Switch",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 49,
+   "title": "Insatiable",
+   "type": "Boss battle",
+   "where": "Final boss fights in dungeons added in Shadowbringers and its patches; also Varis yae Galvus in Memoria Misera Extreme",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 50,
+   "title": "Unchanging, Everchanging",
+   "type": "Field",
+   "where": "Lakeland, night, after the night sky is restored",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 51,
+   "title": "On Our Fates Alight",
+   "type": "Travel & mounts",
+   "where": "Riding an Amaro, personally or on an Amarokeep route",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 52,
+   "title": "Knowledge Never Sleeps",
+   "type": "City",
+   "where": "The Crystarium, night, after the night sky is restored",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 53,
+   "title": "High Treason",
+   "type": "Quest & cutscene",
+   "where": "Various points incl. the \"When it Rains\" MSQ duty and Kholusia during the lead-up to Mt. Gulg",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 54,
+   "title": "Fierce and Free",
+   "type": "Field",
+   "where": "Il Mheg, day",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 55,
+   "title": "A Reason to Live",
+   "type": "Field",
+   "where": "Settlements in Il Mheg and Kholusia, incl. Lydha Lran, Pla Enni and Tomra",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 56,
+   "title": "Figments",
+   "type": "Dungeon",
+   "where": "Dohn Mheg",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 57,
+   "title": "What Angel Wakes Me",
+   "type": "Trial",
+   "where": "The Dancing Plague \u2014 Titania (normal and Extreme)",
+   "origin": "Soken; lyrics Fox; vocals Paula Kaye Gerhold",
+   "patch": "5.0"
+  },
+  {
+   "n": 58,
+   "title": "The Faerie Ring",
+   "type": "Field",
+   "where": "Il Mheg, night, after the night sky is restored",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 59,
+   "title": "Civilizations",
+   "type": "Field",
+   "where": "The Rak'tika Greatwood, day",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 60,
+   "title": "Unwound",
+   "type": "Dungeon",
+   "where": "Qitana Ravel",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 61,
+   "title": "A Hopeless Race",
+   "type": "Field",
+   "where": "The Rak'tika Greatwood, night, after the night sky is restored",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 62,
+   "title": "Tomorrow and Tomorrow - Reprise",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 63,
+   "title": "Deep Down",
+   "type": "Dungeon",
+   "where": "Malikah's Well",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 64,
+   "title": "Sands of Blood",
+   "type": "Field",
+   "where": "Amh Araeng, night, after the night sky is restored",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 65,
+   "title": "A Better Tomorrow",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 66,
+   "title": "Dangerous Words",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 67,
+   "title": "In the Belly of the Beast",
+   "type": "Dungeon",
+   "where": "Mt. Gulg",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 68,
+   "title": "Insanity",
+   "type": "Trial",
+   "where": "The Crown of the Immaculate \u2014 Innocence/Vauthry (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 69,
+   "title": "Tears in the Rain",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 70,
+   "title": "Full Fathom Five",
+   "type": "Field",
+   "where": "Upper levels of the Tempest",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 71,
+   "title": "'Neath Dark Waters",
+   "type": "Field",
+   "where": "Lower levels of the Tempest (Amaurot)",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 72,
+   "title": "More than Truth",
+   "type": "Quest & cutscene",
+   "where": "Various cutscenes, particularly involving Ardbert",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 73,
+   "title": "Mortal Instants",
+   "type": "Dungeon",
+   "where": "Amaurot",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 74,
+   "title": "Who Brings Shadow",
+   "type": "Trial",
+   "where": "The Dying Gasp \u2014 Hades (Emet-Selch), first phase (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 75,
+   "title": "Invincible",
+   "type": "Trial",
+   "where": "The Dying Gasp \u2014 Hades, second phase, after his ultimate attack (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 76,
+   "title": "Tomorrow and Tomorrow",
+   "type": "Credits & theme",
+   "where": "One of the expansion's main themes; various cutscenes; 5.0 ending credits",
+   "origin": "Soken; lyrics Fox; vocals Amanda Achen-Keenan",
+   "patch": "5.0"
+  },
+  {
+   "n": 77,
+   "title": "The Quick Way",
+   "type": "Field",
+   "where": "Kholusia, night, after completing the 5.0 main scenario",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 78,
+   "title": "A World Divided",
+   "type": "Field",
+   "where": "Kholusia, day, after completing the 5.0 main scenario",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 79,
+   "title": "Vamo' alla Flamenco",
+   "type": "Quest & cutscene",
+   "where": "Introduction cutscene to the Dancer job quests",
+   "origin": "Uematsu",
+   "patch": "5.0"
+  },
+  {
+   "n": 80,
+   "title": "Masquerade",
+   "type": "City",
+   "where": "Eulmore, night, after the \"Feast of Lies\" MSQ duty",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 81,
+   "title": "Indulgence",
+   "type": "City",
+   "where": "Eulmore, day, after the \"Feast of Lies\" MSQ duty",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 82,
+   "title": "Shadows Withal",
+   "type": "Dungeon",
+   "where": "Akadaemia Anyder",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 83,
+   "title": "A Long Fall",
+   "type": "Dungeon",
+   "where": "The Twinning",
+   "origin": "Soken",
+   "patch": "5.0"
+  },
+  {
+   "n": 84,
+   "title": "The Lute",
+   "type": "Quest & cutscene",
+   "where": "Final Facet of Crafting cutscene",
+   "origin": "Uematsu",
+   "patch": "5.0"
+  },
+  {
+   "n": 85,
+   "title": "Blue Fields",
+   "type": "Dungeon",
+   "where": "The Empty",
+   "origin": "Uematsu",
+   "patch": "5.0"
+  },
+  {
+   "n": 86,
+   "title": "Force Your Way",
+   "type": "Raid",
+   "where": "Eden's Gate: Resurrection, Descent and Eden's Verse: Iconoclasm, incl. their Savage equivalents",
+   "origin": "Uematsu",
+   "patch": "5.1"
+  },
+  {
+   "n": 87,
+   "title": "Blinding Indigo",
+   "type": "Raid",
+   "where": "Eden's Gate: Inundation \u2014 Leviathan",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 88,
+   "title": "Landslide",
+   "type": "Raid",
+   "where": "Eden's Gate: Sepulture \u2014 Titan",
+   "origin": "Soken",
+   "patch": "5.1"
+  }
+ ]
+}

@@ -1,0 +1,682 @@
+{
+ "order": 8,
+ "album": "Death Unto Dawn",
+ "full": "DEATH UNTO DAWN: FINAL FANTASY XIV Original Soundtrack",
+ "year": 2021,
+ "covers": "Patches 5.1 \u2013 5.5",
+ "spotify": "0hGoHb95AIckR7hpOdCW3B",
+ "tracks": [
+  {
+   "n": 1,
+   "title": "Locus (Duality)",
+   "type": "Ultimate",
+   "where": "Alexander raid theme reprised: The Twinning \u2014 the Tycoon; also Living Liquid in the Epic of Alexander (Ultimate)",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 2,
+   "title": "Metal - Brute Justice Mode (Journeys)",
+   "type": "Ultimate",
+   "where": "The Epic of Alexander (Ultimate) \u2014 Brute Justice and Cruise Chaser",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 3,
+   "title": "Rise (Journeys)",
+   "type": "Ultimate",
+   "where": "The Epic of Alexander (Ultimate) \u2014 Alexander Prime",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 4,
+   "title": "Moebius (Orchestral Version)",
+   "type": "Ultimate",
+   "where": "The Epic of Alexander (Ultimate) \u2014 Perfect Alexander",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 5,
+   "title": "A Fine Air Forbiddeth",
+   "type": "PvP",
+   "where": "Frontline \u2014 Onsal Hakair (Danshig Naadam), defensive background theme",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 6,
+   "title": "A Fierce Air Forceth",
+   "type": "PvP",
+   "where": "Frontline \u2014 Onsal Hakair (Danshig Naadam), offensive battle theme",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 7,
+   "title": "The Garden's Gates",
+   "type": "Tribal quest",
+   "where": "Pixie beast tribe theme",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 8,
+   "title": "The Grand Cosmos",
+   "type": "Dungeon",
+   "where": "The Grand Cosmos",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 9,
+   "title": "The Mendicant's Relish",
+   "type": "Field battle",
+   "where": "Ishgard Restoration FATEs",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 10,
+   "title": "Starlight de Chocobo",
+   "type": "Seasonal event",
+   "where": "Successful rhythm minigame, Starlight Celebration (2019)",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 11,
+   "title": "Starlight de Chocobo (?)",
+   "type": "Seasonal event",
+   "where": "Failed rhythm minigame, Starlight Celebration (2019)",
+   "origin": "Soken",
+   "patch": "5.1"
+  },
+  {
+   "n": 12,
+   "title": "Significance - Nothing (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 ambient/cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 13,
+   "title": "Vague Hope - Cold Rain (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 14,
+   "title": "Crumbling Lies - Front (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 15,
+   "title": "Alien Manifestation (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "The Copied Factory \u2014 ambient",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 16,
+   "title": "Song of the Ancients - Atonement (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 various boss fights",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 17,
+   "title": "Bipolar Nightmare (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "The Copied Factory \u2014 Engels",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 18,
+   "title": "Weight of the World - Prelude Version",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 the 9S-operated Walking Fortress",
+   "origin": "Soken; from NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 19,
+   "title": "Faltering Prayer - Dawn Breeze (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 20,
+   "title": "Voice of no Return - Guitar (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.1"
+  },
+  {
+   "n": 21,
+   "title": "Floundering in the Depths",
+   "type": "Dungeon",
+   "where": "Anamnesis Anyder",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 22,
+   "title": "Insatiable (Scions & Sinners)",
+   "type": "Boss battle",
+   "where": "Dungeon mini-bosses, replacing the previous track as of patch 5.2",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 23,
+   "title": "Hopl's Dropple",
+   "type": "Tribal quest",
+   "where": "Qitari beast tribe theme",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 24,
+   "title": "Ultima (Scions & Sinners)",
+   "type": "Trial",
+   "where": "The Cloud Deck \u2014 Ruby/Emerald/Sapphire Weapon, first phase",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 25,
+   "title": "Rise of the White Raven (Orchestral Version)",
+   "type": "Trial",
+   "where": "The Cloud Deck \u2014 Ruby Weapon, second phase",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 26,
+   "title": "Hearthward",
+   "type": "Field",
+   "where": "The Firmament, after the Ishgard Restoration is completed",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 27,
+   "title": "Twice Stricken",
+   "type": "Raid",
+   "where": "Eden's Verse: Fulmination, incl. Savage \u2014 Ramuh",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 28,
+   "title": "Primal Angel",
+   "type": "Raid",
+   "where": "Eden's Verse: Furor, incl. Savage \u2014 Ifrit and Garuda",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 29,
+   "title": "Footsteps in the Snow",
+   "type": "Raid",
+   "where": "Eden's Verse: Refulgence, incl. Savage \u2014 Shiva, first phase",
+   "origin": "Soken; from 2.0",
+   "patch": "5.2"
+  },
+  {
+   "n": 30,
+   "title": "A Sundering of Light",
+   "type": "Raid",
+   "where": "Eden's Verse: Refulgence, incl. Savage \u2014 Shiva, transition phase",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 31,
+   "title": "Return to Oblivion",
+   "type": "Raid",
+   "where": "Eden's Verse: Refulgence, incl. Savage \u2014 Shiva, second half",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 32,
+   "title": "Gangos",
+   "type": "Dungeon",
+   "where": "Gangos",
+   "origin": "Soken",
+   "patch": "5.2"
+  },
+  {
+   "n": 33,
+   "title": "Wind on the Plains",
+   "type": "Field",
+   "where": "The Bozjan Southern Front \u2014 ambient",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 34,
+   "title": "Blood on the Wind",
+   "type": "Field battle",
+   "where": "Battles on the Bozjan Southern Front",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 35,
+   "title": "Unrest (Zodiac Age Version)",
+   "type": "Field",
+   "where": "The Bozjan Southern Front",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.3"
+  },
+  {
+   "n": 36,
+   "title": "Discord: Imperial (Zodiac Age Version)",
+   "type": "Field battle",
+   "where": "Critical engagements on the Bozjan Southern Front",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.3"
+  },
+  {
+   "n": 37,
+   "title": "Into the Fortress (Zodiac Age Version)",
+   "type": "Field",
+   "where": "The Bozjan Southern Front",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.3"
+  },
+  {
+   "n": 38,
+   "title": "Battle with an Esper (Zodiac Age Version)",
+   "type": "Boss battle",
+   "where": "Fighting Espers on the Bozjan Southern Front",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.3"
+  },
+  {
+   "n": 39,
+   "title": "Life and Death (Zodiac Age Version)",
+   "type": "Field",
+   "where": "The Bozjan Southern Front",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.3"
+  },
+  {
+   "n": 40,
+   "title": "Watts' Anvil",
+   "type": "Tribal quest",
+   "where": "Dwarf beast tribe theme; Watt's Anvil settlement in Lakeland",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 41,
+   "title": "The Isle of Endless Summer",
+   "type": "Seasonal event",
+   "where": "Moonfire Faire (2020)",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 42,
+   "title": "Where All Roads Lead",
+   "type": "Dungeon",
+   "where": "The Heroes' Gauntlet",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 43,
+   "title": "Echoes in the Dark",
+   "type": "Field",
+   "where": "The Bozjan Southern Front",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 44,
+   "title": "To The Edge",
+   "type": "Trial",
+   "where": "The Seat of Sacrifice \u2014 Elidibus (normal and Extreme)",
+   "origin": "Soken; vocals Jason Charles Miller",
+   "patch": "5.3"
+  },
+  {
+   "n": 45,
+   "title": "Eternal Wind (Shadowbringers)",
+   "type": "Quest & cutscene",
+   "where": "Crystal Exarch cutscene immediately after defeating Elidibus",
+   "origin": "Soken",
+   "patch": "5.3"
+  },
+  {
+   "n": 46,
+   "title": "Amusement Park (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.3"
+  },
+  {
+   "n": 47,
+   "title": "Fortress of Lies (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "The Puppets' Bunker \u2014 ambient",
+   "origin": "From NieR:Automata",
+   "patch": "5.3"
+  },
+  {
+   "n": 48,
+   "title": "Grandma - Destruction (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 the 813P-operated Aegis Unit",
+   "origin": "From NieR:Automata",
+   "patch": "5.3"
+  },
+  {
+   "n": 49,
+   "title": "End of the Unknown (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 the 905P-operated Heavy Artillery Unit",
+   "origin": "From NieR:Automata",
+   "patch": "5.3"
+  },
+  {
+   "n": 50,
+   "title": "Torn from the Heavens/The Dark Colossus Destroys All - Medley Version",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 the Compound",
+   "origin": "Soken; from 2.0/1.0",
+   "patch": "5.3"
+  },
+  {
+   "n": 51,
+   "title": "Broken Heart (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.3"
+  },
+  {
+   "n": 52,
+   "title": "New Foundations",
+   "type": "Field battle",
+   "where": "Rhythm minigame after completing the Ishgard Restoration",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 53,
+   "title": "New Foundations (Groundbreaking)",
+   "type": "Field battle",
+   "where": "Ishgard Restoration rhythm minigame, high-score variant",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 54,
+   "title": "Gogo's Theme",
+   "type": "Boss battle",
+   "where": "Fighting Gogo",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 55,
+   "title": "Freshly Glazed Porxie",
+   "type": "Dungeon",
+   "where": "Matoya's Relict",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 56,
+   "title": "The Black Wolf Stalks Again",
+   "type": "Trial",
+   "where": "Castrum Marinum \u2014 Emerald Weapon, second half (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 57,
+   "title": "Don't Be Afraid (Shadowbringers)",
+   "type": "Raid",
+   "where": "Eden's Promise: Umbra and Litany, incl. their Savage equivalents",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 58,
+   "title": "The Legendary Beast (Shadowbringers)",
+   "type": "Raid",
+   "where": "Eden's Promise: Anamorphosis, incl. Savage \u2014 the Fatebreaker",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 59,
+   "title": "Treasured Memory",
+   "type": "Raid",
+   "where": "Eden's Promise: Eternity",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 60,
+   "title": "Promises to Keep",
+   "type": "Raid",
+   "where": "Eden's Promise: Eternity, incl. Savage \u2014 Eden's Promise",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 61,
+   "title": "The Extreme (Shadowbringers)",
+   "type": "Raid",
+   "where": "Eden's Promise: Eternity (Savage), second half only \u2014 the Oracle of Darkness (Savage)",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 62,
+   "title": "Ami (Shadowbringers)",
+   "type": "Quest & cutscene",
+   "where": "End of the Eden's Verse storyline",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 63,
+   "title": "Shuffle or Boogie (Shadowbringers)",
+   "type": "Gold Saucer",
+   "where": "Before a Triple Triad tournament match",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 64,
+   "title": "The Sochen Cave Palace (Zodiac Age Version)",
+   "type": "Dungeon",
+   "where": "Matoya's Relict area music",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.4"
+  },
+  {
+   "n": 65,
+   "title": "Giving Chase (Zodiac Age Version)",
+   "type": "Boss battle",
+   "where": "Fighting Ba'Gamnan-style encounters",
+   "origin": "Sakimoto/Iwata; from FFXII: The Zodiac Age",
+   "patch": "5.4"
+  },
+  {
+   "n": 66,
+   "title": "The Queen Awakens",
+   "type": "Field raid",
+   "where": "Delubrum Reginae, incl. Savage \u2014 The Queen",
+   "origin": "Soken",
+   "patch": "5.4"
+  },
+  {
+   "n": 67,
+   "title": "Wrath of the Harrier",
+   "type": "Field raid",
+   "where": "The Dalriada \u2014 the Diablo Armament",
+   "origin": "Soken",
+   "patch": "5.5"
+  },
+  {
+   "n": 68,
+   "title": "Skyrise",
+   "type": "Seasonal event",
+   "where": "Skyrise Celebration F\u00eates",
+   "origin": "Soken",
+   "patch": "5.5"
+  },
+  {
+   "n": 69,
+   "title": "Voice of no Return - Normal (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 70,
+   "title": "The Color of Depression (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 71,
+   "title": "Widespread Illness (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 72,
+   "title": "Emil - Despair (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 Knave of Hearts",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 73,
+   "title": "Mourning (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "The Tower at Paradigm's Breach \u2014 ambient",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 74,
+   "title": "The Sound of the End (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 the Red Girl",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 75,
+   "title": "The Sound of the End: 8bit (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 hacking sequence vs. the Red Girl",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 76,
+   "title": "Possessed by Disease (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 the False Idol",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 77,
+   "title": "Kain\u00e9 - Final Fantasy Main Theme Version",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 Her Inflorescence",
+   "origin": "Arrangement \u2014 FF Main Theme/NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 78,
+   "title": "Weight of the World - Instrumental Version (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 79,
+   "title": "City Ruins - Rays of Light (From NieR:Automata)",
+   "type": "Alliance raid",
+   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "origin": "From NieR:Automata",
+   "patch": "5.5"
+  },
+  {
+   "n": 80,
+   "title": "Seven Flames",
+   "type": "Field",
+   "where": "Paglth'an",
+   "origin": "Soken",
+   "patch": "5.5"
+  },
+  {
+   "n": 81,
+   "title": "And Love You Shall Find",
+   "type": "Field",
+   "where": "Terncliff",
+   "origin": "Soken",
+   "patch": "5.5"
+  },
+  {
+   "n": 82,
+   "title": "In the Arms of War",
+   "type": "Trial",
+   "where": "The Cloud Deck \u2014 Diamond Weapon (normal and Extreme)",
+   "origin": "Soken",
+   "patch": "5.5"
+  },
+  {
+   "n": 83,
+   "title": "Forever at Your Side",
+   "type": "Quest & cutscene",
+   "where": "End of the Crystal Exarch's story",
+   "origin": "Soken",
+   "patch": "5.5"
+  },
+  {
+   "n": 84,
+   "title": "Lunar Whale (Shadowbringers)",
+   "type": "Travel & mounts",
+   "where": "Riding the Lunar Whale mount",
+   "origin": "Soken",
+   "patch": "5.5"
+  }
+ ]
+}
