@@ -59,7 +59,7 @@ T = [
 (55,"Dragonsong","Credits & theme","3.0 ending credits","Uematsu; vocals Susan Calloway","3.0"),
 (56,"Sins of the Father, Sins of the Son","Raid","Alexander: Gordias — cutscenes","Soken","3.01"),
 (57,"Locus","Raid","Alexander: Gordias — bosses, other than the tier's final boss","Soken","3.01"),
-(58,"Metal","Raid","Alexander: Gordias — the tier's final boss, the Manipulator; also Onslaughter in Midas and Refurbisher 0 in Creator","Soken","3.01"),
+(58,"Metal","Raid","Alexander: Gordias — the tier's final boss, the Manipulator; also Brute Justice in Midas and Refurbisher 0 in Creator","Soken","3.01"),
 ]
 
 album = {

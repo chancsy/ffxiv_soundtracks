@@ -470,8 +470,24 @@ up a thread without re-deriving context. Update the status line inline as items 
          and correctly duty-named — no further gaps found. **The exclusivity-claim pass (are any
          existing `(Extreme)`/`(Savage)` tags on these actually wrong, the Sephirot/Zurvan
          pattern) has *not* been run on any of these — only the missing-duty pass has.**
-     - Raids, Alliance Raids, Ultimate rosters (category2=5, 6, 28): **not started** — haven't
-       even pulled the roster yet for any expansion.
+     - **Raids missing-duty pass (category2=5, all 6 expansions): done.** Note: for ARR
+       (`ex_version=0`) and Endwalker (`ex_version=4`) this EDB category also lists what are
+       really Alliance Raids by modern terminology (Crystal Tower; Aglaia/Euphrosyne/Thaleia) —
+       an EDB historical-categorization quirk, not a problem for our own `type` tagging, just
+       something to know when cross-referencing. Checked every raid tier across every
+       expansion (Coils, Alexander, Omega/Deltascape-Sigmascape-Alphascape, Eden's Gate/Verse/
+       Promise, Asphodelos/Abyssos/Anabaseios, AAC Light-heavyweight) — all present and
+       correctly tiered. One precision fix: Heavensward's "Metal" `where` text (from an earlier
+       fix this same session) said the Midas final boss is "Onslaughter" — more precise per a
+       second check is **Brute Justice** (Onslaughter is one of five component robots that fuse
+       into Brute Justice, the form the track is actually named for — matches "Metal – Brute
+       Justice Mode" already correctly written on the Far Edge of Fate album). AAC
+       Cruiserweight/Heavyweight (Dawntrail) are absent, confirmed correctly out of scope —
+       patches 7.2 and 7.4 respectively, both under the already-deferred order-13 EP scope.
+     - Alliance Raids, Ultimate rosters (category2=6, 28): **not started** — haven't pulled the
+       roster for any expansion yet. Given the ARR/Endwalker overlap just found, cross-check
+       against what's already confirmed under category2=5 above before assuming something's
+       missing — it may just be double-listed.
   2. **Tier 2** — rows typed `Boss battle`/`Story battle` (~44 rows): check each against the
      roster for a hidden mistagged Trial/Raid (this is the Hades/Diamond Weapon bug pattern —
      already fixed where found, not swept project-wide). Not started.
