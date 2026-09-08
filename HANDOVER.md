@@ -363,31 +363,52 @@ albums 1–3 from a near-data-loss (see the note at the end of this section). No
 is urgent or user-requested-right-now — this is the running backlog so any session can pick
 up a thread without re-deriving context. Update the status line inline as items move.
 
-- **[NOT STARTED] Tier 1–4 accuracy audit, cross-checked by content type.** The plan agreed
+- **[IN PROGRESS] Tier 1–4 accuracy audit, cross-checked by content type.** The plan agreed
   with the user: build a ground-truth duty roster per expansion from the *official* Eorzea
   Database duty browser (`na.finalfantasyxiv.com/lodestone/playguide/db/duty/?category2=N` —
-  4=Trials, 5=Raids, 6=Alliance Raids, 28=Ultimate; `&ex_version=N` filters by expansion), which
-  lists Normal and Extreme as separate named entries — zero ambiguity about what's really a
-  Trial vs. a wiki editor's label. Then, in priority order:
+  4=Trials, 5=Raids, 6=Alliance Raids, 28=Ultimate; `&ex_version=N` filters by expansion, where
+  0=ARR, 1=HW, 2=StB, 3=ShB, 4=EW, 5=DT). Plain `WebFetch` works fine on these pages (no
+  Cloudflare gate, unlike Fandom) — much faster than the Playwright/Wayback route, save that for
+  Fandom track/duty pages specifically. Then, in priority order:
   1. **Tier 1** — every row currently typed `Trial`/`Raid`/`Alliance raid`/`Field raid`/`Ultimate`
      (~222 rows): confirm the duty exists in the roster, confirm `type` matches, and — per the
      Sephirot/Zurvan lesson in §4 — confirm any `(Extreme)`/`(Savage)` claim in `where` against
      that specific track's own Fandom "Game appearances" section (not the duty infobox alone;
      that page also lists both Normal-page and Extreme-page results, no automated shortcut).
-     **Partially started**: doing this for The Far Edge of Fate already found and fixed 4 wrong
-     exclusivity claims (Fiend, Equilibrium, Penultimania, Infinity — all actually shared, not
-     EX-exclusive). The other 10 albums' Trial/Raid/Alliance raid/Ultimate rows have not been
-     re-checked yet — treat every existing `(Extreme)`/`(Savage)` tag as unverified until it is.
+
+     **Progress so far, Trials sub-pass:**
+     - The Far Edge of Fate (Sephirot/Sophia/Zurvan): done — found and fixed 4 wrong exclusivity
+       claims (Fiend, Equilibrium, Penultimania, Infinity — all actually shared, not exclusive).
+     - A Realm Reborn / Before the Fall (ARR-era, `ex_version=0` roster, 26 trials): done a
+       missing-duty pass (not yet an exclusivity pass on what *is* present). Found two gaps:
+       **Urth's Fount** (Odin, patch 2.5) was entirely absent — fixed, it reuses "The Corpse
+       Hall" (track 116, already in `02_a_realm_reborn.json` for the Steel Reign FATE), just
+       needed the reuse mentioned in `where`. **The Dragon's Neck** (Ultros & Typhon, Hildibrand
+       questline) checked and left alone on purpose — its BGM is the raw, unarranged FFVI
+       "The Decisive Battle," which per its own Fandom page was never released on any FFXIV
+       soundtrack album (only the *rearranged* "A Battle Decisively," a different, unrelated
+       Stormblood track, got an OST release) — so there's nothing addable within this project's
+       stated scope ("every track on the soundtrack albums"), not a bug.
+     - Heavensward (`ex_version=1`, 14 trials): spot-checked for missing duties only (Bismarck/
+       Limitless Blue and Nidhogg/Final Steps of Faith both confirmed present) — **not yet**
+       checked for wrong exclusivity claims the way Far Edge of Fate was.
+     - Stormblood / Shadowbringers / Endwalker / Dawntrail (`ex_version=2,3,4,5`): full official
+       trial-name rosters have been fetched (see the fetch method above — cheap to redo, not
+       worth pasting the lists here) but **not yet cross-referenced** against the data files at
+       all — this is the next concrete step, same missing-duty-first approach as ARR/HW above.
+     - Raids, Alliance Raids, Ultimate rosters (category2=5, 6, 28): **not started** — haven't
+       even pulled the roster yet for any expansion.
   2. **Tier 2** — rows typed `Boss battle`/`Story battle` (~44 rows): check each against the
      roster for a hidden mistagged Trial/Raid (this is the Hades/Diamond Weapon bug pattern —
-     already fixed where found, not swept project-wide).
+     already fixed where found, not swept project-wide). Not started.
   3. **Tier 3** — `Dungeon`/`Variant dungeon`/`Criterion dungeon`/`Deep dungeon` (~133 rows):
-     lower-probability sweep for the same mistag pattern.
+     lower-probability sweep for the same mistag pattern. Not started.
   4. **Tier 4** — whole dataset: grep `where` for generic-reuse phrasing ("final boss fights
      in...", "normal battles in...", "miniboss", "random encounters") and check each such
      track's own Fandom page for reuse in a named duty not yet mentioned (the Memoria Misera
-     bug pattern below). Low-risk rows (Field/City/Quest & cutscene/menu/etc., ~360 rows) can
-     be skipped entirely — no duty to conflate.
+     bug pattern below — the Urth's Fount/Corpse Hall find above is the same pattern). Low-risk
+     rows (Field/City/Quest & cutscene/menu/etc., ~360 rows) can be skipped entirely — no duty
+     to conflate. Not started as a systematic pass; only found by accident so far.
 
 - **[NOT STARTED] Audit reused/generic tracks for missing duty reuse mentions (Tier 4 above,
   the "Memoria Misera" bug).** "Insatiable" (Shadowbringers track 49) is the boss theme for
