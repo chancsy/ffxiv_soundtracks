@@ -932,7 +932,10 @@
    "type": "Field battle",
    "where": "'Steel Reign' FATE; also Urth's Fount — Odin",
    "origin": "Soken",
-   "patch": "2.1"
+   "patch": "2.1",
+   "extra_types": [
+    "Trial"
+   ]
   },
   {
    "n": 117,

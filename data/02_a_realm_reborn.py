@@ -117,7 +117,7 @@ T = [
 (113,"The Seventh Sun","Credits & theme","Credits","Soken","2.0"),
 (114,"Dawn of a New Era","Credits & theme","Credits","Soken","2.0"),
 (115,"And You! – A Realm Reborn Medley","Credits & theme","Credits","Soken","2.0"),
-(116,"The Corpse Hall","Field battle","'Steel Reign' FATE; also Urth's Fount — Odin","Soken","2.1"),
+(116,"The Corpse Hall","Field battle","'Steel Reign' FATE; also Urth's Fount — Odin","Soken","2.1","extra:Trial"),
 (117,"Primal Timbre","Raid","The Binding Coil of Bahamut — exploration","Soken","2.0"),
 (118,"Spiral","Raid","The Binding Coil of Bahamut — battles","Soken","2.0"),
 (119,"Calamity Unbound","Raid","The Binding Coil of Bahamut — bosses","Soken","2.0"),
@@ -132,7 +132,9 @@ album = {
  "covers": "Patches 2.0 – 2.1",
  "spotify": "3UcKmJyD3aWgwZ6OlQemJQ",
  "tracks": [
-   {"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p, **({"bluray_only": True} if len(rest) and rest[0] == "bluray_only" else {})}
+   {"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p,
+    **({"bluray_only": True} if "bluray_only" in rest else {}),
+    **({"extra_types": [r.split(":",1)[1] for r in rest if r.startswith("extra:")]} if any(r.startswith("extra:") for r in rest) else {})}
    for (n, t, c, w, o, p, *rest) in T
  ],
 }

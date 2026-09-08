@@ -50,7 +50,7 @@ T = [
 (46,"Paradisaical Predicaments","Quest & cutscene","Various cutscenes, mainly featuring Sin Eaters","Soken","5.0"),
 (47,"The Source","Field","Lakeland, day","Soken","5.0"),
 (48,"To Fire and Sword","Dungeon","Holminster Switch","Soken","5.0"),
-(49,"Insatiable","Boss battle","Final boss fights in dungeons added in Shadowbringers and its patches; also Varis yae Galvus in Memoria Misera Extreme","Soken","5.0"),
+(49,"Insatiable","Boss battle","Final boss fights in dungeons added in Shadowbringers and its patches; also Varis yae Galvus in Memoria Misera Extreme","Soken","5.0","extra:Trial"),
 (50,"Unchanging, Everchanging","Field","Lakeland, night, after the night sky is restored","Soken","5.0"),
 (51,"On Our Fates Alight","Travel & mounts","Riding an Amaro, personally or on an Amarokeep route","Soken","5.0"),
 (52,"Knowledge Never Sleeps","City","The Crystarium, night, after the night sky is restored","Soken","5.0"),
@@ -75,8 +75,8 @@ T = [
 (71,"'Neath Dark Waters","Field","Lower levels of the Tempest (Amaurot)","Soken","5.0"),
 (72,"More than Truth","Quest & cutscene","Various cutscenes, particularly involving Ardbert","Soken","5.0"),
 (73,"Mortal Instants","Dungeon","Amaurot","Soken","5.0"),
-(74,"Who Brings Shadow","Trial","The Dying Gasp — Hades (Emet-Selch), first phase (normal and Extreme)","Soken","5.0"),
-(75,"Invincible","Trial","The Dying Gasp — Hades, second phase, after his ultimate attack (normal and Extreme)","Soken","5.0"),
+(74,"Who Brings Shadow","Trial","The Dying Gasp — Hades (Emet-Selch), first phase (normal and Extreme)","Soken","5.0","extra:Story battle"),
+(75,"Invincible","Trial","The Dying Gasp — Hades, second phase, after his ultimate attack (normal and Extreme)","Soken","5.0","extra:Story battle"),
 (76,"Tomorrow and Tomorrow","Credits & theme","One of the expansion's main themes; various cutscenes; 5.0 ending credits","Soken; lyrics Fox; vocals Amanda Achen-Keenan","5.0"),
 (77,"The Quick Way","Field","Kholusia, night, after completing the 5.0 main scenario","Soken","5.0"),
 (78,"A World Divided","Field","Kholusia, day, after completing the 5.0 main scenario","Soken","5.0"),
@@ -99,7 +99,11 @@ album = {
  "year": 2019,
  "covers": "Patches 4.4 – 4.5 and 5.0",
  "spotify": "157DhGc9a58I3QHmAICJpG",
- "tracks": [{"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p} for n, t, c, w, o, p in T],
+ "tracks": [
+   {"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p,
+    **({"extra_types": [r.split(":",1)[1] for r in rest if r.startswith("extra:")]} if any(r.startswith("extra:") for r in rest) else {})}
+   for (n, t, c, w, o, p, *rest) in T
+ ],
 }
 ROOT = pathlib.Path(__file__).resolve().parent
 (ROOT / "07_shadowbringers.json").write_text(json.dumps(album, indent=1))

@@ -32,7 +32,8 @@ for a in albums:
         where = t["where"]
         pt = t.get("patch","")
         br = 1 if t.get("bluray_only") else 0
-        rows.append([seq, t["n"], t["title"], t["type"], where, a["album"], pt, t["origin"], major_of(pt), exp_of(pt), br])
+        extra = t.get("extra_types", [])
+        rows.append([seq, t["n"], t["title"], t["type"], where, a["album"], pt, t["origin"], major_of(pt), exp_of(pt), br, extra])
 
 album_meta = [[a["album"], a["year"], a["covers"], len(a["tracks"]), a.get("spotify","")] for a in albums]
 
@@ -91,7 +92,9 @@ tr.br .title{font-style:italic}
 .title{font-size:1rem;line-height:1.3}
 .type{width:10.5rem}
 .type span{display:inline-block;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.73rem;
- color:var(--tide);border:1px solid #7fc6cf3d;background:#7fc6cf12;border-radius:4px;padding:2px 7px}
+ color:var(--tide);border:1px solid #7fc6cf3d;background:#7fc6cf12;border-radius:4px;padding:2px 7px;
+ margin:2px 4px 0 0}
+.type span.extra{color:var(--ink-dim);border-color:#28324b;background:transparent}
 .where{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.85rem;color:#c4cbdd}
 .album{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.8rem;color:var(--rose);width:9rem}
 .origin{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.79rem;color:var(--ink-dim);width:12rem}
@@ -150,10 +153,14 @@ majors.forEach(m=>{
     so.textContent=' '+sp+' only';patEl.appendChild(so);});
 });
 
+// A row's full set of type chips it should appear under: its primary type plus
+// any confirmed cross-category reuse (extra_types, index 11) — see HANDOVER.md §2.
+function allTypes(d){ return [d[3], ...d[11]]; }
+
 function buildChips(){
   chipsEl.innerHTML='';
   const counts={};
-  DATA.forEach(d=>counts[d[3]]=(counts[d[3]]||0)+1);
+  DATA.forEach(d=>allTypes(d).forEach(t=>counts[t]=(counts[t]||0)+1));
   TYPE_ORDER.filter(t=>counts[t]).forEach(type=>{
     const b=document.createElement('button');
     b.className='chip'; b.type='button';
@@ -174,12 +181,12 @@ function esc(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 function render(){
   const q=qEl.value.trim().toLowerCase(), alb=albEl.value, pat=patEl.value, exp=expEl.value;
   const list=DATA.filter(d=>{
-    if(active.size && !active.has(d[3])) return false;
+    if(active.size && !allTypes(d).some(t=>active.has(t))) return false;
     if(alb && d[5]!==alb) return false;
     if(exp && d[9]!==exp) return false;
     if(pat){ if(pat.startsWith('M:') ? d[8]!==pat.slice(2) : d[6]!==pat.slice(2)) return false; }
     if(!q) return true;
-    return (d[2]+' '+d[3]+' '+d[4]+' '+d[5]+' '+d[6]+' '+d[7]+' '+d[9]).toLowerCase().includes(q);
+    return (d[2]+' '+allTypes(d).join(' ')+' '+d[4]+' '+d[5]+' '+d[6]+' '+d[7]+' '+d[9]).toLowerCase().includes(q);
   });
   rowsEl.innerHTML=list.map(d=>
    '<tr'+(d[10]?' class="br"':'')+'><td class="num">'+d[0]+'</td>'+
@@ -187,7 +194,8 @@ function render(){
    '<td class="play">'+(d[10]?'<span title="Not on streaming">–</span>':
      '<a href="https://open.spotify.com/search/'+encodeURIComponent(d[2]+' FINAL FANTASY XIV')+'" target="_blank" rel="noopener" title="Find on Spotify" aria-label="Find '+esc(d[2])+' on Spotify">&#9654;</a>')+'</td>'+
    '<td class="title">'+esc(d[2])+'</td>'+
-   '<td class="type"><span>'+esc(d[3])+'</span></td>'+
+   '<td class="type"><span>'+esc(d[3])+'</span>'+
+     d[11].map(t=>'<span class="extra">+'+esc(t)+'</span>').join('')+'</td>'+
    '<td class="where">'+esc(d[4])+'</td>'+
    '<td class="album">'+esc(d[5])+'</td>'+
    '<td class="patch">'+esc(d[6])+'</td>'+

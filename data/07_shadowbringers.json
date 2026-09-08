@@ -396,7 +396,10 @@
    "type": "Boss battle",
    "where": "Final boss fights in dungeons added in Shadowbringers and its patches; also Varis yae Galvus in Memoria Misera Extreme",
    "origin": "Soken",
-   "patch": "5.0"
+   "patch": "5.0",
+   "extra_types": [
+    "Trial"
+   ]
   },
   {
    "n": 50,
@@ -596,7 +599,10 @@
    "type": "Trial",
    "where": "The Dying Gasp \u2014 Hades (Emet-Selch), first phase (normal and Extreme)",
    "origin": "Soken",
-   "patch": "5.0"
+   "patch": "5.0",
+   "extra_types": [
+    "Story battle"
+   ]
   },
   {
    "n": 75,
@@ -604,7 +610,10 @@
    "type": "Trial",
    "where": "The Dying Gasp \u2014 Hades, second phase, after his ultimate attack (normal and Extreme)",
    "origin": "Soken",
-   "patch": "5.0"
+   "patch": "5.0",
+   "extra_types": [
+    "Story battle"
+   ]
   },
   {
    "n": 76,

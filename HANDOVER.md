@@ -81,11 +81,23 @@ One JSON file per album:
  "spotify": "<22-char Spotify album id, optional>",
  "tracks": [
   {"n": 1, "title": "...", "type": "...", "where": "...", "origin": "...", "patch": "3.2"},
+  {"n": 98, "title": "...", "type": "...", "where": "...", "origin": "...", "patch": "3.x",
+   "extra_types": ["Trial"]},
   {"n": 99, "title": "...", "type": "...", "where": "...", "origin": "...", "patch": "3.x",
    "bluray_only": true}
  ]
 }
 ```
+
+In the `data/NN_album.py` source (a list of tuples → JSON, not hand-written JSON), `bluray_only`
+and `extra_types` are both encoded as extra trailing string elements on the tuple, parsed via
+`*rest`: append the literal `"bluray_only"` for that flag, and `"extra:TypeName"` per extra type
+(one tuple can have several `"extra:X"` entries — they all collect into the `extra_types` list).
+E.g. `(116,"The Corpse Hall","Field battle","...","Soken","2.1","extra:Trial")`. Not every
+existing album file's dict comprehension supports this yet — `02_a_realm_reborn.py`,
+`07_shadowbringers.py` and `09_endwalker.py` do; check the tail of a file (the
+`"tracks": [...] for (n, t, c, w, o, p, *rest) in T` line) before assuming a new one does, and
+copy that pattern in if it's still the plain `for n, t, c, w, o, p in T` form.
 
 Field rules:
 
@@ -114,6 +126,11 @@ Field rules:
 - **bluray_only** — `true` for hidden tracks that exist on the physical Blu-ray Disc Music
   release but not on streaming. They render with an asterisk, no play button, and are
   excluded from the streaming track count.
+- **extra_types** — optional list of additional `type` values, for a track whose music
+  genuinely, confirmedly plays in a *different* content-type category than its primary `type`
+  (e.g. a Field-battle FATE theme reused wholesale as a Trial's theme). The row shows up under
+  every chip listed here in addition to its primary `type`'s chip. See the exclusivity note
+  below for when to use this vs. just picking a different primary `type`.
 
 ### Type taxonomy (keep it to these)
 
@@ -125,9 +142,21 @@ Tribal quest, Island Sanctuary, Grand Company, Gold Saucer, Seasonal event,
 Crafting & gathering, Travel & mounts, Title & menu, Jingle, Credits & theme, FFXVI crossover
 ```
 
-`type` is exclusive — exactly one tag per track, never additive. If a row's fight turns out to
-be a genuine Trial (or Raid, Alliance raid, etc.), the fix is to *replace* whatever generic type
-it had (`Boss battle`, `Story battle`) with the correct one, not to tack `Trial` on alongside it.
+`type` (the primary one) is exclusive — exactly one value, chosen deliberately, never a hedge.
+If you're not sure which single type is correct for a track (the Hades/Diamond Weapon bug:
+a fight is actually a registered Trial but got defaulted to `Boss battle`/`Story battle` out
+of uncertainty), the fix is to research it and *replace* the wrong type — never tack on a
+second type to avoid deciding.
+
+`extra_types` is the opposite situation and is additive on purpose: a track's music has a
+*second, equally real* identity in a different category — not uncertainty about which one is
+right, but confirmed dual membership (e.g. "The Corpse Hall" is genuinely both the Steel Reign
+FATE theme *and* the Urth's Fount Trial theme; "Who Brings Shadow"/"Invincible" are genuinely
+both Hades's Trial theme *and* the MSQ's climactic story battle). This exists because, since §4
+removed the separate playlist view, type chips are the only way to browse "what plays in Trial
+content" — so a track that's truly reused into a Trial needs the `Trial` chip too, or that
+browsing claim quietly breaks. Add an entry here only once you've *confirmed* the reuse (via
+the track's own Fandom page, same as the Tier 4 audit); don't add extra types speculatively.
 
 Guidance on the fuzzy ones:
 - **Trial** = primal/boss trials (normal or extreme). **Boss battle** = generic dungeon-boss
@@ -305,6 +334,9 @@ Hades's fight (the MSQ duty **The Dying Gasp**, EX form **The Minstrel's Ballad:
 Elegy**) was tagged `"Story battle"`, and Diamond Weapon's fight (the duty **The Cloud Deck**,
 reusing that name from the earlier Ruby/Emerald/Sapphire Weapon trio fight in 5.2) was tagged
 `"Boss battle"` — both are actually queueable Duty-Finder Trials, fixed to `type: "Trial"`.
+(Later refined further: Hades's fight is also the MSQ's climactic story battle — a genuinely
+real second identity, not just leftover uncertainty — so it now carries
+`extra_types: ["Story battle"]` alongside `type: "Trial"`, per §2's `extra_types` field.)
 Takeaway, independent of the playlist removal: when `where` describes a boss/story fight,
 check whether it's actually a registered Trial/Raid duty rather than defaulting to
 "Boss battle"/"Story battle" — a wrong `type` silently hides a row from the type-chip filter.
@@ -319,9 +351,12 @@ because the albums themselves are chronological.
 - Loads every `data/*.json`, sorts by `order`, assigns a running index `#`.
 - Row array shape (index → meaning), used by the inline JS:
   `0 #, 1 track no., 2 title, 3 type, 4 where, 5 album, 6 patch, 7 origin,
-   8 major patch, 9 expansion, 10 bluray flag`.
+   8 major patch, 9 expansion, 10 bluray flag, 11 extra_types (array, possibly empty)`.
   If you add a field, append it at the end and update every `d[N]` reference in the JS.
   (There used to be a `playlist flag` at index 8 — removed, see §4 — don't re-add it.)
+  `allTypes(d)` in the JS returns `[d[3], ...d[11]]` — chip counts, the active-chip filter,
+  and the search-text blob all go through it, so a row with `extra_types` is findable and
+  counted under every one of its types, not just its primary one.
 - Derives `major` (`"6.11"` → `"6.1"`; 1.x left as-is) and expansion from the patch's first digit
   (`EXP` dict at the top).
 - Renders: header with progress strip (from `ROADMAP`), controls (search, album select +
@@ -382,8 +417,11 @@ up a thread without re-deriving context. Update the status line inline as items 
      - A Realm Reborn / Before the Fall (ARR-era, `ex_version=0` roster, 26 trials): done a
        missing-duty pass (not yet an exclusivity pass on what *is* present). Found two gaps:
        **Urth's Fount** (Odin, patch 2.5) was entirely absent — fixed, it reuses "The Corpse
-       Hall" (track 116, already in `02_a_realm_reborn.json` for the Steel Reign FATE), just
-       needed the reuse mentioned in `where`. **The Dragon's Neck** (Ultros & Typhon, Hildibrand
+       Hall" (track 116, already in `02_a_realm_reborn.json` for the Steel Reign FATE); this is
+       also the case that prompted adding `extra_types` (§2) — the row now carries
+       `extra_types: ["Trial"]` in addition to the `where`-text mention, so it's actually
+       findable under the Trial chip, not just documented in prose. **The Dragon's Neck** (Ultros
+       & Typhon, Hildibrand
        questline) checked and left alone on purpose — its BGM is the raw, unarranged FFVI
        "The Decisive Battle," which per its own Fandom page was never released on any FFXIV
        soundtrack album (only the *rearranged* "A Battle Decisively," a different, unrelated
@@ -406,7 +444,9 @@ up a thread without re-deriving context. Update the status line inline as items 
   4. **Tier 4** — whole dataset: grep `where` for generic-reuse phrasing ("final boss fights
      in...", "normal battles in...", "miniboss", "random encounters") and check each such
      track's own Fandom page for reuse in a named duty not yet mentioned (the Memoria Misera
-     bug pattern below — the Urth's Fount/Corpse Hall find above is the same pattern). Low-risk
+     bug pattern below — the Urth's Fount/Corpse Hall find above is the same pattern). When the
+     reuse crosses into a different `type` category (a Field battle theme reused in a Trial,
+     etc.), record it as `extra_types`, not just prose — see §2. Low-risk
      rows (Field/City/Quest & cutscene/menu/etc., ~360 rows) can be skipped entirely — no duty
      to conflate. Not started as a systematic pass; only found by accident so far.
 
@@ -414,7 +454,8 @@ up a thread without re-deriving context. Update the status line inline as items 
   the "Memoria Misera" bug).** "Insatiable" (Shadowbringers track 49) is the boss theme for
   Varis yae Galvus in the Trial **Memoria Misera (Extreme)** (patch 5.25) — confirmed on the
   track's own Fandom page — but nothing in the row's `where` text said so, so the duty had zero
-  footprint in the table, not even a mistagged one; fixed for this one row only. Root cause: the
+  footprint in the table, not even a mistagged one; fixed for this one row (`where` text plus
+  `extra_types: ["Trial"]`, so it's now findable under the Trial chip too — see §2). Root cause: the
   per-album research method (§3 Step 3) is duty-first — it finds a track's *primary* context but
   never checks whether that same track got redeployed into some other duty later, sometimes a
   different content category entirely (dungeon-boss cue → standalone Trial theme). That reverse
