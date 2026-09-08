@@ -2,7 +2,7 @@ import json, pathlib, html
 
 ROOT = pathlib.Path(__file__).resolve().parent
 DATA = ROOT / "data"
-OUT = ROOT / "ffxiv-soundtracks.html"
+OUT = ROOT / "index.html"
 
 albums = sorted((json.loads(p.read_text()) for p in DATA.glob("*.json")), key=lambda a: a["order"])
 

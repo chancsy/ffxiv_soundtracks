@@ -32,7 +32,7 @@ ffxiv/
 └── HANDOVER.md              # this file
 ```
 
-Output: `ffxiv-soundtracks.html` — a single self-contained file (inline CSS + JS, no
+Output: `index.html` — a single self-contained file (inline CSS + JS, no
 external dependencies). Regenerate it with `python3 build.py`; never hand-edit the HTML.
 
 ### Roadmap (album `order` numbers are fixed — leave gaps as shown)
@@ -248,7 +248,7 @@ against the track's own Fandom page before writing `(Extreme)`/`(Savage)` into `
 
 ```bash
 node -e "
-const h=require('fs').readFileSync('ffxiv-soundtracks.html','utf8');
+const h=require('fs').readFileSync('index.html','utf8');
 const d=JSON.parse(h.match(/const DATA = (\[.*?\]);\nconst ALBUMS/s)[1]);
 const rows = d.filter(r=>r[5]==='<Album>');
 console.log('total:', rows.length);
