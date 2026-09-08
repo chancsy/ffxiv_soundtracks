@@ -404,7 +404,10 @@
    "type": "Quest & cutscene",
    "where": "Omega vs. Shinryu in \"Fly Free, My Pretty\"; reprised in The Royal Menagerie",
    "origin": "Soken",
-   "patch": "3.5"
+   "patch": "3.5",
+   "extra_types": [
+    "Trial"
+   ]
   }
  ]
 }

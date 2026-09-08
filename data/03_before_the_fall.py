@@ -14,7 +14,7 @@ T = [
 (10,"Birds of a Feather","Dungeon","Halatali (Hard)","Uematsu; from 1.0","2.2"),
 (11,"Beneath Bloodied Banners","Boss battle","Halatali (Hard) final boss; generic final boss use","Uematsu; from 1.0","2.2"),
 (12,"Big-boned","Travel & mounts","Fat Chocobo mount","Soken","2.2"),
-(13,"Battle on the Big Bridge","Trial","The Battle on the Big Bridge — Gilgamesh; later Battle in the Big Keep","Uematsu; arr. of FFV","2.1"),
+(13,"Battle on the Big Bridge","Trial","The Battle on the Big Bridge — Gilgamesh; later Battle in the Big Keep; also the Yojimbo/Gilgamesh reveal in Kugane Ohashi","Uematsu; arr. of FFV","2.1"),
 (14,"Through the Maelstrom (Female Vocals)","Trial","Leviathan phase 2, alternate vocal","Soken","2.2"),
 (15,"Meteor","Raid","Second Coil — Nael van Darnus scenes","Yamazaki; from 1.0","2.2"),
 (16,"Blades","Raid","The Second Coil of Bahamut — ambient","Soken","2.2"),

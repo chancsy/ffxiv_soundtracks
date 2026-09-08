@@ -51,7 +51,7 @@ T = [
 (47,"Penultimania","Trial","Containment Bay Z1T9 — Zurvan, second phase (normal and Extreme)","Soken","3.5"),
 (48,"Infinity","Trial","Containment Bay Z1T9 — Zurvan, third phase (normal and Extreme)","Soken","3.5"),
 (49,"Another Brick","Dungeon","Baelsar's Wall","Soken","3.5"),
-(50,"Scale and Steel","Quest & cutscene","Omega vs. Shinryu in \"Fly Free, My Pretty\"; reprised in The Royal Menagerie","Soken","3.5"),
+(50,"Scale and Steel","Quest & cutscene","Omega vs. Shinryu in \"Fly Free, My Pretty\"; reprised in The Royal Menagerie","Soken","3.5","extra:Trial"),
 ]
 
 album = {
@@ -61,7 +61,11 @@ album = {
  "year": 2017,
  "covers": "Patches 3.2 – 3.56",
  "spotify": "73mih5aIcuQ4OaQLI7O0X9",
- "tracks": [{"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p} for n, t, c, w, o, p in T],
+ "tracks": [
+   {"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p,
+    **({"extra_types": [r.split(":",1)[1] for r in rest if r.startswith("extra:")]} if any(r.startswith("extra:") for r in rest) else {})}
+   for (n, t, c, w, o, p, *rest) in T
+ ],
 }
 ROOT = pathlib.Path(__file__).resolve().parent
 (ROOT / "05_far_edge_of_fate.json").write_text(json.dumps(album, indent=1))
