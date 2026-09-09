@@ -599,16 +599,28 @@ up a thread without re-deriving context. Update the status line inline as items 
   direction only shows up by opening *that track's own* Fandom page and reading its "Game
   appearances" list.
 
-- **[SUGGESTED, not yet acted on] Put this project under git.** There is currently no version
-  control and no backup of any kind for this project (confirmed while recovering albums 1–3,
-  see below) — every edit is one bad command away from being unrecoverable again, and next
-  time the lucky recovery-from-cached-tool-output trick may not be available. `git init` +
-  periodic commits (e.g. after each album/fix) costs nothing and would have made that whole
-  recovery a non-event. Ask the user before doing this, per their standing preference to be
-  asked before infra changes.
+- **[DONE] Project is under git, hosted on GitHub, live on GitHub Pages.** `git init` done,
+  pushed to https://github.com/chancsy/ffxiv_soundtracks (public repo, user's account), Pages
+  enabled serving `index.html` at https://chancsy.github.io/ffxiv_soundtracks/. Every fix in
+  this document from this point on was committed and pushed as its own commit — check `git log`
+  for the detailed history instead of relying solely on this doc's prose summaries. Pushing
+  needs a fine-grained GitHub PAT (Contents: read/write, scoped to this one repo) provided by
+  the user each time — none is stored anywhere in this container between sessions.
 
-- **[DEFERRED, not urgent]** Roadmap order 13 (Dawntrail patch EPs, 7.1+) remains explicitly
-  skipped per user instruction. Revisit only if asked.
+- **[IN PROGRESS]** Roadmap order 13 (Dawntrail patch EPs, 7.1+) — no longer deferred, user
+  asked to proceed. See the album-by-album status wherever this doc is updated next for where
+  it landed; check the roadmap table in §1 for the current source of truth on what's done.
+
+- **[NEW TODO, applies to order 13 and every future album]** Before taking a Spotify album's
+  track list as final, **check the Japanese Spotify storefront, not just the US/global one** —
+  the user's own observation, from experience: new FFXIV OST albums have historically released
+  in Japan first, sometimes by a few months or more, before showing up in other regions. This
+  means: (a) a "not yet released" album might already be out and researchable if you check JP
+  Spotify, and (b) even for an album already in the dataset, JP Spotify is worth a quick check
+  for a newer/more-complete release (e.g. a compilation that supersedes small EPs) before
+  concluding one doesn't exist yet. No specific method worked out yet for checking a
+  region-locked storefront from here — figure that out as part of doing this, and document
+  what worked (or didn't) for the next session's benefit.
 
 - **[NOT STARTED] Mobile layout: content-type chips take over the whole viewport.** User report:
   on mobile, the chip row (~30 chips, all types, wrapping across many lines) pushes the actual
