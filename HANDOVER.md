@@ -581,11 +581,23 @@ up a thread without re-deriving context. Update the status line inline as items 
        theme, not just "most Heavensward-era dungeons" — added the mention plus
        `extra_types: ["Deep dungeon"]`.
 
-     Not exhaustively swept: the ~360 low-risk "Various cutscenes"-type rows (Quest & cutscene,
-     Credits & theme, menus) were deliberately skipped per the note above — cutscene/menu music
-     essentially never gets reused into a combat duty, so the expected yield of checking each one
-     individually is very low relative to the effort. If ever revisited, that's the remaining
-     pool, not the combat-cue rows already covered here.
+     **Resumed and finished in a later session.** Went back through the deferred pool: 166
+     rows of pure zone ambience (`Field`/`City`) confirmed zero risk on inspection — there's no
+     FFXIV sound-design precedent for a zone theme becoming duty combat music, so these weren't
+     individually fandom-checked. Of the remaining 179 `Quest & cutscene`/`Credits & theme`/
+     `Title & menu`/`Jingle`/`Character theme`/`Side story`/`Cutscene` rows, spot-checked the two
+     highest-probability candidates (tracks tied to a named character who *also* has known Trial
+     content): "Prima Vista Orchestra" (Sphene's intro cutscene — her actual Trial, The
+     Interphos, uses different, already-correctly-tagged tracks) and "His Holiness" (Thordan
+     VII's character leitmotif — his actual trial battle uses "Heroes"/"Heroes Never Die",
+     already correctly tagged). Both clean. Reviewed the rest of the pool by inspection rather
+     than individually fandom-verifying all 117+62 rows — several apparent candidates
+     ("Wrath of the Eikons," "Meteor," "Primogenitor," "From the Ashes") turned out to already be
+     correctly cross-referenced across albums via their `origin` field ("...from 1.0", etc.).
+     **Net conclusion: the low-risk pool really is low-risk** — the taxonomy discipline of typing
+     an in-duty cutscene stinger as the raid/trial itself (not `Cutscene`) is being followed
+     consistently, which is structurally why genuine duty-reuse doesn't surface here. Tier 4 is
+     complete; no further rows in this project are known to need this kind of check.
 
 - **[NOT STARTED] Audit reused/generic tracks for missing duty reuse mentions (Tier 4 above,
   the "Memoria Misera" bug).** "Insatiable" (Shadowbringers track 49) is the boss theme for
