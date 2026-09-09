@@ -54,7 +54,6 @@ external dependencies). Regenerate it with `python3 build.py`; never hand-edit t
 | 7 | Shadowbringers | 4.4 – 4.5 **and** 5.0 (one album) | done |
 | 8 | Death Unto Dawn | 5.1 – 5.5 | done |
 | 9 | Endwalker | 6.0 | done |
-| 10 | (reserved) | | |
 | 11 | Growing Light | 6.1 – 6.58 | done |
 | 12 | Dawntrail | 7.0 | done |
 | 13 | Trail to the Heavens | 7.1 – 7.5 | **blocked, not yet released** — see note below, not skipped by choice |
@@ -70,6 +69,15 @@ forward as-is.
 
 The `ROADMAP` list near the bottom of `build.py` drives the progress strip in the page header.
 Update it if the album list changes.
+
+**Order 9→11 jump is intentional, not a mistake.** Order 10 was originally reserved on the
+assumption Endwalker might get a mid-cycle album the way Heavensward (→ The Far Edge of Fate)
+and Shadowbringers (→ Death Unto Dawn) did, before its own EP-compilation album. It didn't —
+all of patches 6.1–6.58 went straight into one compilation (Growing Light, order 11) — so the
+reserved row was removed from the table (confirmed first that no album JSON uses `order: 10`
+and `build.py`'s `ROADMAP` list matches albums by name, not this number, so nothing depends on
+it). Don't renumber 9/11/12/13 to close the gap if a real order-10 album ever does turn up
+between Endwalker and Growing Light chronologically — just reintroduce it as order 10.
 
 ---
 
