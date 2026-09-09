@@ -729,7 +729,7 @@
   {
    "n": 91,
    "title": "Fallen Angel (From Astral to Umbral)",
-   "type": "Raid",
+   "type": "Ultimate",
    "where": "The Weapon's Refrain \u2014 Garuda, first phase",
    "origin": "Soken; from 2.0",
    "patch": "4.01"
@@ -737,7 +737,7 @@
   {
    "n": 92,
    "title": "Primal Judgment (From Astral to Umbral)",
-   "type": "Raid",
+   "type": "Ultimate",
    "where": "The Weapon's Refrain \u2014 Ifrit, second phase",
    "origin": "Soken; from 2.0",
    "patch": "4.01"
@@ -745,7 +745,7 @@
   {
    "n": 93,
    "title": "Under the Weight (From Astral to Umbral)",
-   "type": "Raid",
+   "type": "Ultimate",
    "where": "The Weapon's Refrain \u2014 Titan, third phase; also reused for Titan Maximum in Eden's Verse: Sepulture Savage",
    "origin": "Soken; from 2.0",
    "patch": "4.01"
@@ -753,7 +753,7 @@
   {
    "n": 94,
    "title": "Ultima (Orchestral Version)",
-   "type": "Raid",
+   "type": "Ultimate",
    "where": "The Weapon's Refrain \u2014 The Ultima Weapon, final phase",
    "origin": "Soken; from 2.0",
    "patch": "4.01"

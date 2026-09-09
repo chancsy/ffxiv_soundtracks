@@ -404,18 +404,27 @@ albums 1–3 from a near-data-loss (see the note at the end of this section). No
 is urgent or user-requested-right-now — this is the running backlog so any session can pick
 up a thread without re-deriving context. Update the status line inline as items move.
 
-- **[IN PROGRESS] Tier 1–4 accuracy audit, cross-checked by content type.** The plan agreed
+- **[TIER 1 MISSING-DUTY PASS DONE; EXCLUSIVITY PASS + TIERS 2–4 REMAIN] Accuracy audit, cross-checked by content type.** The plan agreed
   with the user: build a ground-truth duty roster per expansion from the *official* Eorzea
   Database duty browser (`na.finalfantasyxiv.com/lodestone/playguide/db/duty/?category2=N` —
-  4=Trials, 5=Raids, 6=Alliance Raids, 28=Ultimate; `&ex_version=N` filters by expansion, where
-  0=ARR, 1=HW, 2=StB, 3=ShB, 4=EW, 5=DT). Plain `WebFetch` works fine on these pages (no
-  Cloudflare gate, unlike Fandom) — much faster than the Playwright/Wayback route, save that for
-  Fandom track/duty pages specifically. Then, in priority order:
+  4=Trials, 5=Raids **(alliance raids are bundled in here too, not a separate category)**,
+  28=Ultimate; **6 is PvP, not Alliance Raids** — corrected assumption, see below;
+  `&ex_version=N` filters by expansion, where 0=ARR, 1=HW, 2=StB, 3=ShB, 4=EW, 5=DT). Plain
+  `WebFetch` works fine on these pages (no Cloudflare gate, unlike Fandom) — much faster than
+  the Playwright/Wayback route, save that for Fandom track/duty pages specifically. Then, in
+  priority order:
   1. **Tier 1** — every row currently typed `Trial`/`Raid`/`Alliance raid`/`Field raid`/`Ultimate`
      (~222 rows): confirm the duty exists in the roster, confirm `type` matches, and — per the
      Sephirot/Zurvan lesson in §4 — confirm any `(Extreme)`/`(Savage)` claim in `where` against
      that specific track's own Fandom "Game appearances" section (not the duty infobox alone;
      that page also lists both Normal-page and Extreme-page results, no automated shortcut).
+
+     **The missing-duty-and-wrong-type-or-name half of Tier 1 is now DONE, all categories, all
+     6 expansions** (Trials, Raids, Alliance Raids, Ultimate — Field raid was already handled
+     pre-Tier-1, see §2). **The exclusivity-claim half is NOT done** — every existing
+     `(Extreme)`/`(Savage)` tag outside The Far Edge of Fate is still unverified against the
+     Sephirot/Zurvan pattern (a track claimed as difficulty-exclusive that's actually shared).
+     That's the one remaining piece of Tier 1.
 
      **Progress so far, Trials sub-pass:**
      - The Far Edge of Fate (Sephirot/Sophia/Zurvan): done — found and fixed 4 wrong exclusivity
@@ -484,10 +493,28 @@ up a thread without re-deriving context. Update the status line inline as items 
        Justice Mode" already correctly written on the Far Edge of Fate album). AAC
        Cruiserweight/Heavyweight (Dawntrail) are absent, confirmed correctly out of scope —
        patches 7.2 and 7.4 respectively, both under the already-deferred order-13 EP scope.
-     - Alliance Raids, Ultimate rosters (category2=6, 28): **not started** — haven't pulled the
-       roster for any expansion yet. Given the ARR/Endwalker overlap just found, cross-check
-       against what's already confirmed under category2=5 above before assuming something's
-       missing — it may just be double-listed.
+     - **Alliance Raids: done — turned out not to need a separate fetch at all.**
+       `category2=6` is actually PvP, not Alliance Raids (corrected an assumption from earlier
+       in this same pass) — there is no separate Alliance Raid category in EDB; alliance raids
+       are simply bundled into `category2=5` (Raids) alongside 8-player tiers, which the Raids
+       pass above already fetched. Cross-referenced the alliance-raid-specific duty names from
+       those same rosters: Void Ark/Weeping City of Mhach/Dun Scaith (Heavensward), Royal City
+       of Rabanastre/Ridorana Lighthouse/Orbonne Monastery (Stormblood, with Orbonne's own
+       tracks correctly living on the Shadowbringers album per the "tail end" pattern), The
+       Copied Factory/The Puppets' Bunker/The Tower at Paradigm's Breach (Shadowbringers,
+       YoRHa: Dark Apocalypse), Aglaia/Euphrosyne/Thaleia (Endwalker, Myths of the Realm) — all
+       present and correctly typed `Alliance raid`. Dawntrail's alliance raid, Echoes of
+       Vana'diel (Jeuno/San d'Oria/Windurst: The First/Second/Third Walk), is entirely absent
+       from the data — confirmed correct, it's 7.1/7.3/7.5 content, squarely in the
+       already-deferred order-13 EP scope.
+     - **Ultimate roster (category2=28, all expansions in one list): done.** UCOB, TEA (Death
+       Unto Dawn), DSR and TOP (Growing Light) all present and correctly typed. **Found and
+       fixed a real bug**: UWU's four tracks ("Fallen Angel," "Primal Judgment," "Under the
+       Weight," "Ultima (Orchestral Version)," all "(From Astral to Umbral)"/"(Orchestral
+       Version)" on Stormblood) were typed `Raid` instead of `Ultimate` — inconsistent with
+       every other ultimate's treatment; retyped. Two roster entries confirmed out of scope:
+       **Futures Rewritten** (patch 7.11) and **Dancing Mad (Ultimate)** (patch 7.51, released
+       during this very session's real-world timeframe) — both squarely 7.1+, deferred.
   2. **Tier 2** — rows typed `Boss battle`/`Story battle` (~44 rows): check each against the
      roster for a hidden mistagged Trial/Raid (this is the Hades/Diamond Weapon bug pattern —
      already fixed where found, not swept project-wide). Not started.
