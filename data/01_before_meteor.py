@@ -42,7 +42,7 @@ T = [
 (38,"Aetherial Slumber","Credits & theme","Game credits","Uematsu","1.0"),
 (39,"The Echo","Quest & cutscene","Echo cutscenes; Black Mage quest","Uematsu","1.0"),
 (40,"Fever Dream","Quest & cutscene","Various quests, incl. 'Living on a Prayer'","Uematsu","1.0"),
-(41,"Darring Dalliances","Quest & cutscene","Various quests","Uematsu","1.0"),
+(41,"Daring Dalliances","Quest & cutscene","Various quests","Uematsu","1.0"),
 (42,"Sacred Bonds","Quest & cutscene","Various quests, incl. 'Futures Perfect'","Uematsu","1.0"),
 (43,"Piece of Mind","Quest & cutscene","'Living on a Prayer'","Uematsu","1.0"),
 (44,"Inner Recess","Quest & cutscene","Various quests, incl. 'Futures Perfect'","Uematsu","1.0"),

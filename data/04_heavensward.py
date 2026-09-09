@@ -68,6 +68,7 @@ album = {
  "full": "Heavensward: FINAL FANTASY XIV Original Soundtrack",
  "year": 2016,
  "covers": "Patches 3.0 – 3.1",
+ "spotify": "7bit5mSz6TEVULrGIPIjPz",
  "tracks": [
    {"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p,
     **({"extra_types": [r.split(":",1)[1] for r in rest if r.startswith("extra:")]} if any(r.startswith("extra:") for r in rest) else {})}

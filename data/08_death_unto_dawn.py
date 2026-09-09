@@ -41,7 +41,7 @@ T = [
 (37,"Into the Fortress (Zodiac Age Version)","Field","The Bozjan Southern Front","Sakimoto/Iwata; from FFXII: The Zodiac Age","5.3"),
 (38,"Battle with an Esper (Zodiac Age Version)","Boss battle","Fighting Espers on the Bozjan Southern Front","Sakimoto/Iwata; from FFXII: The Zodiac Age","5.3"),
 (39,"Life and Death (Zodiac Age Version)","Field","The Bozjan Southern Front","Sakimoto/Iwata; from FFXII: The Zodiac Age","5.3"),
-(40,"Watts' Anvil","Tribal quest","Dwarf beast tribe theme; Watt's Anvil settlement in Lakeland","Soken","5.3"),
+(40,"Watts's Anvil","Tribal quest","Dwarf beast tribe theme; Watt's Anvil settlement in Lakeland","Soken","5.3"),
 (41,"The Isle of Endless Summer","Seasonal event","Moonfire Faire (2020)","Soken","5.3"),
 (42,"Where All Roads Lead","Dungeon","The Heroes' Gauntlet","Soken","5.3"),
 (43,"Echoes in the Dark","Field","The Bozjan Southern Front","Soken","5.3"),

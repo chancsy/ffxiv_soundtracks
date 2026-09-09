@@ -64,7 +64,7 @@ T = [
 (60,"Where Dæmons Abide","Instanced area","The Gates of Pandæmonium area theme","Soken","6.0"),
 (61,"Ancient Shackles","Raid","Asphodelos: The First, Second and Third Circles","Soken","6.0"),
 (62,"Hic Svnt Leones","Raid","Asphodelos: The Fourth Circle","Soken","6.0"),
-(63,"Endwalker (Chiptune Version)","Credits & theme","Extra track — chiptune arrangement","Soken","6.0","bluray_only"),
+(63,"Endwalker (Chiptune Version)","Credits & theme","Extra track — chiptune arrangement","Soken","6.0"),
 ]
 
 album = {
