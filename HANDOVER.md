@@ -664,13 +664,18 @@ up a thread without re-deriving context. Update the status line inline as items 
   region-locked storefront from here — figure that out as part of doing this, and document
   what worked (or didn't) for the next session's benefit.
 
-- **[NOT STARTED] Mobile layout: content-type chips take over the whole viewport.** User report:
-  on mobile, the chip row (~30 chips, all types, wrapping across many lines) pushes the actual
-  table content down so far that only a sliver is visible above the fold. Needs a mobile-specific
-  treatment — candidates: collapse chips into a dropdown/expandable section below a certain
-  viewport width, cap visible chips with a "more" toggle, or make the chip row horizontally
-  scrollable instead of wrapping. Whatever's chosen, keep the active-chip state and counts
-  working the same way. Not investigated yet — no CSS written.
+- **[DONE] Mobile layout: content-type chips take over the whole viewport.** Fixed by switching
+  the chip row from wrapping to a horizontally-scrollable single-row strip below the existing
+  820px breakpoint (`.chips{flex-wrap:nowrap;overflow-x:auto;...}`, chips get `flex:0 0 auto` so
+  they don't shrink) — same pattern as filter-chip rows in most apps. Chose this over a
+  dropdown/"more" toggle since it needed no new JS state and doesn't hide any chip behind an
+  extra tap; active-chip state and counts are untouched, this is CSS-only. Bleeds to the true
+  screen edge via negative margin matching `.wrap`'s 20px padding, so it doesn't look
+  awkwardly inset. Not re-verified with an actual mobile screenshot this round — the session's
+  Playwright browser profile was locked by orphaned processes from earlier resumes of this same
+  session (multiple `--resume=<this session id>` processes accumulated; didn't want to risk
+  killing a shared browser profile blind) — worth a real device/screenshot check next session if
+  that's easy to arrange, but the CSS pattern itself is standard and low-risk.
 
 **Near-miss recorded for context**: in the session that added this TODO structure, running all
 `data/*.py` generators in a loop overwrote `02_a_realm_reborn.json` and `03_before_the_fall.json`
