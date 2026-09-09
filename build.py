@@ -155,7 +155,7 @@ const rowsEl=document.getElementById('rows'), chipsEl=document.getElementById('c
  npCloseEl=document.getElementById('npClose');
 
 function playTrack(id){
-  npFrameEl.src='https://open.spotify.com/embed/track/'+id+'?utm_source=generator';
+  npFrameEl.src='https://open.spotify.com/embed/track/'+id+'?utm_source=generator&autoplay=1';
   nowPlayingEl.hidden=false;
   document.body.classList.add('playing');
 }
