@@ -532,9 +532,24 @@ up a thread without re-deriving context. Update the status line inline as items 
        every other ultimate's treatment; retyped. Two roster entries confirmed out of scope:
        **Futures Rewritten** (patch 7.11) and **Dancing Mad (Ultimate)** (patch 7.51, released
        during this very session's real-world timeframe) — both squarely 7.1+, deferred.
-  2. **Tier 2** — rows typed `Boss battle`/`Story battle` (~44 rows): check each against the
-     roster for a hidden mistagged Trial/Raid (this is the Hades/Diamond Weapon bug pattern —
-     already fixed where found, not swept project-wide). Not started.
+  2. **Tier 2 — done.** Every `Boss battle`/`Story battle` row (~40 of them) checked against
+     the Hades/Diamond Weapon mistag pattern. **Found and fixed one real issue, bigger than a
+     single row**: 8 tracks on the Shadowbringers album for **Orbonne Monastery** — the third
+     part of the "Return to Ivalice" alliance raid trilogy (Rabanastre → Ridorana → Orbonne) —
+     were typed `Boss battle`/`Instanced area` for their sub-area and named-boss tracks
+     ("Under The Stars," "Pressure (No. 1)," "Antipyretic," "B. E.," "A Man Consumed,"
+     "Descent," "Ultima's Perfection," "Hall of Worship"), inconsistent with how the identical
+     kind of content is typed `Alliance raid` in Rabanastre/Ridorana. Retyped all 8 to
+     `Alliance raid` to match. Left alone on purpose, matching the *already-consistent*
+     Rabanastre precedent: narrative cutscenes and completion jingles inside the same raid
+     (Rabanastre's "Victory," "Character Creation," etc.; Orbonne's "St. Ajora's Theme," "Final
+     Struggle") stay in their own generic buckets rather than becoming `Alliance raid` — only
+     the actual dungeon-crawl/boss-fight tracks get the raid's type. Also spot-checked two
+     ambiguous `Story battle` rows that looked like they might hide an actual Trial name
+     ("Inexorable" — Zero, "Tremble" — a Garlemald encounter): both confirmed genuinely solo/
+     generic MSQ content, no registered duty involved, no change needed. Everything else on the
+     list (~30 rows) is a genuinely generic multi-dungeon or multi-encounter cue with no single
+     named duty to mistag — left as-is.
   3. **Tier 3** — `Dungeon`/`Variant dungeon`/`Criterion dungeon`/`Deep dungeon` (~133 rows):
      lower-probability sweep for the same mistag pattern. Not started.
   4. **Tier 4** — whole dataset: grep `where` for generic-reuse phrasing ("final boss fights

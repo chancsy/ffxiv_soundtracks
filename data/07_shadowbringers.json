@@ -153,7 +153,7 @@
   {
    "n": 19,
    "title": "Under The Stars",
-   "type": "Instanced area",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Gelmore Jungle sub-area",
    "origin": "Iwata; from FFT",
    "patch": "4.5"
@@ -161,7 +161,7 @@
   {
    "n": 20,
    "title": "Pressure (No. 1)",
-   "type": "Boss battle",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Mustadio Bunansa",
    "origin": "Sakimoto; from FFT",
    "patch": "4.5"
@@ -169,7 +169,7 @@
   {
    "n": 21,
    "title": "Antipyretic",
-   "type": "Boss battle",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Agrias",
    "origin": "Sakimoto; from FFT",
    "patch": "4.5"
@@ -177,7 +177,7 @@
   {
    "n": 22,
    "title": "B. E.",
-   "type": "Instanced area",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Necrohol of Mullonde sub-area",
    "origin": "Sakimoto; from FFT",
    "patch": "4.5"
@@ -185,7 +185,7 @@
   {
    "n": 23,
    "title": "A Man Consumed",
-   "type": "Boss battle",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 the Thunder God",
    "origin": "Sakimoto; from Vagrant Story",
    "patch": "4.5"
@@ -201,7 +201,7 @@
   {
    "n": 25,
    "title": "Descent",
-   "type": "Boss battle",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Ultima, transition phase",
    "origin": "Iwata; from FFT",
    "patch": "4.5"
@@ -209,7 +209,7 @@
   {
    "n": 26,
    "title": "Ultima's Perfection",
-   "type": "Boss battle",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Ultima, second half",
    "origin": "Iwata; from FFT",
    "patch": "4.5"
@@ -225,7 +225,7 @@
   {
    "n": 28,
    "title": "Hall of Worship",
-   "type": "Instanced area",
+   "type": "Alliance raid",
    "where": "Orbonne Monastery \u2014 Crystal Gaol sub-area, after defeating Ultima",
    "origin": "Sakimoto; from FFT",
    "patch": "4.5"
