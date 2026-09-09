@@ -550,8 +550,13 @@ up a thread without re-deriving context. Update the status line inline as items 
      generic MSQ content, no registered duty involved, no change needed. Everything else on the
      list (~30 rows) is a genuinely generic multi-dungeon or multi-encounter cue with no single
      named duty to mistag — left as-is.
-  3. **Tier 3** — `Dungeon`/`Variant dungeon`/`Criterion dungeon`/`Deep dungeon` (~133 rows):
-     lower-probability sweep for the same mistag pattern. Not started.
+  3. **Tier 3 — done, clean pass.** Pulled the official Dungeon roster (`category2=2`) for
+     all 6 expansions (~103 named dungeons) and checked every one against the data. Zero real
+     bugs — every ARR/HW/SB/ShB/EW dungeon is present; the only "missing" ones (Yuweyawata Field
+     Station, The Underkeep, Meso Terminal, Mistwake, The Clyteum) are all Dawntrail 7.1+
+     content, already deferred (verified Yuweyawata directly: patch 7.1). Confirms this really
+     was the lower-probability tier — dungeon naming doesn't have the "which official duty is
+     this really" ambiguity that Trials/Raids/Alliance Raids do.
   4. **Tier 4** — whole dataset: grep `where` for generic-reuse phrasing ("final boss fights
      in...", "normal battles in...", "miniboss", "random encounters") and check each such
      track's own Fandom page for reuse in a named duty not yet mentioned (the Memoria Misera
