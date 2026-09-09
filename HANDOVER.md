@@ -251,6 +251,17 @@ track's EX/Savage-exclusivity genuinely can't be confirmed, default to **not** f
 "prefer a broader true statement over a specific guess."
 
 ### Step 4 — Cross-check with the in-game orchestrion listings
+
+**Scope note (added after the Tier 1–4 audit session): this is for placing a track during new-
+album research — "which OST is this actually on" — not for verifying duty/exclusivity claims
+on existing rows.** The whole Tier 1–4 audit never used this step; it relied on the Eorzea
+Database duty roster (§7's audit notes) for "does this duty exist / what type is it" and each
+track's own Fandom page for "where does it actually play, shared or exclusive" — both more
+direct for those questions than this listing's `Patch`/`OST Release` columns, given the trap
+noted below. Confirmed the site itself still loads fine (plain WebFetch, no Cloudflare) during
+that session, but that's a connectivity check, not a claim that it was actually used or is the
+right tool for auditing — use the Eorzea DB + track-page combo for that instead.
+
 `https://ffxiv.consolegameswiki.com/wiki/Orchestrion_Roll` maps every orchestrion roll to
 its theme ("Coerthas Western Highlands Night Theme", "Vanu Vanu Tribe Theme", etc.), with a
 `Patch` column and which OST it's on. It fetches fine (via plain WebFetch, no Cloudflare) but
