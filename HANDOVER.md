@@ -671,11 +671,11 @@ up a thread without re-deriving context. Update the status line inline as items 
   dropdown/"more" toggle since it needed no new JS state and doesn't hide any chip behind an
   extra tap; active-chip state and counts are untouched, this is CSS-only. Bleeds to the true
   screen edge via negative margin matching `.wrap`'s 20px padding, so it doesn't look
-  awkwardly inset. Not re-verified with an actual mobile screenshot this round — the session's
-  Playwright browser profile was locked by orphaned processes from earlier resumes of this same
-  session (multiple `--resume=<this session id>` processes accumulated; didn't want to risk
-  killing a shared browser profile blind) — worth a real device/screenshot check next session if
-  that's easy to arrange, but the CSS pattern itself is standard and low-risk.
+  awkwardly inset. **Verified visually** at a 390×844 viewport (screenshot + a scroll-position
+  check confirming `scrollWidth` (3697px, all ~30 chips) vs `clientWidth` (390px) actually
+  scrolls, not just clips) — table content now starts well above the fold instead of the chip
+  row eating the whole screen. (The orphaned Playwright-profile processes from earlier resumes
+  of this session that blocked the first verification attempt were killed — profile is clear now.)
 
 **Near-miss recorded for context**: in the session that added this TODO structure, running all
 `data/*.py` generators in a loop overwrote `02_a_realm_reborn.json` and `03_before_the_fall.json`
