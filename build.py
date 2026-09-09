@@ -106,7 +106,7 @@ tbody tr:hover{background:#ffffff08}
 body.playing .wrap{padding-bottom:172px}
 .now-playing{position:fixed;left:0;right:0;bottom:0;z-index:20;max-width:1240px;margin:0 auto;
  box-shadow:0 -8px 24px #00000060}
-.now-playing iframe{display:block;width:100%;height:152px;border:0}
+.now-playing iframe,#npFrame{display:block;width:100%;height:152px;border:0}
 .np-close{position:absolute;top:6px;right:6px;z-index:21;background:var(--night);border:1px solid var(--rule);
  border-radius:50%;color:var(--ink-dim);width:24px;height:24px;cursor:pointer;font-size:.9rem;line-height:1}
 .np-close:hover{color:var(--ink);border-color:#3d4a6b}
@@ -154,13 +154,42 @@ const rowsEl=document.getElementById('rows'), chipsEl=document.getElementById('c
  nowPlayingEl=document.getElementById('nowPlaying'), npFrameEl=document.getElementById('npFrame'),
  npCloseEl=document.getElementById('npClose');
 
+// Real playback control (not just a src swap) needs Spotify's iFrame API: it hands us a
+// controller with play()/loadUri() we can call straight from the click handler, which is what
+// actually starts audio immediately. A plain iframe src (what this used to be) only ever shows
+// Spotify's own paused embed — there's no "autoplay" URL param, Spotify's embed doesn't support
+// one at all, so that never did anything either way.
+function withSpotifyAPI(cb){
+  if(window.__spotifyIframeAPI) cb(window.__spotifyIframeAPI);
+  else window.__spotifyReadyQueue.push(cb);
+}
+let spotifyController=null, controllerReady=false, pendingTrackId=null;
+
 function playTrack(id){
-  npFrameEl.src='https://open.spotify.com/embed/track/'+id+'?utm_source=generator&autoplay=1';
   nowPlayingEl.hidden=false;
   document.body.classList.add('playing');
+  if(!spotifyController){
+    pendingTrackId=id;
+    withSpotifyAPI(api=>{
+      const createdId=id;
+      api.createController(npFrameEl, {uri:'spotify:track:'+id, width:'100%', height:'152'}, controller=>{
+        spotifyController=controller;
+        controller.addListener('ready', ()=>{
+          controllerReady=true;
+          if(pendingTrackId && pendingTrackId!==createdId) spotifyController.loadUri('spotify:track:'+pendingTrackId);
+          spotifyController.play();
+          pendingTrackId=null;
+        });
+      });
+    });
+    return;
+  }
+  if(!controllerReady){ pendingTrackId=id; return; }
+  spotifyController.loadUri('spotify:track:'+id);
+  spotifyController.play();
 }
 function closePlayer(){
-  npFrameEl.src='';
+  if(spotifyController) spotifyController.pause();
   nowPlayingEl.hidden=true;
   document.body.classList.remove('playing');
 }
@@ -315,8 +344,11 @@ theme, or carried over from an earlier expansion.</p></footer>
 </div>
 <div class="now-playing" id="nowPlaying" hidden>
  <button type="button" class="np-close" id="npClose" aria-label="Close player">&times;</button>
- <iframe id="npFrame" title="Spotify player" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+ <div id="npFrame"></div>
 </div>
+<script>window.__spotifyReadyQueue=[];
+window.onSpotifyIframeApiReady=api=>{{window.__spotifyIframeAPI=api;window.__spotifyReadyQueue.splice(0).forEach(fn=>fn(api));}};</script>
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
 <script>{JS.replace('__TYPES__', json.dumps(TYPE_ORDER)).replace('__ROWS__', json.dumps(rows, ensure_ascii=False)).replace('__ALBUMS__', json.dumps(album_meta, ensure_ascii=False))}</script></body></html>"""
 
 OUT.write_text(body)
