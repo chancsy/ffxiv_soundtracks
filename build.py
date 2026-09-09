@@ -232,11 +232,11 @@ body = f"""<!DOCTYPE html>
 <style>{CSS}</style></head><body><div class="wrap">
 
 <header>
-<h1>The music of Final Fantasy XIV<span class="sub">{sum(1 for a in albums for t in a['tracks'] if not t.get('bluray_only'))} tracks annotated so far, across {len(albums)} of {len(ROADMAP)} albums on Spotify</span></h1>
-<p>Every track with the duty, area or moment it belongs to. Use the content-type chips below to
-narrow to Trials, Raids, Alliance raids and the like — extreme and savage versions of a fight
-almost always keep every cue the normal version has, so filtering by type already surfaces the
-full endgame set without a separate view.</p>
+<h1>The Music of Final Fantasy XIV<span class="sub">{sum(1 for a in albums for t in a['tracks'] if not t.get('bluray_only'))} tracks annotated so far, across {len(albums)} of {len(ROADMAP)} albums on Spotify</span></h1>
+<p>Every track, tagged with the duty, area or moment it belongs to. Use the content-type chips
+below — Trial, Raid, Alliance raid, and so on — to browse a specific kind of content. Extreme
+and savage versions of a fight almost always reuse every cue the normal version has, so a type
+filter alone already shows what you'd hear at any difficulty.</p>
 <div class="progress">{prog}</div>
 </header>
 
