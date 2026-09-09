@@ -211,14 +211,42 @@ reasonable priors, neither should be assumed without checking a track's own Fand
 
 **Row array shape** (index → meaning), used by `build.py`'s inline JS:
 `0 #, 1 track no., 2 title, 3 type, 4 where, 5 album, 6 patch, 7 origin, 8 major patch,
-9 expansion, 10 bluray flag, 11 extra_types (array, possibly empty)`. If you add a field,
-append it at the end and update every `d[N]` reference in the JS. `allTypes(d)` returns
-`[d[3], ...d[11]]` — chip counts, the active-chip filter, and the search-text blob all go
-through it, so a row with `extra_types` is findable and counted under every one of its types.
+9 expansion, 10 bluray flag, 11 extra_types (array, possibly empty), 12 spotify_track (id
+string, empty if unknown)`. If you add a field, append it at the end and update every `d[N]`
+reference in the JS. `allTypes(d)` returns `[d[3], ...d[11]]` — chip counts, the active-chip
+filter, and the search-text blob all go through it, so a row with `extra_types` is findable and
+counted under every one of its types.
 
-**Play button** links to `https://open.spotify.com/search/<title + " FINAL FANTASY XIV">` — a
-search deep-link, because Spotify track IDs aren't fetchable in bulk. If real track URLs are
-ever collected, add a `spotify_track` field and prefer it in the link builder.
+**Play button plays the actual track inline** when a Spotify track ID is known for that row
+(row index 12, `spotify_track` — full track for a Premium account signed into Spotify in that
+browser, a 30-second preview otherwise; `<button class="play-btn" data-id="...">` fires
+`playTrack()`, which points a fixed-position iframe at
+`open.spotify.com/embed/track/<id>` — Spotify's own embed shows the title/artist/art, no extra
+markup needed). Falls back to the old `open.spotify.com/search/<title>` deep-link when no ID is
+known for a row (e.g. a newly-added album before its IDs have been fetched).
+
+**Where the IDs come from**: `data/spotify_ids/NN_album.json`, one optional sidecar file per
+album, `{"<track n>": {"id": "<spotify track id>", "name": "..."}}`. Deliberately kept *out* of
+the main `data/NN_album.json` files — it's fetched wholesale from the Spotify Web API rather
+than hand-researched per track, and keeping it separate means it can be regenerated anytime
+without touching the tuple-based album sources (`build.py` merges it in at build time via
+`spotify_ids_for()`, matching on track `n`; a missing sidecar or a missing entry both fall back
+to the search-link cleanly).
+
+To (re)fetch a sidecar file: get a Spotify Client ID + Secret from a **Developer app**
+(developer.spotify.com/dashboard — free, app-only "Client Credentials" auth, no user login,
+scoped to reading public catalog data only), exchange them for a bearer token at
+`accounts.spotify.com/api/token`, then call
+`GET api.spotify.com/v1/albums/{id}/tracks?limit=50&offset=N` (paginate via the response's
+`next` field) for the album's own Spotify ID. This is far more reliable than trying to scrape
+`open.spotify.com/album/<id>` directly — that page's tracklist is virtualized and can silently
+render an incomplete list depending on how it's scrolled, with no error to signal the gap; the
+real API returns the complete, exact, ordered tracklist every time. Verify a freshly-fetched
+sidecar's track count against the main album JSON's non-Blu-ray-only track count before
+trusting it, and spot-check titles — Spotify's own title metadata occasionally differs
+cosmetically from Square Enix's official tracklist (e.g. expanding an abbreviation, dropping a
+diacritic), which is a difference worth knowing about but not something to "fix" by overwriting
+the correct title.
 
 Adding an album never requires touching `build.py` unless it introduces a new content type or
 the roadmap changes.

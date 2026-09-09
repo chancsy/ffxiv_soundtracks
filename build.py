@@ -4,7 +4,22 @@ ROOT = pathlib.Path(__file__).resolve().parent
 DATA = ROOT / "data"
 OUT = ROOT / "index.html"
 
-albums = sorted((json.loads(p.read_text()) for p in DATA.glob("*.json")), key=lambda a: a["order"])
+# Optional per-album {n: {"id": spotify_track_id, ...}} sidecar, keyed by track number.
+# Kept out of the main data/NN_album.json files on purpose: it's fetched wholesale from the
+# Spotify API (see data/spotify_ids/README if present) rather than hand-researched per track,
+# and keeping it separate means it can be regenerated anytime without touching the tuple-based
+# album sources or risking the .py/.json sync issues documented in git history.
+SPOTIFY_IDS_DIR = DATA / "spotify_ids"
+def spotify_ids_for(album_json_path):
+    sidecar = SPOTIFY_IDS_DIR / album_json_path.name
+    if not sidecar.exists():
+        return {}
+    raw = json.loads(sidecar.read_text())
+    return {int(k): v["id"] for k, v in raw.items()}
+
+album_paths = sorted(DATA.glob("*.json"), key=lambda p: json.loads(p.read_text())["order"])
+albums = [json.loads(p.read_text()) for p in album_paths]
+spotify_ids_by_album = [spotify_ids_for(p) for p in album_paths]
 
 TYPE_ORDER = [
  "Alliance raid","Field raid","Raid","Ultimate","Trial","Boss battle","Dungeon","Variant dungeon",
@@ -26,14 +41,15 @@ def exp_of(p):
 
 rows = []
 seq = 0
-for a in albums:
+for a, spotify_ids in zip(albums, spotify_ids_by_album):
     for t in a["tracks"]:
         seq += 1
         where = t["where"]
         pt = t.get("patch","")
         br = 1 if t.get("bluray_only") else 0
         extra = t.get("extra_types", [])
-        rows.append([seq, t["n"], t["title"], t["type"], where, a["album"], pt, t["origin"], major_of(pt), exp_of(pt), br, extra])
+        sp_track = spotify_ids.get(t["n"], "")
+        rows.append([seq, t["n"], t["title"], t["type"], where, a["album"], pt, t["origin"], major_of(pt), exp_of(pt), br, extra, sp_track])
 
 album_meta = [[a["album"], a["year"], a["covers"], len(a["tracks"]), a.get("spotify","")] for a in albums]
 
@@ -82,10 +98,18 @@ tbody tr:hover{background:#ffffff08}
 .tn{color:var(--ink-dim);font-variant-numeric:tabular-nums;font-size:.83rem;width:3.4rem}
 .tn sup{color:var(--light);font-size:.8em;margin-left:1px}
 .play{width:2.4rem;padding-right:0}
-.play a{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;
- background:#1db95422;border:1px solid #1db95466;color:#3ddc7a;text-decoration:none;font-size:.7rem;padding-left:2px}
-.play a:hover{background:#1db95444;border-color:#1db954}
+.play a,.play button{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;
+ background:#1db95422;border:1px solid #1db95466;color:#3ddc7a;text-decoration:none;font:inherit;font-size:.7rem;
+ padding-left:2px;cursor:pointer}
+.play a:hover,.play button:hover{background:#1db95444;border-color:#1db954}
 .play span{display:inline-block;width:26px;text-align:center;color:#3d4660;font-size:.8rem}
+body.playing .wrap{padding-bottom:172px}
+.now-playing{position:fixed;left:0;right:0;bottom:0;z-index:20;max-width:1240px;margin:0 auto;
+ box-shadow:0 -8px 24px #00000060}
+.now-playing iframe{display:block;width:100%;height:152px;border:0}
+.np-close{position:absolute;top:6px;right:6px;z-index:21;background:var(--night);border:1px solid var(--rule);
+ border-radius:50%;color:var(--ink-dim);width:24px;height:24px;cursor:pointer;font-size:.9rem;line-height:1}
+.np-close:hover{color:var(--ink);border-color:#3d4a6b}
 tr.br td{color:var(--ink-dim)}
 tr.br .title{font-style:italic}
 .patch{font-family:ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums;font-size:.8rem;color:var(--light);width:4.4rem}
@@ -126,7 +150,26 @@ const ALBUMS = __ALBUMS__;
 const rowsEl=document.getElementById('rows'), chipsEl=document.getElementById('chips'),
  countEl=document.getElementById('count'), emptyEl=document.getElementById('empty'),
  qEl=document.getElementById('q'), albEl=document.getElementById('alb'),
- patEl=document.getElementById('pat'), expEl=document.getElementById('exp');
+ patEl=document.getElementById('pat'), expEl=document.getElementById('exp'),
+ nowPlayingEl=document.getElementById('nowPlaying'), npFrameEl=document.getElementById('npFrame'),
+ npCloseEl=document.getElementById('npClose');
+
+function playTrack(id){
+  npFrameEl.src='https://open.spotify.com/embed/track/'+id+'?utm_source=generator&autoplay=1';
+  nowPlayingEl.hidden=false;
+  document.body.classList.add('playing');
+}
+function closePlayer(){
+  npFrameEl.src='';
+  nowPlayingEl.hidden=true;
+  document.body.classList.remove('playing');
+}
+rowsEl.addEventListener('click', e=>{
+  const btn=e.target.closest('.play-btn');
+  if(!btn) return;
+  playTrack(btn.dataset.id);
+});
+npCloseEl.addEventListener('click', closePlayer);
 
 let active=new Set();
 
@@ -195,6 +238,7 @@ function render(){
    '<tr'+(d[10]?' class="br"':'')+'><td class="num">'+d[0]+'</td>'+
    '<td class="tn">'+d[1]+(d[10]?'<sup>*</sup>':'')+'</td>'+
    '<td class="play">'+(d[10]?'<span title="Not on streaming">–</span>':
+     d[12]?'<button type="button" class="play-btn" data-id="'+d[12]+'" data-title="'+esc(d[2])+'" title="Play '+esc(d[2])+'" aria-label="Play '+esc(d[2])+'">&#9654;</button>':
      '<a href="https://open.spotify.com/search/'+encodeURIComponent(d[2]+' FINAL FANTASY XIV')+'" target="_blank" rel="noopener" title="Find on Spotify" aria-label="Find '+esc(d[2])+' on Spotify">&#9654;</a>')+'</td>'+
    '<td class="title">'+esc(d[2])+'</td>'+
    '<td class="type"><span>'+esc(d[3])+'</span>'+
@@ -260,14 +304,20 @@ filter alone already shows what you'd hear at any difficulty.</p>
 <footer><p><sup>*</sup> Blu-ray Disc Music edition only. These are hidden MP3 files on the physical Blu-ray release
 (unlocked with a password printed on the packaging) and are not part of the streaming album, so they have no play
 button. Track numbers follow the Blu-ray; the streaming release simply stops before them.</p>
-<p>The play button opens a Spotify search for that track title, which is the closest thing to a direct link without
-per-track IDs — the right result is normally first. When a single album is selected, an “Open album on Spotify” link
-appears next to the album filter.</p>
+<p>Most play buttons open an inline Spotify player right on the page — full tracks for Premium accounts signed in
+to Spotify in this browser, 30-second previews otherwise. A few tracks don't have a direct link yet and instead
+open a Spotify search for the title in a new tab, which is usually a one-click fix from there. When a single album
+is selected, an “Open album on Spotify” link appears next to the album filter.</p>
 <p>“#” is a running chronological index across albums; “Track no.” is the position on that album.
 Patch is the update that added the content the track was written for; “1.x” marks version 1.0 additions whose exact patch isn’t documented. “Origin” notes the composer or whether a piece is new, arranged from an older Final Fantasy
 theme, or carried over from an earlier expansion.</p></footer>
 
-</div><script>{JS.replace('__TYPES__', json.dumps(TYPE_ORDER)).replace('__ROWS__', json.dumps(rows, ensure_ascii=False)).replace('__ALBUMS__', json.dumps(album_meta, ensure_ascii=False))}</script></body></html>"""
+</div>
+<div class="now-playing" id="nowPlaying" hidden>
+ <button type="button" class="np-close" id="npClose" aria-label="Close player">&times;</button>
+ <iframe id="npFrame" title="Spotify player" allow="autoplay; encrypted-media; clipboard-write; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+<script>{JS.replace('__TYPES__', json.dumps(TYPE_ORDER)).replace('__ROWS__', json.dumps(rows, ensure_ascii=False)).replace('__ALBUMS__', json.dumps(album_meta, ensure_ascii=False))}</script></body></html>"""
 
 OUT.write_text(body)
 print(f"{len(rows)} rows, {len(albums)} albums -> {OUT}")
