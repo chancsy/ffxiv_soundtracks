@@ -163,7 +163,22 @@ function withSpotifyAPI(cb){
   if(window.__spotifyIframeAPI) cb(window.__spotifyIframeAPI);
   else window.__spotifyReadyQueue.push(cb);
 }
-let spotifyController=null, controllerReady=false, pendingTrackId=null;
+let spotifyController=null, controllerReady=false, pendingTrackId=null, playRequestId=0;
+
+// loadUri() navigates the embedded iframe to the new track asynchronously; calling play()
+// in the same tick races that navigation. When it loses — most often while a previous track
+// is actively playing, rarely from an idle/paused controller — the widget is left showing
+// "playing" with no real audio or progress, and even pause() stops responding, because it's
+// queued behind a command the iframe never finished acknowledging. pause()-ing first forces a
+// clean stop before the switch, and a short delay before play() gives the navigation time to
+// land. playRequestId guards rapid double-clicks: only the most recently requested track is
+// allowed to actually issue its delayed play().
+function loadAndPlay(id){
+  const requestId=++playRequestId;
+  spotifyController.pause();
+  spotifyController.loadUri('spotify:track:'+id);
+  setTimeout(()=>{ if(requestId===playRequestId) spotifyController.play(); }, 300);
+}
 
 function playTrack(id){
   nowPlayingEl.hidden=false;
@@ -176,8 +191,8 @@ function playTrack(id){
         spotifyController=controller;
         controller.addListener('ready', ()=>{
           controllerReady=true;
-          if(pendingTrackId && pendingTrackId!==createdId) spotifyController.loadUri('spotify:track:'+pendingTrackId);
-          spotifyController.play();
+          if(pendingTrackId && pendingTrackId!==createdId) loadAndPlay(pendingTrackId);
+          else spotifyController.play();
           pendingTrackId=null;
         });
       });
@@ -185,8 +200,7 @@ function playTrack(id){
     return;
   }
   if(!controllerReady){ pendingTrackId=id; return; }
-  spotifyController.loadUri('spotify:track:'+id);
-  spotifyController.play();
+  loadAndPlay(id);
 }
 function closePlayer(){
   if(spotifyController) spotifyController.pause();
