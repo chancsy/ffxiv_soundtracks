@@ -216,7 +216,7 @@ ROADMAP = [
  ("Before Meteor", 2013), ("A Realm Reborn", 2014), ("Before the Fall", 2015),
  ("Heavensward", 2016), ("The Far Edge of Fate", 2017), ("Stormblood", 2018),
  ("Shadowbringers", 2019), ("Death Unto Dawn", 2021), ("Endwalker", 2022),
- ("Growing Light", 2024), ("Dawntrail", 2024), ("Dawntrail patch EPs", 2025),
+ ("Growing Light", 2024), ("Dawntrail", 2024), ("Trail to the Heavens", 2026),
 ]
 prog = "".join(
     f'<span class="{"done" if n in DONE else "todo"}">{html.escape(n)}</span>' for n, _ in ROADMAP

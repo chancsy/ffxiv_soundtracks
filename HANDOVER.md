@@ -57,7 +57,7 @@ external dependencies). Regenerate it with `python3 build.py`; never hand-edit t
 | 10 | (reserved) | | |
 | 11 | Growing Light | 6.1 – 6.58 | done |
 | 12 | Dawntrail | 7.0 | done |
-| 13 | Dawntrail patch EPs | 7.1 → | skipped for now — several small EPs, revisit later; treat each as its own album file |
+| 13 | Trail to the Heavens | 7.1 – 7.5 | **blocked, not yet released** — see note below, not skipped by choice |
 
 **Correction found in this session**: the "Stormblood" and "Shadowbringers" ranges above were originally
 `4.0` and `4.1–4.5` — wrong. SE's own catalogue confirms STORMBLOOD (SQEX-20053, 105 tracks) covers
@@ -607,9 +607,32 @@ up a thread without re-deriving context. Update the status line inline as items 
   needs a fine-grained GitHub PAT (Contents: read/write, scoped to this one repo) provided by
   the user each time — none is stored anywhere in this container between sessions.
 
-- **[IN PROGRESS]** Roadmap order 13 (Dawntrail patch EPs, 7.1+) — no longer deferred, user
-  asked to proceed. See the album-by-album status wherever this doc is updated next for where
-  it landed; check the roadmap table in §1 for the current source of truth on what's done.
+- **[BLOCKED — not a skip, the content doesn't exist yet]** Roadmap order 13. User asked to
+  proceed with "the rest" of the roadmap; researched it fully and confirmed there's nothing
+  buildable right now:
+  - The individual digital-purchase EPs (`FINAL FANTASY XIV: DAWNTRAIL - EP1` through at least
+    `EP8`, covering patches 7.0 through 7.5) exist and have tracklists, but — same pattern as
+    Endwalker's EP1–4 — **they never appear on Spotify individually**, only ever as
+    digital-purchase/Blu-ray releases. Out of this project's stated scope ("every track on the
+    soundtrack albums *that are on Spotify*").
+  - The compiled album that *would* eventually hit Spotify (matching how Endwalker's EPs became
+    "Growing Light") is **"TRAIL TO THE HEAVENS: FINAL FANTASY XIV Original Soundtrack"**
+    (catalog SQEX-20106), covering patches 7.1–7.5, 79 main tracks plus Blu-ray-only bonus
+    tracks (title count TBD). Confirmed via Square Enix's own JP music portal
+    (jp.square-enix.com/music) and the official announcement. **It has not released anywhere
+    yet as of this session (2026-09-09)**: Japan Blu-ray launches 2026-09-16 (one week out),
+    West follows in October 2026, and Spotify/streaming — going by every prior album's pattern
+    including the main Dawntrail OST and Growing Light — will likely lag even the West physical
+    release by some further stretch. SE has only revealed a partial tracklist so far (tracks
+    68–74 of 79, per their own product-page rollout).
+  - **This is exactly the case the JP-first TODO below was written for** — checked JP first,
+    found real information, but the honest answer this time is "not out yet, even there."
+  - **Next step for whoever picks this up**: check whether "Trail to the Heavens" has a Spotify
+    album ID yet. If yes, treat it as a normal new album per §3's process (order 13, rename to
+    "Trail to the Heavens" in the roadmap, which is already updated above). If no, this stays
+    blocked — no point re-researching until the release situation changes. Given the Japan
+    Blu-ray date, a sensible time to check back is anywhere from late September 2026 onward,
+    but streaming could easily lag well past that.
 
 - **[NEW TODO, applies to order 13 and every future album]** Before taking a Spotify album's
   track list as final, **check the Japanese Spotify storefront, not just the US/global one** —
