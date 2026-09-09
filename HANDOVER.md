@@ -618,18 +618,6 @@ up a thread without re-deriving context. Update the status line inline as items 
      consistently, which is structurally why genuine duty-reuse doesn't surface here. Tier 4 is
      complete; no further rows in this project are known to need this kind of check.
 
-- **[NOT STARTED] Audit reused/generic tracks for missing duty reuse mentions (Tier 4 above,
-  the "Memoria Misera" bug).** "Insatiable" (Shadowbringers track 49) is the boss theme for
-  Varis yae Galvus in the Trial **Memoria Misera (Extreme)** (patch 5.25) — confirmed on the
-  track's own Fandom page — but nothing in the row's `where` text said so, so the duty had zero
-  footprint in the table, not even a mistagged one; fixed for this one row (`where` text plus
-  `extra_types: ["Trial"]`, so it's now findable under the Trial chip too — see §2). Root cause: the
-  per-album research method (§3 Step 3) is duty-first — it finds a track's *primary* context but
-  never checks whether that same track got redeployed into some other duty later, sometimes a
-  different content category entirely (dungeon-boss cue → standalone Trial theme). That reverse
-  direction only shows up by opening *that track's own* Fandom page and reading its "Game
-  appearances" list.
-
 - **[DONE] Project is under git, hosted on GitHub, live on GitHub Pages.** `git init` done,
   pushed to https://github.com/chancsy/ffxiv_soundtracks (public repo, user's account), Pages
   enabled serving `index.html` at https://chancsy.github.io/ffxiv_soundtracks/. Every fix in
