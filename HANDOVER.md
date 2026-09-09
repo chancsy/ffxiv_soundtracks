@@ -552,6 +552,14 @@ up a thread without re-deriving context. Update the status line inline as items 
 - **[DEFERRED, not urgent]** Roadmap order 13 (Dawntrail patch EPs, 7.1+) remains explicitly
   skipped per user instruction. Revisit only if asked.
 
+- **[NOT STARTED] Mobile layout: content-type chips take over the whole viewport.** User report:
+  on mobile, the chip row (~30 chips, all types, wrapping across many lines) pushes the actual
+  table content down so far that only a sliver is visible above the fold. Needs a mobile-specific
+  treatment — candidates: collapse chips into a dropdown/expandable section below a certain
+  viewport width, cap visible chips with a "more" toggle, or make the chip row horizontally
+  scrollable instead of wrapping. Whatever's chosen, keep the active-chip state and counts
+  working the same way. Not investigated yet — no CSS written.
+
 **Near-miss recorded for context**: in the session that added this TODO structure, running all
 `data/*.py` generators in a loop overwrote `02_a_realm_reborn.json` and `03_before_the_fall.json`
 with stale versions (missing tracks and, for #2, the entire `patch` field), because two `.py`
