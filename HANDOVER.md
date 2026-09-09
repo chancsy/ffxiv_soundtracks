@@ -404,7 +404,7 @@ albums 1–3 from a near-data-loss (see the note at the end of this section). No
 is urgent or user-requested-right-now — this is the running backlog so any session can pick
 up a thread without re-deriving context. Update the status line inline as items move.
 
-- **[TIER 1 MISSING-DUTY PASS DONE; EXCLUSIVITY PASS + TIERS 2–4 REMAIN] Accuracy audit, cross-checked by content type.** The plan agreed
+- **[TIER 1 FULLY DONE; TIERS 2–4 REMAIN] Accuracy audit, cross-checked by content type.** The plan agreed
   with the user: build a ground-truth duty roster per expansion from the *official* Eorzea
   Database duty browser (`na.finalfantasyxiv.com/lodestone/playguide/db/duty/?category2=N` —
   4=Trials, 5=Raids **(alliance raids are bundled in here too, not a separate category)**,
@@ -419,12 +419,29 @@ up a thread without re-deriving context. Update the status line inline as items 
      that specific track's own Fandom "Game appearances" section (not the duty infobox alone;
      that page also lists both Normal-page and Extreme-page results, no automated shortcut).
 
-     **The missing-duty-and-wrong-type-or-name half of Tier 1 is now DONE, all categories, all
-     6 expansions** (Trials, Raids, Alliance Raids, Ultimate — Field raid was already handled
-     pre-Tier-1, see §2). **The exclusivity-claim half is NOT done** — every existing
-     `(Extreme)`/`(Savage)` tag outside The Far Edge of Fate is still unverified against the
-     Sephirot/Zurvan pattern (a track claimed as difficulty-exclusive that's actually shared).
-     That's the one remaining piece of Tier 1.
+     **Tier 1 is now fully DONE — both halves, all categories, all 6 expansions.** The
+     missing-duty-and-wrong-type-or-name half covered Trials, Raids, Alliance Raids, and
+     Ultimate (Field raid was already handled pre-Tier-1, see §2). The exclusivity-claim half
+     checked every remaining `(Extreme)`/`(Savage)` tag outside The Far Edge of Fate (which was
+     done earlier) against the Sephirot/Zurvan pattern — all 8 confirmed genuinely correct, via
+     each track's own Fandom page or a direct Normal-vs-Savage duty-infobox comparison:
+     "Heroes Never Die" (Thordan EX — a real exception to the "Extreme always shares 100%"
+     rule: it's a genuine extra first phase unique to EX, confirmed via the track's own page,
+     which lists only the EX duty), "Final, Not Final" (Deltascape V4.0 Savage — confirmed
+     absent from Normal's own BGM infobox), "The Extreme (Shadowbringers)" (Eden's Promise:
+     Eternity Savage — confirmed absent from Normal's infobox, which lists only "Promises to
+     Keep"/"Treasured Memory"), "From the Heavens" (Alphascape V4.0 Savage — its own page says
+     outright "can only be heard if you... make it through... in Savage mode"), "Dancing Mad -
+     Movement IV" (Sigmascape V4.0 Savage — "only plays in the Savage raid" per its own page),
+     "A Risky Bet" (AAC Light-heavyweight M4 Savage phase 2 — consistently described everywhere
+     as M4S-specific), "White Stone Black" and "Ultima's Perfection (Endwalker)" (Abyssos/
+     Anabaseios final-circle Savage phase 2s — same consistent Savage-specific sourcing).
+     Net takeaway: Trial EX content is *usually* fully shared with Normal (Far Edge of Fate's 4
+     false claims) but not *always* (Thordan EX is real) — and Raid Savage "final phase" claims
+     held up 100% of the time checked (7 for 7) — Savage tiers genuinely do extend fights beyond
+     what Normal reaches, unlike most Trial EX content. Both are worth remembering as priors for
+     future albums, but neither should be assumed without checking — that's the whole lesson of
+     this audit.
 
      **Progress so far, Trials sub-pass:**
      - The Far Edge of Fate (Sephirot/Sophia/Zurvan): done — found and fixed 4 wrong exclusivity
