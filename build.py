@@ -155,7 +155,7 @@ const rowsEl=document.getElementById('rows'), chipsEl=document.getElementById('c
  npCloseEl=document.getElementById('npClose');
 
 function playTrack(id){
-  npFrameEl.src='https://open.spotify.com/embed/track/'+id+'?utm_source=generator&autoplay=1';
+  npFrameEl.src='https://open.spotify.com/embed/track/'+id+'?utm_source=generator';
   nowPlayingEl.hidden=false;
   document.body.classList.add('playing');
 }
@@ -315,7 +315,7 @@ theme, or carried over from an earlier expansion.</p></footer>
 </div>
 <div class="now-playing" id="nowPlaying" hidden>
  <button type="button" class="np-close" id="npClose" aria-label="Close player">&times;</button>
- <iframe id="npFrame" title="Spotify player" allow="autoplay; encrypted-media; clipboard-write; fullscreen; picture-in-picture" loading="lazy"></iframe>
+ <iframe id="npFrame" title="Spotify player" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 <script>{JS.replace('__TYPES__', json.dumps(TYPE_ORDER)).replace('__ROWS__', json.dumps(rows, ensure_ascii=False)).replace('__ALBUMS__', json.dumps(album_meta, ensure_ascii=False))}</script></body></html>"""
 
