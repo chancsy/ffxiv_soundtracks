@@ -57,9 +57,12 @@
    "n": 7,
    "title": "Ominous Prognisticks",
    "type": "Boss battle",
-   "where": "Final bosses of most Heavensward-era dungeons",
+   "where": "Final bosses of most Heavensward-era dungeons; also Palace of the Dead, floors 51-60",
    "origin": "Soken",
-   "patch": "3.0"
+   "patch": "3.0",
+   "extra_types": [
+    "Deep dungeon"
+   ]
   },
   {
    "n": 8,

@@ -8,7 +8,7 @@ T = [
 (4,"Against the Wind","Field","Coerthas Western Highlands, day","Soken","3.0"),
 (5,"Melt","Field battle","Battles in the Ishgard region","Soken","3.0"),
 (6,"Descent","Dungeon","The Dusk Vigil","Soken","3.0"),
-(7,"Ominous Prognisticks","Boss battle","Final bosses of most Heavensward-era dungeons","Soken","3.0"),
+(7,"Ominous Prognisticks","Boss battle","Final bosses of most Heavensward-era dungeons; also Palace of the Dead, floors 51-60","Soken","3.0","extra:Deep dungeon"),
 (8,"Black and White","Field","Coerthas Western Highlands, night","Soken","3.0"),
 (9,"Nobility Sleeps","City","Ishgard: The Pillars, night","Soken","3.0"),
 (10,"Borderless","Travel & mounts","Flying mounts without their own theme","Soken","3.0"),
@@ -68,7 +68,11 @@ album = {
  "full": "Heavensward: FINAL FANTASY XIV Original Soundtrack",
  "year": 2016,
  "covers": "Patches 3.0 – 3.1",
- "tracks": [{"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p} for n, t, c, w, o, p in T],
+ "tracks": [
+   {"n": n, "title": t, "type": c, "where": w, "origin": o, "patch": p,
+    **({"extra_types": [r.split(":",1)[1] for r in rest if r.startswith("extra:")]} if any(r.startswith("extra:") for r in rest) else {})}
+   for (n, t, c, w, o, p, *rest) in T
+ ],
 }
 (pathlib.Path(__file__).resolve().parent / "04_heavensward.json").write_text(json.dumps(album, indent=1))
 print(len(T), "tracks written")

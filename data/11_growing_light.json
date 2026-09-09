@@ -532,7 +532,7 @@
    "n": 66,
    "title": "Storm of Blood",
    "type": "Variant dungeon",
-   "where": "Mount Rokkon — final boss",
+   "where": "Mount Rokkon — mid-bosses, Moko/Gorai/Shishio",
    "origin": "From Stormblood",
    "patch": "6.45"
   },
@@ -540,9 +540,12 @@
    "n": 67,
    "title": "Triumph",
    "type": "Criterion dungeon",
-   "where": "Another Mount Rokkon — final boss",
+   "where": "Mount Rokkon — Enenra, the final boss; also Another Mount Rokkon — Moko the Restless, final boss",
    "origin": "From Stormblood",
-   "patch": "6.45"
+   "patch": "6.45",
+   "extra_types": [
+    "Variant dungeon"
+   ]
   },
   {
    "n": 68,

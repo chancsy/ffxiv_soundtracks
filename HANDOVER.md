@@ -564,7 +564,28 @@ up a thread without re-deriving context. Update the status line inline as items 
      reuse crosses into a different `type` category (a Field battle theme reused in a Trial,
      etc.), record it as `extra_types`, not just prose — see §2. Low-risk
      rows (Field/City/Quest & cutscene/menu/etc., ~360 rows) can be skipped entirely — no duty
-     to conflate. Not started as a systematic pass; only found by accident so far.
+     to conflate.
+
+     **Substantially done.** Grepped the whole dataset for generic-reuse phrasing and checked
+     every genuine "generic combat cue" candidate (~25 rows: dungeon-boss themes, field-battle
+     themes, etc. — the ones structurally capable of hiding a Trial/dungeon-variant reuse the
+     way Insatiable and The Corpse Hall did). Found and fixed three more:
+     - **"Storm of Blood" / "Triumph" (Growing Light, Mount Rokkon).** Had the boss attribution
+       backwards: "Storm of Blood" was tagged as Mount Rokkon's *final* boss, but per "Triumph"'s
+       own Fandom page, **"Triumph" is Enenra's theme (the actual final boss)**, and "Storm of
+       Blood" is the earlier mid-bosses' theme (Moko/Gorai/Shishio). Also, "Triumph" wasn't just
+       Another Mount Rokkon's theme (criterion dungeon) as tagged — it's genuinely *both*
+       Mount Rokkon (variant) *and* Another Mount Rokkon (criterion); added
+       `extra_types: ["Variant dungeon"]` so it's findable under both chips.
+     - **"Ominous Prognisticks" (Heavensward)** is also the Palace of the Dead floors 51–60 boss
+       theme, not just "most Heavensward-era dungeons" — added the mention plus
+       `extra_types: ["Deep dungeon"]`.
+
+     Not exhaustively swept: the ~360 low-risk "Various cutscenes"-type rows (Quest & cutscene,
+     Credits & theme, menus) were deliberately skipped per the note above — cutscene/menu music
+     essentially never gets reused into a combat duty, so the expected yield of checking each one
+     individually is very low relative to the effort. If ever revisited, that's the remaining
+     pool, not the combat-cue rows already covered here.
 
 - **[NOT STARTED] Audit reused/generic tracks for missing duty reuse mentions (Tier 4 above,
   the "Memoria Misera" bug).** "Insatiable" (Shadowbringers track 49) is the boss theme for
