@@ -97,24 +97,24 @@
   {
    "n": 12,
    "title": "Significance - Nothing (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 ambient/cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.1"
   },
   {
    "n": 13,
    "title": "Vague Hope - Cold Rain (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.1"
   },
   {
    "n": 14,
    "title": "Crumbling Lies - Front (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.1"
   },
@@ -130,7 +130,7 @@
    "n": 16,
    "title": "Song of the Ancients - Atonement (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 various boss fights",
+   "where": "The Copied Factory \u2014 the Serial-jointed Command Model and Hobbes; also The Tower at Paradigm's Breach \u2014 Hansel & Gretel",
    "origin": "From NieR:Automata",
    "patch": "5.1"
   },
@@ -146,23 +146,23 @@
    "n": 18,
    "title": "Weight of the World - Prelude Version",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 the 9S-operated Walking Fortress",
+   "where": "The Copied Factory \u2014 the 9S-operated Walking Fortress",
    "origin": "Soken; from NieR:Automata",
    "patch": "5.1"
   },
   {
    "n": 19,
    "title": "Faltering Prayer - Dawn Breeze (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.1"
   },
   {
    "n": 20,
    "title": "Voice of no Return - Guitar (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.1"
   },
@@ -369,8 +369,8 @@
   {
    "n": 46,
    "title": "Amusement Park (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.3"
   },
@@ -386,7 +386,7 @@
    "n": 48,
    "title": "Grandma - Destruction (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 the 813P-operated Aegis Unit",
+   "where": "The Puppets' Bunker \u2014 the 813P-operated Aegis Unit and the Compound, first phase",
    "origin": "From NieR:Automata",
    "patch": "5.3"
   },
@@ -394,7 +394,7 @@
    "n": 49,
    "title": "End of the Unknown (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 the 905P-operated Heavy Artillery Unit",
+   "where": "The Puppets' Bunker \u2014 the 905P-operated Heavy Artillery Unit",
    "origin": "From NieR:Automata",
    "patch": "5.3"
   },
@@ -402,15 +402,15 @@
    "n": 50,
    "title": "Torn from the Heavens/The Dark Colossus Destroys All - Medley Version",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 the Compound",
+   "where": "The Puppets' Bunker \u2014 Compound 2P, final phase",
    "origin": "Soken; from 2.0/1.0",
    "patch": "5.3"
   },
   {
    "n": 51,
    "title": "Broken Heart (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.3"
   },
@@ -553,24 +553,24 @@
   {
    "n": 69,
    "title": "Voice of no Return - Normal (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
   {
    "n": 70,
    "title": "The Color of Depression (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
   {
    "n": 71,
    "title": "Widespread Illness (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
@@ -578,7 +578,7 @@
    "n": 72,
    "title": "Emil - Despair (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 Knave of Hearts",
+   "where": "The Tower at Paradigm's Breach \u2014 the Knave of Hearts",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
@@ -594,7 +594,7 @@
    "n": 74,
    "title": "The Sound of the End (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 the Red Girl",
+   "where": "The Tower at Paradigm's Breach \u2014 the Red Girl",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
@@ -602,7 +602,7 @@
    "n": 75,
    "title": "The Sound of the End: 8bit (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 hacking sequence vs. the Red Girl",
+   "where": "The Tower at Paradigm's Breach \u2014 hacking sequence vs. the Red Girl",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
@@ -610,7 +610,7 @@
    "n": 76,
    "title": "Possessed by Disease (From NieR:Automata)",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 the False Idol",
+   "where": "The Tower at Paradigm's Breach \u2014 the False Idol",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
@@ -618,23 +618,23 @@
    "n": 77,
    "title": "Kain\u00e9 - Final Fantasy Main Theme Version",
    "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 Her Inflorescence",
+   "where": "The Tower at Paradigm's Breach \u2014 Her Inflorescence",
    "origin": "Arrangement \u2014 FF Main Theme/NieR:Automata",
    "patch": "5.5"
   },
   {
    "n": 78,
    "title": "Weight of the World - Instrumental Version (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
   {
    "n": 79,
    "title": "City Ruins - Rays of Light (From NieR:Automata)",
-   "type": "Alliance raid",
-   "where": "YoRHa: Dark Apocalypse \u2014 cutscenes",
+   "type": "Quest & cutscene",
+   "where": "YoRHa: Dark Apocalypse questline \u2014 cutscenes",
    "origin": "From NieR:Automata",
    "patch": "5.5"
   },
